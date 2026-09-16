@@ -11,71 +11,17 @@ An AI life workbench that starts with what is happening now. Understand your sit
 
 **For Claude Code, Codex, and other tools that support Agent Skills. Free and open source.**
 
-[Quick start](#quick-start) · [What it helps with](#what-it-helps-with) · [Capabilities](#capabilities) · [Install](#install) · [Using the workbench](#using-the-workbench)
+[Quick start](#quick-start) · [What it helps with](#what-it-helps-with) · [Guide](docs/guide.en.md) · [Skill directory](docs/skill-inventory.en.md) · [Installation and updates](docs/install.en.md)
 
-![From a current question to continued progress](docs/life-flow.en.svg)
+**Start with `zane-workbench` and describe the task at hand.** It selects the methods needed for your task. You can begin with the material you already have.
 
-## What it helps with
-
-Start with something happening in your life, and connect your thinking to what comes next.
-
-| What you want to work on | What the workbench helps you reach |
-| --- | --- |
-| Compare jobs, cities, study plans, or ways of living | A clear view of the conditions and tradeoffs behind each option |
-| Coordinate work, family, and personal plans | An arrangement that accounts for time, energy, money, and existing commitments |
-| Explore your motives, values, or recurring choices | Insights grounded in experience, with things to try in daily life |
-| Follow through on a decision | Useful materials, concrete actions, and revisions based on real responses |
-| Continue something over several sessions | Saved work and decisions that let you pick up where you left off |
+<a id="install"></a>
 
 ## Quick start
 
 ### 1. Install
 
-```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --all
-```
-
-### 2. Tell your Agent what you are working through
-
-```text
-Use zane-workbench.
-I am comparing two jobs: one pays more but has a longer commute;
-the other offers more flexibility. I care about financial stability
-and time with my family. Here are the offers and my monthly expenses.
-Help me compare workable arrangements and the tradeoffs of each.
-```
-
-You can also start with a smaller task:
-
-```text
-Use zane-workbench to put this week's work and family commitments into a workable schedule.
-
-Use zane-workbench to turn these notes into the next steps for my move.
-
-Use zane-self-insight to explore what mattered most to me in the experiences I just described.
-```
-
-## How it works
-
-The Agent selects methods for the task at hand: understanding the situation, comparing options, producing useful work, and helping you follow through. New information or real responses prompt revisions to the affected decisions and plans.
-
-For a job choice, that might mean comparing income and commuting time, then fitting both options around family commitments. If one offer adds remote work, the Agent revisits the balance. Save the comparison and next step when you want to continue later.
-
-## Capabilities
-
-| Goal | Main Skill | Typical output |
-| --- | --- | --- |
-| Understand a situation, choose, plan, and act | `zane-workbench` | Option comparisons, useful work, time and resource plans |
-| Untangle a question with several competing intentions | `zane-question-intent-translator` | A clear decision and a question you can act on |
-| Explore values, motives, and recurring choices | `zane-self-insight` | Experience-based insights and practical experiments |
-| Define how a long-term AI partner works with you | `zane-agent-identity-card-builder` | Collaboration preferences, reasoning approach, and memory arrangements |
-| Save work, organize sources, and resume later | `zane-workbench-curator` | Workspace navigation, task records, and continuation notes |
-
-Use `zane-workbench` for everyday tasks, or call a specific Skill when its purpose fits. The [Skill inventory](docs/skill-inventory.md) includes more detail in Chinese.
-
-## Install
-
-### Quick installation
+Run in your terminal:
 
 ```bash
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
@@ -88,20 +34,56 @@ Install all Skills from https://github.com/ZanePan2027/zane-life-workbench.
 Then use zane-workbench to help me with this: ...
 ```
 
-Reload Skills if your tool requires it. To install for the current project, omit `-g`. For updates, ask your Agent to compare the installed version with this repository and update it. Save any local edits you want to keep before replacing files.
+Select your Agent in the installer, then reload Skills if required. The terminal command requires Node.js and `npx`. Omit `-g` to install for the current project; see the [installation guide](docs/install.en.md) for updates.
 
-## Using the workbench
+### 2. Describe the task
 
-Share the current question, relevant material, and what you want to accomplish next. Your goals, tradeoffs, and collaboration preferences take shape through use.
+```text
+Use zane-workbench.
+I am comparing two jobs: one pays more but has a longer commute;
+the other offers more flexibility. I care about financial stability
+and time with my family. Here are the offers and my monthly expenses.
+Help me compare workable arrangements and the tradeoffs of each.
+```
 
-- **For a choice**, compare the conditions, options, and costs that matter to you.
-- **For a deliverable**, ask directly for the document, analysis, or plan you need.
-- **When conditions change**, bring back the new facts or responses and revise the affected work.
-- **To continue later**, ask the Agent to save your progress and give it that location next time.
+A useful first result is a comparison of time, spending, conditions still to confirm, and possible next steps. The Agent asks for missing information when it affects the judgment.
 
-Keep the workspace in a folder you choose. In a regular chat, save a continuation note and paste it into the next session with the relevant material.
+### 3. Bring back changes
 
-[Step-by-step guide](docs/guide.en.md)
+```text
+The first employer has now confirmed two remote days per week. Revisit the comparison.
+Save the result and outstanding questions in my workspace so I can continue later.
+```
+
+An undecided choice stays recorded as undecided. You can continue by asking for a document, a schedule, or a revised budget.
+
+## What it helps with
+
+| What you can say | What you can get |
+| --- | --- |
+| Both jobs have advantages. Which fits my life now? | A comparison using your priorities, finances, time, and responsibilities |
+| Can work, family time, and study fit into this week? | A weekly plan, conflicts, and arrangements to change or discuss |
+| I want to move. Where do I start? | Preparation and next steps based on your conditions |
+| I keep returning to the same choices. What matters to me? | Tentative insights grounded in experience, with practical things to try |
+| The conditions changed. How do I continue? | Revised judgments, work, and a saved stopping point |
+
+![From a current question to continued progress](docs/life-flow.en.svg)
+
+## Save and continue
+
+Give the Agent the workspace folder you want to use. In a later session, provide that location and ask it to continue the job comparison. It reads the saved material to recover the current judgment and next step.
+
+In ordinary chat, save a continuation note and paste it back with the relevant material. Naming the product alone does not load the complete Skill. See [starting in chat](docs/chat-start.en.md).
+
+[Follow a job comparison](docs/guide.en.md)
+
+## Use a specific method
+
+Continue using `zane-workbench` for everyday tasks. Once familiar, you can directly select question clarification, self-reflection, AI partner setup, or workspace organization. The [Skill directory](docs/skill-inventory.en.md) includes situations, example requests, and outputs.
+
+## Choosing between the two toolkits
+
+Start here when weighing work, family, finances, and personal direction together. For matching experience to roles, creating resumes and portfolios, or practicing interviews, use [Beyond the Ivory Tower](https://github.com/ZanePan2027/zane-career-skills). Each toolkit works independently.
 
 ## Current revision and validation
 
@@ -110,8 +92,6 @@ The product remains **1.0** (component metadata: **1.0.0**), revised **2026-09-1
 Start with one question and the material you already have. Internal tests produced a working workspace from loose files, a useful comparison, revisions after new feedback, and continuation in a fresh session. External user acceptance is still pending. Models may skip parts of long source material, so complete and reliable judgments are not guaranteed. See [validation and known limitations](docs/testing.md).
 
 The distribution contains general methods, tools, and templates. It does not contain the author's private records, conversations, finances, or real-life task data, or prefill the author's personal goals. Your AI works with material you supply or authorize it to read; data handling depends on your AI tool and settings.
-
-[Quick installation and updates](docs/install.md)
 
 ## Provenance and license
 

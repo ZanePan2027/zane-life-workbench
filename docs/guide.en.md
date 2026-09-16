@@ -1,5 +1,7 @@
 # Start with a job choice
 
+After installation, use `zane-workbench`. Begin with your current question and available material; add missing facts when they affect the choice. [Installation](install.en.md) · [Skill directory](skill-inventory.en.md) · [简体中文](guide.md)
+
 ## Describe the choice
 
 ```text
@@ -24,5 +26,7 @@ If Job A adds two remote days per week, share that update. Revisit commuting tim
 Ask the Agent to save the comparison, your decision, and the next step in your workspace. Give the next session that folder. In a regular chat, save a continuation note and paste it back with the relevant material.
 
 The same approach works for moving, learning, family arrangements, and personal projects.
+
+For ordinary chat, see the [simplified starting method](chat-start.en.md).
 
 [Back to the overview](../README.en.md)

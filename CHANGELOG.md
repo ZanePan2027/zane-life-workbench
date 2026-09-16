@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-16 — Getting started / 上手说明
+
+- 合并首页重复安装说明，保留命令安装与直接告诉Agent安装两种方式。
+- 用具体任务介绍统一入口、成果和下一轮反馈；补齐中英文教程、能力目录与两产品互导。
+- 澄清普通聊天简化提示与完整Skill的区别，方法与组件版本不变。
+- Consolidate installation instructions, retain both installation options, and add task-based onboarding, bilingual guides and directories, and links between the two products. Distinguish simplified chat prompts from the complete Skill. Methods and component versions are unchanged.
+
 ## 1.0 — 2026-09-16 quick installation / 统一快速安装
 
 - 统一使用快速安装指令；中英文首页、安装说明与Release不再提供安装包下载入口。

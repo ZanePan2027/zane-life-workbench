@@ -1,5 +1,7 @@
 # 安装与更新
 
+[English](install.en.md)
+
 ## 快速安装
 
 在终端执行：

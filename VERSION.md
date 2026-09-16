@@ -2,7 +2,7 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current documentation revision: **2026-09-16 quick installation**
+Current documentation revision: **2026-09-16 getting-started guide**
 
 Method revision: `release-20260916-reliability`. Install the current repository using the command below.
 
