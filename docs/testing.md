@@ -4,9 +4,10 @@
 
 ## 已有证据
 
-- 最终方法与工具源码通过开发工作区93项工程测试，覆盖来源分页还原、来源变化后的旧续读拒绝、任务分流、依赖查找、安装及回滚等；这些测试并非93个真实用户案例。
-- 使用合成资料的原生Codex新会话实际完成：从散放原件建立工作台并产出择业比较；收到新条件后撤回旧建议并改写成果和原事项；再由全新会话恢复最新判断及未发送状态。
-- 建台、反馈纠正和冷启动实际使用本次最终包。首答使用的先行包有一个取源分支差异；首答3组实际取源调用在两版中结果相同。这项等价核对不是重新运行首答。
+- 本次开发工作区复查通过103项工程测试，覆盖来源分页、显式领域、同会话同版本复用、保存正文覆盖检查、反馈依赖、安装及回滚和发布候选核验等。部分测试针对开发工作台和发布工具，并非公开包内的独立测试，也不是103个真实用户案例。
+- 本轮内部合成测试从本次1.0.0包开始：独立Codex子Agent实际读取10页、27449字符，在比较中采用末页更正；初答后收到排班变化，更新同一成果并撤回失效理由。另一个无前会话历史的子Agent从保存文件恢复最新条件和下一步，未将建议当成使用者已经接受或签约。
+- 保存的重现分页通过连续正文覆盖核验；这些是主持者按相同参数重现的页文件，不能替代首次原始调用日志，也不能证明模型理解。长材料主要是重复教学记录，本场景通过不能证明复杂长文全面稳定。
+- 此前从散放材料建台、形成比较、反馈改判与新会话接续的内部证据保留；本轮补测聚焦长材料取源、纠正与接续。
 - 五题内部个人回归的核心判断通过；该会话没有读完全部所选来源分页，完整取源过程未通过。工具可完整返回正文，不证明模型已经完整读取或理解。
 - 分发清单及内容复核未发现作者私人档案、财务、任职原件、聊天记录或真实事项进入公开包。模板不预填作者个人目标。私人测试原件和记录不公开。
 
@@ -22,7 +23,11 @@
 
 ## English
 
-The final method and tool sources passed 93 engineering tests in the development workspace. These are not 93 real-user cases. Fresh native Codex sessions using synthetic material completed onboarding from loose files, a useful comparison, revisions after changed conditions, and continuation from saved state. Onboarding, correction, and cold restart used the final package. The initial answer used an earlier package with one source-selection branch difference; its three actual source calls returned identical results on both engines. This equivalence check is not a rerun of the initial answer.
+The development workspace passed 103 engineering tests in this review, including paged sources, explicit topic selection, same-session reuse, captured-body coverage, dependency lookup, installation, rollback, and release-candidate verification. Some tests cover private development adapters and publishing tools; this is not a standalone test suite shipped in the public package or 103 real-user cases.
+
+In the current internal synthetic test, an independent Codex subagent used this 1.0.0 package, read 27,449 characters over ten pages, and used a correction on the last page. New scheduling information was supplied only after the initial answer; the Agent updated the same result and withdrew the obsolete reason. A separate subagent without the earlier conversation resumed from saved files and distinguished advice from an accepted offer or signed contract. Reproduced page captures passed continuous-body coverage checks. Those captures were recreated by the test coordinator; they are not the first call logs and do not prove model understanding. The long input mostly consists of repetitive teaching records, so this scenario does not establish reliability on complex long documents.
+
+Earlier internal evidence for onboarding from loose material, comparison, correction, and continuation remains historical evidence. This revision adds long-source reading, correction, and fresh-session continuation checks.
 
 A five-question internal personal regression passed the core judgment checks but did not read every selected source page. The complete source-reading process therefore did not pass. Availability of source text is not proof that a model read or understood it.
 

@@ -9,6 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import shlex
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
@@ -90,7 +91,10 @@ def select_types(config, question, context='', explicit=()):
     unknown = set(explicit) - set(config.get('routes', {}))
     if unknown:
         raise ValueError('Unknown types: ' + ','.join(sorted(unknown)))
-    selected = set(explicit)
+    # Explicit semantic scope is authoritative; keyword fallback must not widen it.
+    if explicit:
+        return [key for key in config.get('routes', {}) if key in explicit]
+    selected = set()
     def matched(text):
         return {key for key, route in config.get('routes', {}).items()
                 if any(word.casefold() in text.casefold() for word in route.get('keywords', []))}
@@ -119,6 +123,15 @@ def validate_config(root, config):
         inside(root, rel)
         if role not in ROLES:
             raise ValueError('Unknown source role: ' + role)
+    for rel in config.get('dependents', {}).get('required', []):
+        if not inside(root, rel).is_file():
+            raise ValueError('Required dependent missing: ' + rel)
+        refs = references(root, rel)
+        if not refs:
+            raise ValueError('Current result has no registered sources: ' + rel)
+        for ref in refs:
+            if not inside(root, ref).exists():
+                raise ValueError('Current result has a missing source: ' + rel + ' -> ' + ref)
     for section in ('events', 'dependents'):
         for pattern in config.get(section, {}).get('globs', []):
             inside(root, pattern)
@@ -214,6 +227,32 @@ def bundle(root, config, question, context='', explicit=(), task='auto', host=No
     return result
 
 
+def reuse_sources(result, reuse=()):
+    """Reuse only whole sources already read in this conversation, at exact bytes.
+
+    This is a caller assertion, not proof of reading. It never changes role checks
+    or the required set and does not persist a second source/decision database.
+    """
+    known = {}
+    for item in reuse:
+        rel, sep, sha = item.rpartition('=')
+        if not sep or not re.fullmatch(r'[0-9a-f]{64}', sha):
+            raise ValueError('Reuse requires relative-path=sha256')
+        if rel in known and known[rel] != sha:
+            raise ValueError('Conflicting reuse hashes: ' + rel)
+        known[rel] = sha
+    sources = {s['path']:s for s in result['sources']}
+    for rel, sha in known.items():
+        if rel not in sources or sources[rel]['sha256'] != sha:
+            raise ValueError('Reused source absent or changed; read it again: ' + rel)
+    copy = dict(result)
+    copy['reused_sources'] = [{k:sources[rel][k] for k in ('path','role','sha256')} for rel in sorted(known)]
+    copy['sources'] = [s for s in result['sources'] if s['path'] not in known]
+    if known:
+        copy['content_id'] = digest(json.dumps([result['content_id'], sorted(known.items())], ensure_ascii=False).encode())
+    return copy
+
+
 def page(result, cursor=0, budget=6000, expected=None):
     if budget < 1000 or budget > 20000:
         raise ValueError('Page body budget must be between 1000 and 20000 characters')
@@ -233,11 +272,69 @@ def page(result, cursor=0, budget=6000, expected=None):
         pos = end
     used = sum(len(s['text']) for s in fragments)
     next_cursor = cursor+used if cursor+used < total else None
+    pos, pending = 0, []
+    for s in result['sources']:
+        end = pos+len(s['text'])
+        if end > cursor+used:
+            pending.append({'path':s['path'], 'role':s['role'],
+                            'remaining_characters':end-max(pos,cursor+used)})
+        pos = end
     return {'content_id':result['content_id'],'task':result['task'],'types':result['types'],
             'status':result['status'],'missing_roles':result['missing_roles'],'cursor':cursor,
-            'next_cursor':next_cursor,'total_body_characters':total,'fragments':fragments,
+            'next_cursor':next_cursor,'total_body_characters':total,
+            'delivery':{'remaining_characters':total-cursor-used,'pending_sources':pending,
+                        'at_end':next_cursor is None,
+                        'notice':'到达末页不证明前页完整；复用是调用者对本会话已读正文的声明，不证明理解。'},
+            'reused_sources':result.get('reused_sources',[]),'fragments':fragments,
             'candidate_count':len(result['candidates']),
-            'notice':'完整返回不等于理解；有next_cursor须续读。候选目录用--catalog定位，额外原件用--read读取。'}
+            'notice':'有next_cursor须续读。候选目录用--catalog定位，额外原件用--read读取。'}
+
+
+def continue_command(chunk, argv):
+    """Give the next exact request, preserving semantic scope, root and reuse."""
+    if chunk['next_cursor'] is None:
+        return chunk
+    kept=[];i=0
+    while i < len(argv):
+        if argv[i] in ('--cursor','--expected'):
+            i+=2;continue
+        if argv[i].startswith(('--cursor=','--expected=')):
+            i+=1;continue
+        kept.append(argv[i]);i+=1
+    chunk['continue_argv'] = [sys.executable, *kept, '--cursor', str(chunk['next_cursor']),
+                              '--expected', chunk['content_id']]
+    chunk['continue_command'] = shlex.join(chunk['continue_argv'])
+    return chunk
+
+
+def verify_pages(result, pages):
+    """Verify captured page bodies against current sources, including gap detection.
+
+    Checks transport coverage only. No claim that a model understood the output.
+    """
+    expected = {s['path']:s for s in result['sources']}
+    spans = {p:[] for p in expected}
+    for p in pages:
+        if p.get('content_id') != result['content_id']:
+            raise ValueError('Page source version or request differs')
+        for f in p.get('fragments', []):
+            s=expected.get(f.get('path'))
+            a,b=f.get('start'),f.get('end')
+            if s is None or not isinstance(a,int) or not isinstance(b,int) or not 0 <= a < b <= len(s['text']):
+                raise ValueError('Invalid captured fragment range')
+            if f.get('sha256') != s['sha256'] or f.get('text') != s['text'][a:b] or f.get('length') != len(s['text']):
+                raise ValueError('Captured body is truncated, altered or stale: '+f['path'])
+            spans[f['path']].append((a,b))
+    gaps=[]
+    for rel,s in expected.items():
+        end=0
+        for a,b in sorted(spans[rel]):
+            if a > end:gaps.append({'path':rel,'start':end,'end':a})
+            end=max(end,b)
+        if end < len(s['text']):gaps.append({'path':rel,'start':end,'end':len(s['text'])})
+    return {'content_id':result['content_id'],'coverage_complete':not gaps,'gaps':gaps,
+            'reused_sources':result.get('reused_sources',[]),
+            'notice':'仅核验保存的工具正文覆盖；复用来源仍为本会话已读声明，不证明理解或现实事实。'}
 
 
 def references(root, rel):
@@ -266,7 +363,9 @@ def references(root, rel):
 def impact(root, config, changed):
     for rel in changed:inside(root, rel)
     graph = {}
-    patterns = config.get('events', {}).get('globs', []) + config.get('dependents', {}).get('globs', [])
+    patterns = list(dict.fromkeys(config.get('events', {}).get('globs', []) +
+                                  config.get('dependents', {}).get('globs', []) +
+                                  config.get('dependents', {}).get('required', [])))
     for pattern in patterns:
         inside(root, pattern)
         for p in sorted(root.glob(pattern)):
@@ -274,10 +373,17 @@ def impact(root, config, changed):
             if p.is_file():graph[rel] = references(root,rel)
     reached = set(changed); rows = []
     while True:
-        new = [(rel, sorted(refs & reached)) for rel, refs in graph.items() if rel not in reached and refs & reached]
+        new = []
+        for rel, refs in graph.items():
+            via=sorted(ref for ref in refs if any(changed == ref or changed.startswith(ref.rstrip('/')+'/') for changed in reached))
+            if rel not in reached and via:new.append((rel,via))
         if not new:break
         for rel, via in new:rows.append({'path':rel,'via':via});reached.add(rel)
     return {'changed':list(changed),'review_candidates':rows,'scanned':len(graph),'patterns':patterns,
+            'unregistered':[rel for rel,refs in graph.items() if not refs],
+            'missing_references':[{'path':rel,'source':ref} for rel,refs in graph.items()
+                                  for ref in sorted(refs) if not inside(root,ref).exists()],
+            'missing_required':[rel for rel in config.get('dependents',{}).get('required',[]) if rel not in graph],
             'notice':'只定位已登记引用的依赖，不自动改判或写入；未登记与范围外依赖仍需语义核查。'}
 
 
@@ -289,7 +395,8 @@ def main():
     ap.add_argument('--host');ap.add_argument('--read',action='append',default=[])
     ap.add_argument('--cursor',type=int,default=0);ap.add_argument('--budget',type=int,default=6000)
     ap.add_argument('--expected');ap.add_argument('--catalog',action='store_true');ap.add_argument('--check',action='store_true')
-    ap.add_argument('--impact',nargs='+');args=ap.parse_args()
+    ap.add_argument('--impact',nargs='+');ap.add_argument('--reuse',action='append',default=[])
+    ap.add_argument('--verify-pages',nargs='+',type=Path);args=ap.parse_args()
     try:
         config=json.loads(inside(args.root,args.config).read_text())
         if args.check:
@@ -298,9 +405,12 @@ def main():
             result=impact(args.root,config,args.impact)
         else:
             result=bundle(args.root,config,args.question,args.context,args.types,args.task,args.host,args.read)
-            if args.catalog:
+            result=reuse_sources(result,args.reuse)
+            if args.verify_pages:
+                result=verify_pages(result,[json.loads(p.read_text()) for p in args.verify_pages])
+            elif args.catalog:
                 result['sources']=[{k:v for k,v in s.items() if k!='text'} for s in result['sources']]
-            else:result=page(result,args.cursor,args.budget,args.expected)
+            else:result=continue_command(page(result,args.cursor,args.budget,args.expected),sys.argv)
         print(json.dumps(result,ensure_ascii=False,indent=2))
     except (OSError,ValueError,KeyError,TypeError,zipfile.BadZipFile,ET.ParseError) as e:
         ap.exit(2,'Context unavailable: '+str(e)+'\n')

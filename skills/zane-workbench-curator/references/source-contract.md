@@ -10,17 +10,19 @@
 
 ## 文件工作台
 
-有既有映射就适配它，不创建另一套来源库。新目录用`来源映射.json`：schema固定为1；common是现实选择共同必读路径，roles为路径对应的角色；routes按领域提供keywords、必读files、候选optional／globs／directories和事项domains；events.globs指向唯一事件源，dependents.globs列当前成果的检索范围。配置版本是格式字段，不是产品版本。
+有既有映射就适配它，不创建另一套来源库。新目录用`来源映射.json`：schema固定为1；common是现实选择共同必读路径，roles为路径对应的角色；routes按领域提供keywords、必读files、候选optional／globs／directories和事项domains；events.globs指向唯一事件源，dependents.globs列当前成果的检索范围，dependents.required可列需要检查来源登记与路径完整性的当前关键成果。配置版本是格式字段，不是产品版本。
 
 首次建台从真实任务保存已有事实和成果，再把实际来源路径绑定到相应角色和领域。未知来自当轮对话或后续自然补充；不填虚构经历、不为满足角色创建空文件。用户已有资料先查再绑定，引用路径是相对工作区根目录的真实路径。
 
 安装后运行本Skill的`scripts/context.py`，使用`--root <工作区>`；私人适配器可设置自己的`--config`。常用参数：
 
 - `--question`与`--context`：当前问题和必要上文，不拼入全部历史。
-- `--task decide|deliver|maintain|lookup|support|continue`：主控按语义选择；auto仅供兜底。`--types`明确领域；未知类型会报错。
-- 默认返回首段正文、来源角色与哈希。以`--cursor <next_cursor> --expected <content_id>`继续，保留其余参数；直到相关必读集读完。来源变动会拒绝旧续读，重新读取受影响内容。
+- `--task decide|deliver|maintain|lookup|support|continue`：主控按语义选择；auto仅供兜底。`--types`明确领域并覆盖关键词兜底；多领域由主控明确取并集，工具不再悄悄追加。未知类型会报错。
+- 默认返回首段正文、来源角色与哈希，delivery列出尚未返回的来源与字数；直接执行continue_command可保留原任务和范围续读。以`--cursor <next_cursor> --expected <content_id>`继续，保留其余参数；直到相关必读集读完。来源变动会拒绝旧续读，重新读取受影响内容。
 - `--catalog`只查看绑定与候选；`--read <相对路径>`按需补读具体原件，仍分页。Word只抽正文，图片、扫描PDF等使用合适的专用读取能力。
-- `--check`检查实际路径与配置；不验证事实、不评价模型理解。
+- `--reuse <相对路径>=<sha256>`仅复用本会话已实际完整读过的同版本正文，减少重复传输；变化或不在必读集的来源会拒绝复用。未读正文、摘要、目录与前一会话回执不能当已读来源。该参数是调用者声明，工具不验证心智状态。
+- 若需验收完整取源，保存每页原始JSON，用相同任务参数加`--verify-pages <页1.json> <页2.json> ...`核验正文覆盖、缺段与版本。coverage_complete只证明保存的工具正文齐备，不能证明宿主未截断显示或模型已理解；分页文件含原文，按原资料隐私边界保管。
+- `--check`检查实际路径、配置和required成果的来源登记；不验证事实、不评价模型理解。
 
 正文每页默认6000字符，可用`--budget`设为1000至20000；这是正文预算，JSON路径等元数据另计。有next_cursor不能报告全部已读；工具输出仍被宿主截断时调低预算重读。候选目录不会悄悄展开成全库正文。
 
@@ -30,10 +32,10 @@
 
 ## 反馈依赖
 
-已有事项复用source或evidence中的根目录相对路径。当前成果需要跨会话纠正时，可在正文加入不可见引用标记：
+已有事项复用source或evidence中的根目录相对路径。当前成果需要跨会话纠正时，在保存成果的同一次写入中加入其实际采用的直接来源标记，并让dependents覆盖该位置；关键当前成果可加入required：
 
 ```text
 <!-- workbench-sources: ["资料/当前条件.md", "资料/最近反馈.md"] -->
 ```
 
-保留有意义的直接来源，不收集无关引用。`context.py --root <工作区> --impact <变化的相对路径>`只读扫描events和dependents指定的JSON引用／Markdown标记，返回直接及传递依赖；循环引用会停止。已移动／删除源仍可用旧路径查影响。主控结合语义逐项重算，再用原系统更新当前成果和事项。未登记引用、扫描范围外与外部依赖需人工判断，空结果不等于没有影响。
+保留有意义的直接来源，不收集无关引用。`context.py --root <工作区> --impact <变化的相对路径>`只读扫描events和dependents指定的JSON引用／Markdown标记，返回直接及传递依赖；目录来源覆盖其子文件变化，循环引用会停止。unregistered列出范围内尚无引用的文件，missing_references及missing_required列出缺失；空候选须结合这些缺口解释，不能报告“无影响”。普通Markdown导航链接不自动成为事实依赖。已移动／删除源仍可用旧路径查影响。主控结合语义逐项重算，再用原系统更新当前成果和事项。未登记引用、扫描范围外与外部依赖需人工判断，空结果不等于没有影响。
