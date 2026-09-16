@@ -2,7 +2,13 @@
 
 修订日期 / Revision: 2026-09-16。产品1.0；五个组件1.0.0。外部验收待完成。
 
-## 本次首次使用修订
+## 共享整理器的三模式修订
+
+本轮补齐商业与职业模板的来源映射，将`--minimal`初始化扩展到life、work、career三种模式；已有目录继续就地适配，不运行初始化覆盖。来源角色依据当前任务解释：商业使用本业务目标与状态，职业使用岗位任务用途与当前进度，不因此加载个人全人生档案。人生仓库仍分发人生主入口及共享组件，不包含商业或职业主入口。
+
+105项开发工程测试通过，包括新增的两种最小工作区来源绑定、其他主体数据不进入已选正文、已有目录不被重建、模板缺失时不留下半成品，以及三包共装和升级回滚。其余合成行为与外部验证范围见各次记录；工程测试不等于真实用户效果。
+
+## 此前首次使用修订
 
 默认入门调整为连接或创建工作台、接入相关资料、处理当前问题、保存并继续。同一项目续接自行读取入口，不要求反复指定文件夹；临时任务仍可直接处理。
 
@@ -33,6 +39,9 @@
 发现问题时，通过GitHub Issues提供去除隐私的复现步骤、宿主、修订日期或提交、期望和实际结果。不要上传私人原件、账号凭据或他人的个人信息。正式发布与工程检查都不替代真实用户验收。
 
 ## English
+
+The shared curator now provides source maps for business and career profiles and supports minimal initialization in all three modes. Existing folders are still adapted in place. Source roles describe the active business or job task rather than requiring a personal life profile. This repository distributes the life entry and shared components, not the business or career entry Skills. The development suite passed 105 tests, including minimal profiles, scoped source binding, preservation of existing folders, incomplete-template failure, co-installation, upgrade, and rollback. This is engineering evidence, not real-user outcome evidence.
+
 
 This revision starts ongoing use by connecting or creating a workspace, taking in relevant material, working on one task, and saving progress. A session in the same project reads its entries without asking for the folder again. One-off tasks can start directly.
 

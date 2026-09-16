@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "common": [],
+  "roles": {},
+  "required_roles": [
+    "direction",
+    "current"
+  ],
+  "routes": {
+    "business": {
+      "label": "商业增长",
+      "keywords": [
+        "业务",
+        "经营",
+        "客户",
+        "报价",
+        "现金",
+        "business"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx",
+        "收件箱/**/*.md",
+        "收件箱/**/*.docx",
+        "项目/**/*.md"
+      ],
+      "domains": []
+    }
+  },
+  "events": {
+    "globs": [
+      "事项/*.json"
+    ]
+  },
+  "dependents": {
+    "globs": [
+      "资料/**/*.md",
+      "项目/**/*.md",
+      "资产库/**/*.md"
+    ]
+  }
+}

@@ -165,8 +165,6 @@ def render(root):
 
 
 def initialize(root, mode="life", minimal=False):
-    if minimal and mode != 'life':
-        raise ValueError('Minimal startup is supported for life mode')
     if mode not in {'work', 'life', 'career'}:
         raise ValueError('Unknown workbench mode')
     if root.exists() or root.is_symlink():
@@ -174,9 +172,14 @@ def initialize(root, mode="life", minimal=False):
     if not root.parent.is_dir():
         raise ValueError('Choose an existing parent directory')
     source = Path(__file__).resolve().parents[1] / 'assets' / 'starter'
-    profile = source.parent / ('life-minimal' if minimal else mode)
+    profile = source.parent / ('life-minimal' if minimal and mode == 'life' else mode)
     if not profile.is_dir() or not (profile / 'AGENTS.md').is_file():
         raise ValueError('Missing workbench profile; reinstall the complete suite')
+    minimal_files = {'AGENTS.md', 'README.md', '来源映射.json'}
+    if minimal and mode != 'life':
+        if not (source / 'minimal-navigation.md').is_file() or any(
+                not (profile / rel).is_file() for rel in minimal_files):
+            raise ValueError('Missing minimal profile; reinstall the complete suite')
     root.mkdir(mode=0o700)
     for folder in ['事项', '资料', '.history']:
         (root / folder).mkdir(mode=0o700)
@@ -187,9 +190,13 @@ def initialize(root, mode="life", minimal=False):
     for src in sorted(profile.rglob('*')):
         if src.is_file():
             rel = src.relative_to(profile)
+            if minimal and mode != 'life' and rel.as_posix() not in minimal_files:
+                continue
             target = root / rel
             target.parent.mkdir(parents=True, exist_ok=True)
             atomic_text(target, src.read_text(encoding='utf-8'))
+    if minimal and mode != 'life':
+        atomic_text(root / 'SOURCE_OF_TRUTH.md', (source / 'minimal-navigation.md').read_text(encoding='utf-8'))
     save(root / '.zane-workbench.json', {'format': 'zane-workbench', 'version': 1})
     render(root)
 

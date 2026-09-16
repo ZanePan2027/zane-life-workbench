@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "common": [],
+  "roles": {},
+  "required_roles": [
+    "direction",
+    "current"
+  ],
+  "routes": {
+    "career": {
+      "label": "职业成长",
+      "keywords": [
+        "项目",
+        "任务",
+        "汇报",
+        "协作",
+        "演练",
+        "岗位",
+        "career"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx",
+        "收件箱/**/*.md",
+        "收件箱/**/*.docx",
+        "项目/**/*.md"
+      ],
+      "domains": []
+    }
+  },
+  "events": {
+    "globs": [
+      "事项/*.json"
+    ]
+  },
+  "dependents": {
+    "globs": [
+      "资料/**/*.md",
+      "项目/**/*.md",
+      "资产库/**/*.md"
+    ]
+  }
+}
