@@ -13,6 +13,8 @@ An AI life workbench that starts with what is happening now. Understand your sit
 
 [Quick start](#quick-start) · [What it helps with](#what-it-helps-with) · [Guide](docs/guide.en.md) · [Skill directory](docs/skill-inventory.en.md) · [Installation and updates](docs/install.en.md)
 
+![From a current question to continued progress](docs/life-flow.en.svg)
+
 **Start with `zane-workbench` and describe the task at hand.** It selects the methods needed for your task. You can begin with the material you already have.
 
 <a id="install"></a>
@@ -66,8 +68,6 @@ An undecided choice stays recorded as undecided. You can continue by asking for 
 | I want to move. Where do I start? | Preparation and next steps based on your conditions |
 | I keep returning to the same choices. What matters to me? | Tentative insights grounded in experience, with practical things to try |
 | The conditions changed. How do I continue? | Revised judgments, work, and a saved stopping point |
-
-![From a current question to continued progress](docs/life-flow.en.svg)
 
 ## Save and continue
 

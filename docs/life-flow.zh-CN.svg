@@ -1,18 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="208" viewBox="0 0 1000 208" role="img" aria-label="从眼前的问题开始">
-<rect width="1000" height="208" rx="18" fill="#F4F7FB"/>
-<text x="40" y="48" fill="#183153" font-family="system-ui,sans-serif" font-size="22" font-weight="600">从眼前的问题开始</text>
-<rect x="40" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="123" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">理解处境</text>
-<path d="M212 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="228" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="311" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">作出选择</text>
-<path d="M400 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="416" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="499" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">完成事情</text>
-<path d="M588 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="604" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="687" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">带回反馈</text>
-<path d="M776 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="792" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="875" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">接着继续</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">从当前问题，到可以继续的行动</title>
+<desc id="desc">从输入、理解到完成成果和带回反馈；条件变化后重新判断，需要持续处理时保存与接续。</desc>
+<defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
+.brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
+.title{font-size:38px;font-weight:700;fill:#0f172a}.subtitle{font-size:21px;fill:#64748b}
+.index{font-size:15px;font-weight:600;fill:#94a3b8}.label{font-size:23px;font-weight:700;fill:#0f172a}.body{font-size:18px;fill:#526176}
+.strong .index{fill:#bfdbfe}.strong .label{fill:#fff}.strong .body{fill:#dbeafe}
+.loop{font-size:18px;font-weight:600;fill:#2563eb}.section{font-size:17px;fill:#64748b}.bottom-label{font-size:22px;font-weight:700;fill:#183153}.bottom-body{font-size:18px;fill:#526176}
+</style>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 8 4 0 8Z" fill="#2563eb"/></marker>
+</defs>
+<rect width="1200" height="720" rx="20" fill="#f8fafc"/>
+<path d="M316 310H339" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M588 310H611" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M860 310H883" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M1008 408V448Q1008 466 990 466H482Q464 466 464 448V414" fill="none" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrow)"/>
+<g class="stage">
+<rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<text x="92" y="245" class="index" >01</text>
+<text x="92" y="298" class="label" >当前问题</text>
+<text x="92" y="350" class="body" >选择、安排或卡点</text>
+<text x="92" y="377" class="body" >提供已有材料</text>
+</g>
+<g class="strong">
+<rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="364" y="245" class="index" >02</text>
+<text x="364" y="298" class="label" >看清处境</text>
+<text x="364" y="350" class="body" >目标、条件与取舍</text>
+<text x="364" y="377" class="body" >比较可行的路径</text>
+</g>
+<g class="stage">
+<rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<text x="636" y="245" class="index" >03</text>
+<text x="636" y="298" class="label" >完成眼前的事</text>
+<text x="636" y="350" class="body" >判断、方案或成果</text>
+<text x="636" y="377" class="body" >按当前需要继续做</text>
+</g>
+<g class="stage">
+<rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<text x="908" y="245" class="index" >04</text>
+<text x="908" y="298" class="label" >带回现实反馈</text>
+<text x="908" y="350" class="body" >新条件与行动结果</text>
+<text x="908" y="377" class="body" >修订受影响的判断</text>
+</g>
+<rect x="596" y="451" width="280" height="30" rx="10" fill="#f8fafc"/>
+<text x="736" y="473" class="loop" text-anchor="middle">条件变化，重新判断</text>
+<text x="72" y="520" class="section" >需要持续处理时</text>
+<rect x="72" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
+<text x="96" y="584" class="bottom-label" >保存当前成果</text>
+<text x="96" y="621" class="bottom-body" >留下决定、下一步和必要来源</text>
+<rect x="616" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
+<text x="640" y="584" class="bottom-label" >下次接着处理</text>
+<text x="640" y="621" class="bottom-body" >提供工作台位置，读取最新进展</text>
+<text x="72" y="57" class="brand" >ZANE · 过好你的人生</text>
+<rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
+<text x="959" y="57" class="entry" text-anchor="middle">zane-workbench</text>
+<text x="72" y="121" class="title" >从当前问题，到可以继续的行动</text>
+<text x="72" y="164" class="subtitle" >带上已有材料，先处理眼前这一件事</text>
 </svg>

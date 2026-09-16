@@ -1,18 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="208" viewBox="0 0 1000 208" role="img" aria-label="Start with what is happening now">
-<rect width="1000" height="208" rx="18" fill="#F4F7FB"/>
-<text x="40" y="48" fill="#183153" font-family="system-ui,sans-serif" font-size="22" font-weight="600">Start with what is happening now</text>
-<rect x="40" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="123" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">Understand</text>
-<path d="M212 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="228" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="311" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">Choose</text>
-<path d="M400 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="416" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="499" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">Make progress</text>
-<path d="M588 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="604" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="687" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">Bring feedback</text>
-<path d="M776 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
-<rect x="792" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
-<text x="875" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">Continue</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">From a question to your next step</title>
+<desc id="desc">Four stages, from input through understanding and work to feedback; save and resume when needed.</desc>
+<defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
+.brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
+.title{font-size:38px;font-weight:700;fill:#0f172a}.subtitle{font-size:21px;fill:#64748b}
+.index{font-size:15px;font-weight:600;fill:#94a3b8}.label{font-size:23px;font-weight:700;fill:#0f172a}.body{font-size:18px;fill:#526176}
+.strong .index{fill:#bfdbfe}.strong .label{fill:#fff}.strong .body{fill:#dbeafe}
+.loop{font-size:18px;font-weight:600;fill:#2563eb}.section{font-size:17px;fill:#64748b}.bottom-label{font-size:22px;font-weight:700;fill:#183153}.bottom-body{font-size:18px;fill:#526176}
+</style>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 8 4 0 8Z" fill="#2563eb"/></marker>
+</defs>
+<rect width="1200" height="720" rx="20" fill="#f8fafc"/>
+<path d="M316 310H339" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M588 310H611" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M860 310H883" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M1008 408V448Q1008 466 990 466H482Q464 466 464 448V414" fill="none" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrow)"/>
+<g class="stage">
+<rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<text x="92" y="245" class="index" >01</text>
+<text x="92" y="298" class="label" >Your question</text>
+<text x="92" y="350" class="body" >A choice or a plan</text>
+<text x="92" y="377" class="body" >Bring existing material</text>
+</g>
+<g class="strong">
+<rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="364" y="245" class="index" >02</text>
+<text x="364" y="284" class="label" >Understand</text>
+<text x="364" y="314" class="label" >the situation</text>
+<text x="364" y="350" class="body" >Goals and conditions</text>
+<text x="364" y="377" class="body" >See possible tradeoffs</text>
+</g>
+<g class="stage">
+<rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<text x="636" y="245" class="index" >03</text>
+<text x="636" y="284" class="label" >Do the</text>
+<text x="636" y="314" class="label" >current work</text>
+<text x="636" y="350" class="body" >Decision, plan or draft</text>
+<text x="636" y="377" class="body" >Do what is needed now</text>
+</g>
+<g class="stage">
+<rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<text x="908" y="245" class="index" >04</text>
+<text x="908" y="284" class="label" >Bring back</text>
+<text x="908" y="314" class="label" >feedback</text>
+<text x="908" y="350" class="body" >New facts and outcomes</text>
+<text x="908" y="377" class="body" >Revise affected work</text>
+</g>
+<rect x="506" y="451" width="460" height="30" rx="10" fill="#f8fafc"/>
+<text x="736" y="473" class="loop" text-anchor="middle">Conditions change. Revisit the choice.</text>
+<text x="72" y="520" class="section" >When you need to continue</text>
+<rect x="72" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
+<text x="96" y="584" class="bottom-label" >Save the current work</text>
+<text x="96" y="621" class="bottom-body" >Keep the decision, next step and relevant sources.</text>
+<rect x="616" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
+<text x="640" y="584" class="bottom-label" >Resume next time</text>
+<text x="640" y="621" class="bottom-body" >Provide the folder and read the latest progress.</text>
+<text x="72" y="57" class="brand" >ZANE · LIVE YOUR LIFE WELL</text>
+<rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
+<text x="959" y="57" class="entry" text-anchor="middle">zane-workbench</text>
+<text x="72" y="121" class="title" >From a question to your next step</text>
+<text x="72" y="164" class="subtitle" >Bring what you have. Start with the task at hand.</text>
 </svg>
