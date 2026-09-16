@@ -2,9 +2,9 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current documentation revision: **2026-09-16 getting-started guide**
+Current method and documentation revision: **2026-09-16 workspace onboarding**
 
-Method revision: `release-20260916-reliability`. Install the current repository using the command below.
+The current main branch includes workspace onboarding changes after `release-20260916-reliability`. The historical release tag retains its earlier methods. Install or update from the current repository using the command below.
 
 External acceptance: **pending**. Internal revisions keep version 1.0 until external acceptance. This repository starts with the reviewed September 16 snapshot. Revision dates and commits identify the exact content.
 

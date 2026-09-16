@@ -52,14 +52,14 @@ Use zane-agent-identity-card-builder. Help me define an AI partner that can disa
 
 Output: Responsibilities, reasoning approach, communication, and memory arrangements.
 
-## [Save and continue](../skills/zane-workbench-curator/SKILL.md)
+## [Set up, organize, and continue](../skills/zane-workbench-curator/SKILL.md)
 
 `zane-workbench-curator`
 
 Use when: Setting up a workspace, organizing sources, saving work, or resuming.
 
 ```text
-Use zane-workbench-curator. Use this folder to save the comparison and next step for a later session.
+Use zane-workbench-curator. Set up a workspace in this folder, organize access and references to existing material, and continue the current task.
 ```
 
 Output: Relevant sources, current work, task state, and a continuation entry.

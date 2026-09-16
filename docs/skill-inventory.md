@@ -52,14 +52,14 @@
 
 产出：伙伴职责、判断方式、表达与记忆安排。
 
-## [保存与接续](../skills/zane-workbench-curator/SKILL.md)
+## [建台、整理与接续](../skills/zane-workbench-curator/SKILL.md)
 
 `zane-workbench-curator`
 
 适用：建台、整理已有资料、保存成果或接着上次。
 
 ```text
-请使用 zane-workbench-curator，沿用这个文件夹，保存当前比较和下一步，方便下次继续。
+请使用 zane-workbench-curator，沿用这个文件夹建立工作台，整理已有资料的入口与引用，并接着处理当前问题。
 ```
 
 产出：必要来源、当前成果、事项与接续入口。

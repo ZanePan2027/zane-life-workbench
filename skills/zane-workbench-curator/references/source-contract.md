@@ -12,6 +12,21 @@
 
 有既有映射就适配它，不创建另一套来源库。新目录用`来源映射.json`：schema固定为1；common是现实选择共同必读路径，roles为路径对应的角色；routes按领域提供keywords、必读files、候选optional／globs／directories和事项domains；events.globs指向唯一事件源，dependents.globs列当前成果的检索范围，dependents.required可列需要检查来源登记与路径完整性的当前关键成果。配置版本是格式字段，不是产品版本。
 
+`roles`的每个值必须是单个角色字符串，不能写成数组或对象。一个文件含多类信息时选主要角色，正文仍保留事实边界。已有手工Markdown状态放入`common`并标为`current`；`events.globs`只匹配本接口支持的JSON事项，不能指向Markdown。手工状态的最小示例（路径须替换为实际存在的文件）：
+
+```json
+{
+  "schema": 1,
+  "common": ["当前事项.md"],
+  "roles": {"当前事项.md": "current"},
+  "routes": {},
+  "events": {"globs": []},
+  "dependents": {"globs": ["当前事项.md", "成果/*.md"]}
+}
+```
+
+这只演示结构；现实选择仍需绑定实际方向与相关事实。建台而暂无个人材料时，不用占位文件满足角色。写入后运行`--check`，读取时按实际任务使用已绑定来源或`--read`；检查通过不代表返回过正文。
+
 首次建台从真实任务保存已有事实和成果，再把实际来源路径绑定到相应角色和领域。未知来自当轮对话或后续自然补充；不填虚构经历、不为满足角色创建空文件。用户已有资料先查再绑定，引用路径是相对工作区根目录的真实路径。
 
 安装后运行本Skill的`scripts/context.py`，使用`--root <工作区>`；私人适配器可设置自己的`--config`。常用参数：
