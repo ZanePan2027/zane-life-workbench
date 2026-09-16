@@ -1,12 +1,16 @@
 # Version
 
-Product version: **1.0** · Package and components: **1.0.0**
+Product version: **1.0** · Components: **1.0.0**
 
-Current revision: **2026-09-16 reliability update** · Source tag: `release-20260916-reliability`
+Current documentation revision: **2026-09-16 quick installation**
 
-External acceptance: **pending**. Internal revisions keep version 1.0 until external acceptance. This repository starts with the reviewed September 16 snapshot. Dates, commits and checksums identify the exact revision.
+Method revision: `release-20260916-reliability`. Install the current repository using the command below.
 
-Package SHA-256: `f538f247798c36cfb2e988e9c5a805d39d39879089db9b5cd5771ee19d1eac1c`
+External acceptance: **pending**. Internal revisions keep version 1.0 until external acceptance. This repository starts with the reviewed September 16 snapshot. Revision dates and commits identify the exact content.
+
+```bash
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
+```
 
 [Validation and known limitations](docs/testing.md)
 

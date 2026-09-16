@@ -74,17 +74,10 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --all
 
 ## 安装
 
-### 推荐：安装全部 Skills
+### 快速安装
 
 ```bash
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
-```
-
-也可以直接告诉 Agent：
-
-```text
-请从 https://github.com/ZanePan2027/zane-life-workbench 安装全部 Skills，
-然后使用 zane-workbench，帮我处理这件事：……
 ```
 
 安装后按工具要求重载 Skills。项目级安装、更新和版本切换见 [安装说明](docs/install.md)。
@@ -104,13 +97,13 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --all
 
 ## 当前修订与验证
 
-产品版本保持 **1.0**（安装包与组件为 **1.0.0**），本次修订日期为 **2026-09-16**。未经外部验收，内部迭代不升版本；用日期、提交和包摘要区分具体内容。
+产品版本保持 **1.0**（组件为 **1.0.0**），本次修订日期为 **2026-09-16**。未经外部验收，内部迭代不升版本；用修订日期和提交区分具体内容。
 
 可以从一个问题和手头材料开始，边完成事情边建立自己的工作台。内部测试实际完成了从散放材料建台、形成比较成果、根据新反馈改判，以及新会话接续；尚未完成外部真实用户验收。已知模型仍可能漏读长材料，不能保证每次判断完整可靠。详见[验证范围与已知限制](docs/testing.md)。
 
 分发包包含通用方法、工具与模板，不包含作者的私人档案、聊天记录、财务或现实事项，也不预填作者的个人目标。使用时，AI 会依据你提供或授权读取的材料工作；数据处理方式取决于所用 AI 工具及设置。
 
-[下载当前 1.0 安装包](https://github.com/ZanePan2027/zane-life-workbench/releases/latest)
+[快速安装与更新](docs/install.md)
 
 ## 来源与许可证
 

@@ -75,17 +75,10 @@ Use `zane-workbench` for everyday tasks, or call a specific Skill when its purpo
 
 ## Install
 
-### Recommended: install the complete collection
+### Quick installation
 
 ```bash
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
-```
-
-Or ask your Agent:
-
-```text
-Install all Skills from https://github.com/ZanePan2027/zane-life-workbench.
-Then use zane-workbench to help me with this: ...
 ```
 
 Reload Skills if your tool requires it. To install for the current project, omit `-g`. For updates, ask your Agent to compare the installed version with this repository and update it. Save any local edits you want to keep before replacing files.
@@ -105,13 +98,13 @@ Keep the workspace in a folder you choose. In a regular chat, save a continuatio
 
 ## Current revision and validation
 
-The product remains **1.0** (package and component metadata: **1.0.0**), revised **2026-09-16**. Internal iterations do not increase the version before external acceptance. Dates, commits, and package checksums identify the exact revision.
+The product remains **1.0** (component metadata: **1.0.0**), revised **2026-09-16**. Internal iterations do not increase the version before external acceptance. Revision dates and commits identify the exact content.
 
 Start with one question and the material you already have. Internal tests produced a working workspace from loose files, a useful comparison, revisions after new feedback, and continuation in a fresh session. External user acceptance is still pending. Models may skip parts of long source material, so complete and reliable judgments are not guaranteed. See [validation and known limitations](docs/testing.md).
 
 The distribution contains general methods, tools, and templates. It does not contain the author's private records, conversations, finances, or real-life task data, or prefill the author's personal goals. Your AI works with material you supply or authorize it to read; data handling depends on your AI tool and settings.
 
-[Download the current 1.0 package](https://github.com/ZanePan2027/zane-life-workbench/releases/latest)
+[Quick installation and updates](docs/install.md)
 
 ## Provenance and license
 

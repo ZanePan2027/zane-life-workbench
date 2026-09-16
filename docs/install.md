@@ -1,31 +1,33 @@
 # 安装与更新
 
-## 安装整套方法
+## 快速安装
 
-在 Claude Code、Codex 等支持 Agent Skills 的工具中，可以让 Agent 从本仓库安装，也可以执行：
+在终端执行：
 
 ```bash
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
-`-g` 表示全局安装；安装到当前项目时省略 `-g`。按安装界面选择要使用的 Agent，完成后按宿主要求重载。
+这条指令会安装仓库中的全部 Skills。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。按安装界面选择 Claude Code、Codex 等要使用的 Agent，完成后按宿主要求重载。
 
-输入“请使用 zane-workbench，帮我处理这件事：……”开始。
+需要先安装 Node.js，并确保终端可以使用 `npx`。
+
+## 开始使用
+
+告诉 Agent：
+
+```text
+请使用 zane-workbench，帮我处理这件事：……
+```
+
+需要保存进展时，告诉 Agent 想使用的工作台文件夹。Skill 安装目录存放方法，个人工作台文件夹存放自己的资料与进展。
 
 ## 更新
 
-告诉 Agent：“比较本仓库与我已安装的版本，更新过好你的人生。”保留自己修改过的方法，再按所用 Skill 管理器的更新流程操作。
+先保留自己修改过的 Skill 文件，再执行同一条快速安装指令，按安装界面更新。产品目前保持1.0，文件内容仍会继续修订；不要仅凭版本号相同跳过更新，以仓库修订日期和提交识别内容。
 
-本次产品仍为1.0，但文件内容已更新；不要仅凭版本号相同跳过更新。当前源码标签为 `release-20260916-reliability`，对应2026-09-16可靠性修订。此前 `v1.0.0` 标签保留原内容，新修订从重建后的干净历史继续。需要固定内容时核对修订日期、完整提交和包摘要。切换前备份自己修改的文件。
-
-[最新Release](https://github.com/ZanePan2027/zane-life-workbench/releases/latest)提供完整ZIP及SHA256SUMS。若此前通过随包安装器安装，解压新包后使用其 `install.py --skills-dir <宿主实际Skill目录> --upgrade`；安装器按内容处理同版本更新并保留回滚检查点。下载包与源码快照对应的日期见VERSION.md。
-
-## 手动安装
-
-从仓库 `skills/` 目录取得各个 Skill 文件夹，按宿主说明放入它的 Skill 目录。每个文件夹以 `SKILL.md` 为入口，相关方法和模板随目录一起保留。
-
-## 开始保存工作
-
-告诉 Agent 想使用的工作台文件夹。它会读取已有导航，或从本次成果建立记录。Skill 安装目录存放方法，个人工作台文件夹存放自己的资料和进展。
+```bash
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
+```
 
 [返回首页](../README.md)

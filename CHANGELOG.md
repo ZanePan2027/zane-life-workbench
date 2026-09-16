@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0 — 2026-09-16 quick installation / 统一快速安装
+
+- 统一使用快速安装指令；中英文首页、安装说明与Release不再提供安装包下载入口。
+- 方法及组件版本不变。
+- Use the quick installation command throughout the README, installation guide, and release notes. Standalone installer downloads have been retired. Methods and component versions are unchanged.
+
 ## 1.0 — 2026-09-16 reliability update / 可靠性修订
 
 - 明确所选领域不再被材料关键词扩大；分页提供可直接执行的续读命令，显示未读来源。
