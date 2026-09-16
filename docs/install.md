@@ -12,6 +12,13 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --all
 
 需要先安装 Node.js，并确保终端可以使用 `npx`。
 
+也可以直接告诉 Agent：
+
+```text
+请从 https://github.com/ZanePan2027/zane-life-workbench 安装全部 Skills，
+然后使用 zane-workbench，帮我处理这件事：……
+```
+
 ## 开始使用
 
 告诉 Agent：

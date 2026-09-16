@@ -80,6 +80,13 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --all
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
+也可以直接告诉 Agent：
+
+```text
+请从 https://github.com/ZanePan2027/zane-life-workbench 安装全部 Skills，
+然后使用 zane-workbench，帮我处理这件事：……
+```
+
 安装后按工具要求重载 Skills。项目级安装、更新和版本切换见 [安装说明](docs/install.md)。
 
 ## 使用方法

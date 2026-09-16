@@ -81,6 +81,13 @@ Use `zane-workbench` for everyday tasks, or call a specific Skill when its purpo
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
+Or ask your Agent:
+
+```text
+Install all Skills from https://github.com/ZanePan2027/zane-life-workbench.
+Then use zane-workbench to help me with this: ...
+```
+
 Reload Skills if your tool requires it. To install for the current project, omit `-g`. For updates, ask your Agent to compare the installed version with this repository and update it. Save any local edits you want to keep before replacing files.
 
 ## Using the workbench
