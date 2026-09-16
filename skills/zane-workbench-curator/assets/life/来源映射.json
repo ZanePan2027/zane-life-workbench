@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "common": [
+    "方向.md"
+  ],
+  "roles": {
+    "方向.md": "direction"
+  },
+  "required_roles": [
+    "direction",
+    "current"
+  ],
+  "routes": {
+    "life": {
+      "label": "人生与整体取舍",
+      "keywords": [
+        "人生",
+        "自由",
+        "方向"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": []
+    },
+    "career": {
+      "label": "职业",
+      "keywords": [
+        "工作",
+        "岗位",
+        "离职",
+        "辞职",
+        "offer",
+        "job"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "职业",
+        "工作",
+        "career"
+      ]
+    },
+    "money": {
+      "label": "金钱",
+      "keywords": [
+        "现金",
+        "收入",
+        "社保",
+        "钱",
+        "money"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "金钱"
+      ]
+    },
+    "family": {
+      "label": "家庭与关系",
+      "keywords": [
+        "家庭",
+        "父母",
+        "伴侣",
+        "孩子",
+        "family"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "家庭",
+        "关系",
+        "family"
+      ]
+    },
+    "health": {
+      "label": "身体",
+      "keywords": [
+        "身体",
+        "健康",
+        "睡眠",
+        "照护",
+        "health"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "健康",
+        "身体"
+      ]
+    },
+    "learning": {
+      "label": "学习",
+      "keywords": [
+        "学习",
+        "读书",
+        "英语",
+        "learning"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "学习"
+      ]
+    },
+    "business": {
+      "label": "创业",
+      "keywords": [
+        "创业",
+        "客户",
+        "订单",
+        "business"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "创业"
+      ]
+    },
+    "self": {
+      "label": "经历与自我认识",
+      "keywords": [
+        "经历",
+        "能力",
+        "我是谁",
+        "自我"
+      ],
+      "files": [],
+      "globs": [
+        "资料/**/*.md",
+        "资料/**/*.docx"
+      ],
+      "domains": [
+        "自我认识"
+      ]
+    }
+  },
+  "events": {
+    "globs": [
+      "事项/*.json"
+    ],
+    "id_pattern": "\\b[A-Z][A-Z0-9]*-\\d+\\b"
+  },
+  "dependents": {
+    "globs": [
+      "资料/**/*.md"
+    ]
+  }
+}
