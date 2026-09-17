@@ -2,6 +2,10 @@
 
 [English](install.en.md)
 
+## 适用 Agent
+
+豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。使用 Agent 的 Skills 功能时，按下方指令安装，或直接把安装请求交给 Agent。
+
 ## 快速安装
 
 在终端执行：
@@ -10,7 +14,7 @@
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
-这条指令会安装仓库中的全部 Skills。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。按安装界面选择 Claude Code、Codex 等要使用的 Agent，完成后按宿主要求重载。
+这条指令会安装仓库中的全部 Skills。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。按安装界面选择要使用的 Agent，完成后按宿主要求重载。
 
 需要先安装 Node.js，并确保终端可以使用 `npx`。
 

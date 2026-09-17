@@ -9,7 +9,7 @@
 
 An AI life workbench that starts with what is happening now. Understand your situation, weigh choices, coordinate time and responsibilities, complete useful work, and adjust as life changes. You decide what living well means.
 
-**For Claude Code, Codex, and other tools that support Agent Skills. Free and open source.**
+**Supports Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Free and open source.**
 
 [Quick start](#quick-start) · [What it helps with](#what-it-helps-with) · [Guide](docs/guide.en.md) · [Skill directory](docs/skill-inventory.en.md) · [Installation and updates](docs/install.en.md)
 

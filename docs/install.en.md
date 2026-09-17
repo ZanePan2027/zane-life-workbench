@@ -1,6 +1,10 @@
 # Installation and updates
 
-Use this collection in a tool that supports Agent Skills. [简体中文](install.md)
+[简体中文](install.md)
+
+## Supported Agents
+
+Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. In a Skills-enabled environment, use the command below or ask your Agent to install the collection.
 
 ## Quick installation
 
