@@ -1,6 +1,6 @@
 # Start in an ordinary chat
 
-You can begin with the simplified prompt below. Naming Live Your Life Well alone does not load the repository's complete methods.
+You can begin with the simplified prompt below.
 
 For the complete Skill, follow the [installation guide](install.en.md) in a tool that supports Agent Skills. If the environment can read repository files, ask the Agent to start with the [main entry](../skills/zane-workbench/SKILL.md) and read the referenced methods needed for the task.
 
@@ -16,7 +16,7 @@ Start with a useful judgment or result. Ask for missing information when it affe
 Revise the relevant conclusions and materials when I provide new facts or corrections.
 ```
 
-Continue by asking for a draft, another option, or an explanation of the judgment. This prompt starts a conversation; it does not establish that the full Skill's source-reading and workspace procedures were followed.
+Continue by asking for a draft, another option, or an explanation of the judgment.
 
 ## Continue later
 

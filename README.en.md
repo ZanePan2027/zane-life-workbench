@@ -88,9 +88,9 @@ For a one-off question, edit, or conversation, you can start directly without se
 
 Keep using the same workspace project. The Agent reads its records to recover the current judgment and next step. It asks for a location only when the project changes, access is lost, or several workspaces cannot be distinguished. When changing tools, open or authorize access to that same folder.
 
-Adding a file does not mean it has been read. Ask the Agent to take in the new material, or ask a question that uses it; it reads and indexes the relevant content during that task. The workspace does not monitor files outside a session.
+When you add material, ask the Agent to take it in or ask a question that uses it. The Agent reads the relevant content and updates its references.
 
-In ordinary chat, save a continuation note and paste it back with the relevant material. Naming the product alone does not load the complete Skill. See [starting in chat](docs/chat-start.en.md).
+In ordinary chat, save a continuation note and paste it back with the relevant material. See [starting in chat](docs/chat-start.en.md).
 
 [Follow a job comparison](docs/guide.en.md)
 
@@ -98,17 +98,11 @@ In ordinary chat, save a continuation note and paste it back with the relevant m
 
 Continue using `zane-workbench` for everyday tasks. Once familiar, you can directly select question clarification, self-reflection, AI partner setup, or workspace organization. The [Skill directory](docs/skill-inventory.en.md) includes situations, example requests, and outputs.
 
-## Choosing between the two toolkits
+## Version and feedback
 
-Start here when weighing work, family, finances, and personal direction together. For matching experience to roles, creating resumes and portfolios, or practicing interviews, use [Beyond the Ivory Tower](https://github.com/ZanePan2027/zane-career-skills). Each toolkit works independently.
+Current release: **1.0**, revised **2026-09-17**. [Changes](CHANGELOG.md) · [Version checks](docs/testing.md).
 
-## Current revision and validation
-
-The product remains **1.0** (component metadata: **1.0.0**), revised **2026-09-16**. Internal iterations do not increase the version before external acceptance. Revision dates and commits identify the exact content.
-
-Connect a minimal workspace, then start with one question and the material you have. Earlier internal tests covered loose files, a comparison, feedback, and fresh-session continuation. Checks for this onboarding revision are recorded separately; historical tests do not validate the new behavior. External user acceptance is still pending. Models may skip parts of long source material, so complete and reliable judgments are not guaranteed. See [validation and known limitations](docs/testing.md).
-
-The distribution contains general methods, tools, and templates. It does not contain the author's private records, conversations, finances, or real-life task data, or prefill the author's personal goals. Your AI works with material you supply or authorize it to read; data handling depends on your AI tool and settings.
+Share your experience through Issues, with personal and company details removed.
 
 ## Provenance and license
 

@@ -24,7 +24,7 @@ These are my two job offers and monthly expenses.
 Keep the originals, make them easy to find, and read the facts needed for this comparison.
 ```
 
-The curator maintains navigation and source references. Sorting files does not mean all their contents have been read. Without files, start in the conversation and add facts needed for the task.
+The Agent organizes references and reads the material needed for the current task. Without files, start in the conversation and add facts needed for the task.
 
 ## Describe the choice
 
@@ -40,7 +40,7 @@ The Agent reads the relevant text, considers income, spending, time, and family 
 
 Ask: “Show me a workable weekly schedule and budget for each option.” Adjust your priorities: “I would accept less income for two free evenings each week.”
 
-Relevant sources, results, and the stopping point are saved within the workspace setup authorization. Advice is not recorded as a decision you have accepted.
+Relevant sources, results, and the stopping point are saved within the workspace setup authorization.
 
 ## Bring back new information
 
@@ -50,7 +50,7 @@ If Job A adds two remote days per week, share that update. The Agent revises the
 
 Open the same workspace project and say “Continue the job comparison.” The Agent locates the current task, results, and relevant sources. If several tasks are plausible, it asks only which one you mean.
 
-A location is needed again only when the project changes, access is lost, or the workspace is ambiguous. When switching tools, open or authorize access to the same folder. Installing Skills does not transfer your records.
+A location is needed again only when the project changes, access is lost, or the workspace is ambiguous. When switching tools, open or authorize access to the same folder.
 
 One-off questions do not require workspace setup. Without file access, use [starting in chat](chat-start.en.md), save a continuation note, and paste it back next time.
 

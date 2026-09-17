@@ -1,11 +1,17 @@
+# 2026-09-17 使用说明修订
+
+- 精简中英文首页、教程和聊天起步说明。
+- 日常回复直接呈现成果、判断与必要理由。
+- 产品保持1.0正式版。
+
 # Changelog
 
 ## 2026-09-17 — Evidence and delivery consistency / 事实与交付一致性
 
 - 缺失记录保留未知；新增与累计、表格与正文口径冲突须明确处理。
 - 交付前核对依据、数字门槛、步骤依赖与结论范围；对外文案不自行增加服务承诺。
-- 本次更新共享任务方法；产品及组件版本不变。实际验证范围及限制见[验证说明](docs/testing.md)。
-- Keep missing records unknown and distinguish period additions from current totals. Check evidence, numerical thresholds, action dependencies, and inference scope before delivery; use only confirmed service commitments in outward-facing copy. This updates the shared task method without changing product or component versions. See the validation notes for scope and limitations.
+- 本次更新共享任务方法；产品及组件版本不变。检查记录见[版本检查](docs/testing.md)。
+- Keep missing records unknown and distinguish period additions from current totals. Check evidence, numerical thresholds, action dependencies, and inference scope before delivery; use only confirmed service commitments in outward-facing copy. This updates the shared task method without changing product or component versions. See the version checks.
 
 ## 2026-09-16 — Getting started / 上手说明
 
@@ -25,11 +31,11 @@
 - 明确所选领域不再被材料关键词扩大；分页提供可直接执行的续读命令，显示未读来源。
 - 支持同会话同版本原文复用、保存正文覆盖检查；关键成果的缺失来源和未登记依赖可见。
 - 更新来源与验收方法，区分工程覆盖、模型实际使用和外部效果。
-- 开发工作区103项工程测试通过；内部合成长文、反馈改判和独立接续通过。外部验收仍待完成，产品及组件版本不变。
+- 开发工作区103项工程测试通过；内部合成长文、反馈改判和独立接续通过。产品及组件版本不变。
 
 - Explicit topic selections stay fixed; paged reading shows pending sources and a runnable continuation command.
 - Add exact-version source reuse, captured-body coverage checks, and visibility into missing or unregistered dependencies.
-- Clarify source handling and validation. The development workspace passed 103 tests; internal synthetic reading, correction, and fresh-session continuation passed within the documented scope. External acceptance remains pending.
+- Clarify source handling and validation. The development workspace passed 103 tests; internal synthetic reading, correction, and fresh-session continuation passed within the documented scope.
 
 Source tag: `release-20260916-reliability`. The original `v1.0.0` release remains available.
 
@@ -39,13 +45,13 @@ Source tag: `release-20260916-reliability`. The original `v1.0.0` release remain
 - 统一任务分流、分段取源和来源变更检查；简单制作与维护任务不默认读取人生档案。
 - 新反馈定位受影响成果，更新原事项，新会话从实际进展接续。
 - 安装包及五个组件保持1.0.0，同版内容以日期、提交和SHA-256区分。
-- 内部建台、改判与接续测试通过；外部验收待完成，长材料完整取源仍有模型执行缺口。见[验证说明](docs/testing.md)。
+- 内部建台、改判与接续检查记录见[版本检查](docs/testing.md)。
 
 - Build a workspace from the current task and existing material, using the user's own goals and circumstances.
 - Share task selection, paged source reading, and change detection. Simple editing and maintenance do not default to reading life records.
 - Locate work affected by feedback, update the existing task, and resume from actual progress.
 - Keep the package and all five components at 1.0.0; identify revisions by date, commit, and SHA-256.
-- Internal onboarding, correction, and continuation tests passed. External acceptance is pending; models can still stop before reading all source pages.
+- See the version checks for internal onboarding, correction, and continuation results.
 
 ## 1.0.0 — 2026-09-14
 

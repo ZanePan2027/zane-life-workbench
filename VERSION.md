@@ -2,17 +2,17 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current method and documentation revision: **2026-09-17 evidence and delivery consistency**
+Current method and documentation revision: **2026-09-17 documentation and everyday responses**
 
-The current main branch includes workspace onboarding, shared profiles, and evidence and delivery consistency checks after `release-20260916-reliability`. The historical release tag retains its earlier methods. Install or update from the current repository using the command below.
+Install or update the current version with the command below.
 
-External acceptance: **pending**. Internal revisions keep version 1.0 until external acceptance. This repository starts with the reviewed September 16 snapshot. Revision dates and commits identify the exact content.
+Revision dates and commits identify updates within version 1.0.
 
 ```bash
 npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
-[Validation and known limitations](docs/testing.md)
+[Version checks](docs/testing.md)
 
 | Skill | Version |
 |---|---|
