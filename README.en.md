@@ -9,7 +9,7 @@
 
 An AI life workbench that starts with what is happening now. Understand your situation, weigh choices, coordinate time and responsibilities, complete useful work, and adjust as life changes. You decide what living well means.
 
-**Supports Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Free and open source.**
+**Supports Doubao desktop with local Skills, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Free and open source.**
 
 [Quick start](#quick-start) · [What it helps with](#what-it-helps-with) · [Guide](docs/guide.en.md) · [Skill directory](docs/skill-inventory.en.md) · [Installation and updates](docs/install.en.md)
 
@@ -26,7 +26,7 @@ An AI life workbench that starts with what is happening now. Understand your sit
 Run in your terminal:
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 ```
 
 Or ask your Agent:
@@ -36,7 +36,7 @@ Install all Skills from https://github.com/ZanePan2027/zane-life-workbench.
 Then use zane-workbench to help me with this: ...
 ```
 
-Select your Agent in the installer, then reload Skills if required. The terminal command requires Node.js and `npx`. Omit `-g` to install for the current project; see the [installation guide](docs/install.en.md) for updates.
+The command works with Agents listed in the installer, including Codex and Claude Code, and requires Node.js and `npx`. For Doubao or WorkBuddy, use the Agent request above and follow the [host-specific instructions](docs/install.en.md).
 
 ### 2. Connect or create your workspace
 

@@ -9,7 +9,7 @@ Install or update the current version with the command below.
 Revision dates and commits identify updates within version 1.0.
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 ```
 
 [Version checks](docs/testing.md)
