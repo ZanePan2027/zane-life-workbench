@@ -4,7 +4,7 @@
 
 ## Supported Agents
 
-Doubao desktop with local Skills, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Choose the installation method for your client below.
+Doubao in work task mode, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Choose the installation method for your client below.
 
 ## Quick installation
 
@@ -30,7 +30,10 @@ Send the installation request above in your client and tell the Agent which clie
 | Client | Installation and discovery |
 | --- | --- |
 | WorkBuddy | Ask the Agent to install each folder under the repository's `skills/` into `.workbuddy/skills/` in your user home directory, including all files within it. Open the Skills page, go to your installed skills, find `zane-workbench`, and enable it. |
-| Doubao for macOS with local Skills | Ask the Agent to install each Skill folder into `~/.agents/skills/`, then reload in the client's local Skills mode. |
+| Doubao for macOS · local computer | Start a local-computer work task and ask the Agent to install each Skill folder into `~/.agents/skills/`. Find them under the local section of Skills management, then invoke them in a work task. |
+| Doubao web · cloud computer | Open [Doubao web](https://www.doubao.com/chat/), select Work → Cloud computer, and send the installation request. Ask the Agent to identify the supported persistent cloud skill directory before installing. |
+
+Doubao cloud and local computers have separate Skill installations. For persistent cloud Skills, use the platform's skill management mechanism or its `user_skills` directory; installations elsewhere in the temporary sandbox may be removed when it is cleared. Browser-based work tasks are described in Doubao's official [access guide](https://www.doubao.com/work/docs/zh-cn/articles/462191106451-access) and [work task guide](https://www.doubao.com/work/docs/zh-cn/articles/047323472965-work-task-mode).
 
 If these clients are absent from the installer's list, use the method above. The entry should be `<skills-directory>/zane-workbench/SKILL.md`, without an extra repository folder in between. Start a new conversation and ask: “Use zane-workbench to help me with …”.
 

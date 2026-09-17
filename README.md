@@ -9,7 +9,7 @@
 
 一个从眼前问题开始的 AI 人生工作台。帮助你理解处境、作出取舍、协调时间与责任、完成具体事情，并在现实变化后继续。怎样过好，由你自己定义。
 
-**支持：豆包桌面端（本地 Skills 模式）、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。免费开源。**
+**支持：豆包（工作任务模式）、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。免费开源。**
 
 [快速开始](#快速开始) · [可以处理的事](#可以处理的事) · [使用教程](docs/guide.md) · [能力目录](docs/skill-inventory.md) · [安装与更新](docs/install.md)
 

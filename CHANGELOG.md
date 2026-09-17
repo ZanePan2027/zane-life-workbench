@@ -1,3 +1,8 @@
+# 1.0.0 · 2026-09-17 豆包使用入口
+
+- 豆包支持工作任务模式，补充桌面本地电脑与网页云电脑的安装入口及技能保存方式。
+- Clarify Doubao local and web cloud work tasks, separate installations, and persistent cloud Skills.
+
 # 1.0.0 · 2026-09-17 使用流程修订
 
 - 按客户端补齐安装方式；豆包使用本地 Skills 模式，WorkBuddy 使用原生技能目录与管理入口。
