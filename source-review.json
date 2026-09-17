@@ -57,7 +57,7 @@
     "skills/zane-workbench-curator/references/source-contract.md": "e2126e2910ddc221e40c72a1117204a51a9fc42e508b86238edd9dc8beb7b49c",
     "skills/zane-workbench-curator/references/source-integration.md": "ff6e3159c129ca9a258cec04c9c7af56f819d202941d01206b564d7e92ab8459",
     "skills/zane-workbench-curator/references/start-and-adapt.md": "eab2bdee6e362d651782d2eb2e29c83ccd2794f32809a64cafc072258054a770",
-    "skills/zane-workbench-curator/references/task-protocol.md": "62dbeb67eee0453288fe2dfa726f19973ed92ea55b6c3d114f88945e4fbbff89",
+    "skills/zane-workbench-curator/references/task-protocol.md": "96cbf41dc57d26767a932b04afef8f6f52a2a22f868698c9a059af7fd01d1bba",
     "skills/zane-workbench-curator/scripts/context.py": "feef13c9eb802dd33dea8d65ec625732c17ba4f372ef7ec142d6bf3d7a088b30",
     "skills/zane-workbench-curator/scripts/workbench.py": "351993e088e6e8d2e6e4b571d8a51aa2eabb5dcdebf93ceea4e346cfdc38fd53",
     "skills/zane-workbench/SKILL.md": "548aab189abe902f396b0a0e265e3e2e6bda76d5f7885493ecc2fa72566d220b",
@@ -76,12 +76,12 @@
     "验收说明.md": "135f2e3f149166ce13cfb6835b2689c690fa405dcf8038b7a0aeb0f26b748d36"
   },
   "public_docs": {
-    "CHANGELOG.md": "6375182a6113abc76abbe2658e6033573fa7735110c5e37af030215f1635b6d2",
+    "CHANGELOG.md": "4f77098b160933126bdd99b725a6522d7fb0713c0730b8095f72e30e8e1977f7",
     "CONTRIBUTING.md": "9de88440195925c65f9d8f369b85912ff825a0bdc63fd12db8ddf2d4344f1f13",
     "LICENSE": "bfa14ef6ccdeabe2964e7272c367794f3d47bbfa3836bcb4e96eded668a5bb67",
     "README.en.md": "1e08abe30019edf33f3ccb6a276025f2c44ef69da146dca7d44e80ffb4e43200",
     "README.md": "b722d43e31d8afc48b5c86ddba598d7d0d1570f445de5a578d41c9ccfb47367f",
-    "VERSION.md": "8d75871fa4d84820ae1b4e7d37b17e4aadc28c08a95ae34f3331c61f6fff17af",
+    "VERSION.md": "56d3e3d379a6317646450edec15e92f0cd4947b547a140e156d69e848bdc92cc",
     "docs/chat-start.en.md": "64543ecf199bb58dde43a712521abc1ce5a862493ffe2b59b82f56aba8fca665",
     "docs/chat-start.md": "5a454cf85c425baa33a100751f3b876ec0a2d7a60cbae5e321c15a5af4495e8d",
     "docs/examples.md": "49b69a5e212412b412884798ce6564aab4980a6da45c4b22a3d4cf12ffe6162e",
@@ -94,7 +94,7 @@
     "docs/provenance.md": "a8cde5014888f7ea053dd9808a1b3d103da1c5eb6ffbe22051149b2701f1130c",
     "docs/skill-inventory.en.md": "0d06576eb9581a22513f3f4cc0512d0ddb32e8b6d1860950a8cba7dd31827dfb",
     "docs/skill-inventory.md": "fd5b237c8e42b5435d9e9396372cef6482914adf87458c8b670a32dba2802e4f",
-    "docs/testing.md": "09b846e6203f5f07e7fa90a31b6d0159bbbb6e26b0e086e608b3c98b20173078",
+    "docs/testing.md": "ce4c6deb282d42f0742a59f35729a6d3f7617a1252f16ec74eb0eaef6685a67b",
     "source-versions.json": "3f769d5b20946d41f6d73f8c6e04aa3cd173cd7ca87293c962d8f0fc0c024f31"
   }
 }

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-17 — Evidence and delivery consistency / 事实与交付一致性
+
+- 缺失记录保留未知；新增与累计、表格与正文口径冲突须明确处理。
+- 交付前核对依据、数字门槛、步骤依赖与结论范围；对外文案不自行增加服务承诺。
+- 本次更新共享任务方法；产品及组件版本不变。实际验证范围及限制见[验证说明](docs/testing.md)。
+- Keep missing records unknown and distinguish period additions from current totals. Check evidence, numerical thresholds, action dependencies, and inference scope before delivery; use only confirmed service commitments in outward-facing copy. This updates the shared task method without changing product or component versions. See the validation notes for scope and limitations.
+
 ## 2026-09-16 — Getting started / 上手说明
 
 - 合并首页重复安装说明，保留命令安装与直接告诉Agent安装两种方式。

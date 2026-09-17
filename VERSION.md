@@ -2,9 +2,9 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current method and documentation revision: **2026-09-16 workspace onboarding and shared profiles**
+Current method and documentation revision: **2026-09-17 evidence and delivery consistency**
 
-The current main branch includes workspace onboarding and shared three-mode profile changes after `release-20260916-reliability`. The historical release tag retains its earlier methods. Install or update from the current repository using the command below.
+The current main branch includes workspace onboarding, shared profiles, and evidence and delivery consistency checks after `release-20260916-reliability`. The historical release tag retains its earlier methods. Install or update from the current repository using the command below.
 
 External acceptance: **pending**. Internal revisions keep version 1.0 until external acceptance. This repository starts with the reviewed September 16 snapshot. Revision dates and commits identify the exact content.
 

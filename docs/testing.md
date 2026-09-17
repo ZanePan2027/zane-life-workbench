@@ -1,6 +1,14 @@
 # 验证范围与已知限制 / Validation and known limitations
 
-修订日期 / Revision: 2026-09-16。产品1.0；五个组件1.0.0。外部验收待完成。
+修订日期 / Revision: 2026-09-17。产品1.0；五个组件1.0.0。外部验收待完成。
+
+## 事实与交付一致性修订
+
+共享方法补上缺失值、数量口径冲突、承诺边界及交付前一致性核对。商业包另补投入阈值推导，相关商业方法不随人生仓库分发。
+
+开发工作区105项工程测试、Skill同步与路由检查通过。内部行为检查包括一份既有投放材料重放、一个新合成经营场景和一个新合成职业场景。主持Agent读取实际产物按预先记录的条件核验；没有普通AI或其他产品对照，不据此声称质量提升幅度或产品优劣。
+
+首轮投放重放仍把有歧义的关注数称为新增，虽然保留了归因未知；这不足以通过数量口径检查。补充新增与累计的区分后，独立复测明确保留该冲突，缺失值、承诺、条件阈值与行动顺序的目标检查通过；两轮均未输出预算百分比，不称验证了该计算。新经营与职业场景在首轮方法下完成条件成本计算、未知值与服务边界处理、步骤依赖核对；二者未在最后一句澄清后重跑。本次没有重新执行人生任务、跨宿主行为或真实用户验收，也没有联网验证外部行业基准。
 
 ## 共享整理器的三模式修订
 
@@ -39,6 +47,8 @@
 发现问题时，通过GitHub Issues提供去除隐私的复现步骤、宿主、修订日期或提交、期望和实际结果。不要上传私人原件、账号凭据或他人的个人信息。正式发布与工程检查都不替代真实用户验收。
 
 ## English
+
+The September 17 shared method revision handles missing records, inconsistent quantity definitions, confirmed commitments, and delivery consistency. Business-specific investment calculations were updated in the separate local business package and are not distributed here. The development suite passed 105 tests and synchronization/routing checks. Internal behavioral checks covered replay of one existing advertising task and two new synthetic business and career tasks. The coordinating Agent reviewed outputs against prerecorded criteria; there was no ordinary-AI or competing-product control, and no causal or superiority claim is supported. The first replay still treated an ambiguous follower count as new; attribution uncertainty did not resolve this. After clarifying additions versus totals, a separate replay retained the conflict and met the targeted checks for missing values, commitments, conditional thresholds, and action order. Neither replay reported budget percentages, so that calculation was not exercised. The new business and career scenarios were run before that final clarification and were not rerun afterward. This revision did not retest life-specific tasks, other hosts, real users, or online verification of industry benchmarks.
 
 The shared curator now provides source maps for business and career profiles and supports minimal initialization in all three modes. Existing folders are still adapted in place. Source roles describe the active business or job task rather than requiring a personal life profile. This repository distributes the life entry and shared components, not the business or career entry Skills. The development suite passed 105 tests, including minimal profiles, scoped source binding, preservation of existing folders, incomplete-template failure, co-installation, upgrade, and rollback. This is engineering evidence, not real-user outcome evidence.
 
