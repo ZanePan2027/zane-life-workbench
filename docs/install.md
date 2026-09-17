@@ -4,7 +4,7 @@
 
 ## 适用 Agent
 
-豆包（工作任务模式）、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。按所用客户端选择下面的安装方式。
+豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。按所用客户端选择下面的安装方式。
 
 ## 快速安装
 

@@ -4,7 +4,7 @@
 
 ## Supported Agents
 
-Doubao in work task mode, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Choose the installation method for your client below.
+Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Choose the installation method for your client below.
 
 ## Quick installation
 
