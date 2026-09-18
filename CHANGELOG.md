@@ -1,3 +1,10 @@
+# 1.0.0 · 2026-09-18 心理支持整合 / Psychological support
+
+- 新增心理支持与治疗辅助，接入统一入口：支持倾诉、共同理解、可选择的练习与咨询准备。
+- 整合心理学的方法选择与哲学的价值讨论，保持多轮纠正、隐私和专业范围；真实疗效尚未验证。
+- 更新中英文首页、能力目录、来源和验证说明。组件保持 1.0.0。
+- Add psychological support to the main entry, with listening, revisable understanding, optional exercises, and consultation preparation. Document method selection, feedback, privacy, and evidence limits. No clinical effectiveness claim; component versions remain 1.0.0.
+
 # 1.0.0 · 2026-09-17 豆包使用入口
 
 - 豆包支持工作任务模式，补充桌面本地电脑与网页云电脑的安装入口及技能保存方式。

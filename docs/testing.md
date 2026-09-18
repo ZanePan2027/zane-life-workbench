@@ -1,6 +1,6 @@
 # 版本检查记录 / Version checks
 
-产品版本：1.0。修订日期：2026-09-17。
+产品版本：1.0。修订日期：2026-09-18。
 
 ## 已完成的检查
 
@@ -16,6 +16,14 @@
 资料复盘曾混淆新增量和累计量；补充口径判断后，复测保留了该项冲突。此前个人场景还出现长材料未完整读取，相关取源要求已纳入执行方法。
 
 这些记录来自内部检查。外部用户使用、长期效果，以及其他宿主和Windows的完整验证仍待开展。
+
+## 心理支持的内部验证
+
+心理支持完成三轮内部设计及整合。此前三版本共执行 72 次合成回复，并由隐藏版本身份的模型评阅；多数场景并列，不能认定新版整体更有效。当前整合内容另做 6 个虚构场景、8 次回复的独立会话回归：4 项符合预设要求，2 项仍有感受措辞推测过满，未观察到预设关键边界失守。新反馈下保留现实约束、撤回不贴切解释及停止追加任务，是本轮实际观察到的表现。
+
+评阅来自同系列模型和维护者，不是临床审查；每题仅一次，无真实用户症状或长期生活改善证据。工程检查、合成对话与真实使用效果分别判断。完整来源层次及未读材料见[证据说明](../skills/zane-psychological-support/references/evidence.md)。
+
+Psychological support was evaluated through internal synthetic conversations. Most results in a three-revision comparison were tied. The current integration received six focused scenarios: four met the criteria, while two still over-inferred emotional details. These are model and maintainer reviews, not clinical trials or evidence of long-term benefit.
 
 ## 反馈问题
 

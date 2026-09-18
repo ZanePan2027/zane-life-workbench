@@ -27,9 +27,12 @@ metadata:
 
 意图混杂时才用[问题转译](../zane-question-intent-translator/SKILL.md)；主动探索动机和反复选择时用[自我认识](../zane-self-insight/SKILL.md)；要定义长期AI伙伴时用[身份卡](../zane-agent-identity-card-builder/SKILL.md)。这些不是必经手续。
 
+情绪困扰、反复自责、难以控制的冲动、想改变却卡住或需要咨询前后帮助时，按需使用[心理支持与治疗辅助](../zane-psychological-support/SKILL.md)。从倾诉到探索、练习和现实支持由当前主控连续承接，不因涉及关系、事业或自我价值来回转交；不把难受自动改成执行力任务。本人愿意时可持续接续，敏感记录按该方法和已有授权最少保存，单纯倾诉不以建台为前提。
+
 | 当前要推进的事 | 读取的方法 | 本轮出口 |
 |---|---|---|
 | 理解处境、作人生选择、回应异议 | [处境与选择](references/choice-and-context.md) | 有条件的判断、可行路径及本人在意的代价 |
+| 情绪困扰、反复行为、被评价的痛苦或治疗辅助 | [心理支持与治疗辅助](../zane-psychological-support/SKILL.md) | 被理解、认识具体循环、尝试改变或衔接现实帮助 |
 | 几件事争夺时间、精力、现金或责任 | [承诺与容量](references/commitments-and-capacity.md) | 总体可执行的安排、待协商项与保留的选择 |
 | 已选方向要落实，或新事实推翻旧安排 | [行动与反馈](references/action-and-feedback.md) | 实际成果、修订后的判断与下一依赖 |
 | 保存、接续、方向变化或维护负担 | [接续与生长](references/continuity-and-growth.md) | 能继续的最少记录或更轻的使用方式 |

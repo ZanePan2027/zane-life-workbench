@@ -40,6 +40,19 @@
 
 产出：有依据的暂定认识、待确认问题和现实尝试。
 
+## [心理支持与治疗辅助](../skills/zane-psychological-support/SKILL.md)
+
+`zane-psychological-support`
+
+适用：情绪困扰、反复自责、难控习惯、关系中的痛苦，或准备和复盘专业咨询。
+
+```text
+请使用 zane-psychological-support，先听我说说最近的难受。
+我想理解的时候再一起探索，不用每次都安排练习。
+```
+
+产出：具体的陪伴、可纠正的理解、符合实际条件的小尝试，或咨询准备材料。按需讨论哲学与生活意义；不作诊断、不承诺治愈，不默认建立心理档案。
+
 ## [AI伙伴设定](../skills/zane-agent-identity-card-builder/SKILL.md)
 
 `zane-agent-identity-card-builder`

@@ -82,7 +82,10 @@ For a one-off question, edit, or conversation, you can start directly without se
 | Can work, family time, and study fit into this week? | A weekly plan, conflicts, and arrangements to change or discuss |
 | I want to move. Where do I start? | Preparation and next steps based on your conditions |
 | I keep returning to the same choices. What matters to me? | Tentative insights grounded in experience, with practical things to try |
+| I feel upset. Please listen before offering advice. | Specific listening and shared understanding; exploration or a small change when wanted |
 | The conditions changed. How do I continue? | Revised judgments, work, and a saved stopping point |
+
+Psychological support can start without workspace setup or questionnaires. It supports conversation, self-understanding, and preparation for professional care; it does not diagnose or replace treatment. Sensitive notes require explicit authorization. Platform chat retention depends on the service and its settings.
 
 ## Save and continue
 
@@ -96,11 +99,11 @@ In ordinary chat, save a continuation note and paste it back with the relevant m
 
 ## Use a specific method
 
-Continue using `zane-workbench` for everyday tasks. Once familiar, you can directly select question clarification, self-reflection, AI partner setup, or workspace organization. The [Skill directory](docs/skill-inventory.en.md) includes situations, example requests, and outputs.
+Continue using `zane-workbench` for everyday tasks. Once familiar, you can directly select question clarification, self-reflection, psychological support, AI partner setup, or workspace organization. The [Skill directory](docs/skill-inventory.en.md) includes situations, example requests, and outputs.
 
 ## Version and feedback
 
-Current release: **1.0**, revised **2026-09-17**. [Changes](CHANGELOG.md) · [Version checks](docs/testing.md).
+Current release: **1.0**, revised **2026-09-18**. [Changes](CHANGELOG.md) · [Version checks](docs/testing.md).
 
 Share your experience through Issues, with personal and company details removed.
 

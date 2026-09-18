@@ -40,6 +40,19 @@ Use zane-self-insight. Use these experiences to explore what matters to me when 
 
 Output: Grounded, tentative insights, open questions, and practical experiments.
 
+## [Psychological support and therapy assistance](../skills/zane-psychological-support/SKILL.md)
+
+`zane-psychological-support`
+
+Use when: Seeking emotional support, understanding self-criticism or difficult habits, discussing relationship distress, or preparing for professional care.
+
+```text
+Use zane-psychological-support. Listen to what has been difficult lately.
+Explore it with me when I want to, without assigning an exercise every time.
+```
+
+Output: Specific companionship, a revisable understanding, a feasible small experiment, or consultation preparation. Philosophy and meaning are discussed when relevant. This does not diagnose, promise a cure, or create psychological records by default.
+
 ## [AI partner setup](../skills/zane-agent-identity-card-builder/SKILL.md)
 
 `zane-agent-identity-card-builder`

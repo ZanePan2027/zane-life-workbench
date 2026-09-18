@@ -11,6 +11,12 @@ The collection began with question clarification, AI partner design, and self-re
 - [swarm-discussion-skill](https://github.com/Ischca/swarm-discussion-skill/tree/632ec7ea0ae3a7d57e464e9f803a1737fe290e25)：有依据的异议与重审条件。Reasoned disagreement and conditions for revisiting a judgment.
 - [Personal-Jarvis](https://github.com/toilacube/Personal-Jarvis/tree/64fcc4b3cd82ad3d7299f11292c38e4bc3d6e94e)：直觉、考量与复查的区分。Separating intuition, deliberation, and review.
 
+## 心理支持的依据 / Psychological support sources
+
+心理支持方法由本项目独立撰写。专业指南、心理学教材与研究、哲学原典与学术解释用于不同判断；具体阅读范围、设计用途和 AI 适配的限制见[来源与证据](../skills/zane-psychological-support/references/evidence.md)。未复制外部提示词、量表或受版权保护的练习表。专业疗法的证据不直接证明本工具的疗效。
+
+The psychological support method is independently written. Its source ledger distinguishes professional guidelines, psychological research, philosophical interpretation, and this tool's unvalidated adaptations. External prompts, questionnaires, and copyrighted worksheets are not reproduced.
+
 ## 许可 / License
 
 本仓库采用 [MIT License](../LICENSE)。上述参考项目与其材料依各自许可使用。
