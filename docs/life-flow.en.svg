@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">One workspace. Start with one task.</title>
-<desc id="desc">Connect a workspace, read relevant material, work on a task, and save progress. Continue in the same project; take in new material during a task.</desc>
+<title id="title">Start with one concern. Continue as life changes.</title>
+<desc id="desc">Begin with a current concern, read necessary context, create a useful result, and save when needed. Revise with feedback.</desc>
 <defs>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
 .brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
@@ -19,17 +19,17 @@
 <g class="stage">
 <rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
 <text x="92" y="245" class="index" >01</text>
-<text x="92" y="298" class="label" >Your workspace</text>
-<text x="92" y="350" class="body" >Use your project folder</text>
-<text x="92" y="377" class="body" >Or create a new one</text>
+<text x="92" y="298" class="label" >Your concern</text>
+<text x="92" y="350" class="body" >Start even without files</text>
+<text x="92" y="377" class="body" >Get one workable step</text>
 </g>
 <g class="strong">
 <rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
 <text x="364" y="245" class="index" >02</text>
-<text x="364" y="284" class="label" >Read relevant</text>
-<text x="364" y="314" class="label" >material</text>
-<text x="364" y="350" class="body" >Organize source links</text>
-<text x="364" y="377" class="body" >Read the needed content</text>
+<text x="364" y="284" class="label" >Understand your</text>
+<text x="364" y="314" class="label" >situation</text>
+<text x="364" y="350" class="body" >Use goals and context</text>
+<text x="364" y="377" class="body" >Check facts that matter</text>
 </g>
 <g class="stage">
 <rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
@@ -44,7 +44,7 @@
 <text x="908" y="245" class="index" >04</text>
 <text x="908" y="284" class="label" >Save and</text>
 <text x="908" y="314" class="label" >continue</text>
-<text x="908" y="350" class="body" >Save work and progress</text>
+<text x="908" y="350" class="body" >Save when you need it</text>
 <text x="908" y="377" class="body" >Revise after feedback</text>
 </g>
 <rect x="506" y="451" width="460" height="30" rx="10" fill="#f8fafc"/>
@@ -59,6 +59,6 @@
 <text x="72" y="57" class="brand" >ZANE · LIVE YOUR LIFE WELL</text>
 <rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
 <text x="959" y="57" class="entry" text-anchor="middle">zane-workbench</text>
-<text x="72" y="121" class="title" >One workspace. Start with one task.</text>
-<text x="72" y="164" class="subtitle" >Connect a folder, add relevant material, and keep using the same project.</text>
+<text x="72" y="121" class="title" >Start with one concern. Continue as life changes.</text>
+<text x="72" y="164" class="subtitle" >Use your goals and conditions. Get help and adjust with feedback.</text>
 </svg>

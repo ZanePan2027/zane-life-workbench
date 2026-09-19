@@ -6,14 +6,14 @@ For the complete Skill, follow the [installation guide](install.en.md) in a tool
 
 ## A simplified starting prompt
 
-Send this with your material:
+Describe your current concern, adding material if you have it. Or start with:
 
 ```text
-I am comparing two jobs: one pays more but has a long commute;
-the other leaves more time for family. Use my finances, family arrangements,
-and priorities to compare workable options.
-Start with a useful judgment or result. Ask for missing information when it affects the choice.
-Revise the relevant conclusions and materials when I provide new facts or corrections.
+Work and caring for family fill my week. I want one evening for myself.
+Help me find one workable step without asking for a full life profile.
+Use what matters to me, my current conditions, and resources I can actually use.
+Give a usable judgment or draft, asking only for facts that change the next step.
+Revise the plan when new information arrives.
 ```
 
 Continue by asking for a draft, another option, or an explanation of the judgment.

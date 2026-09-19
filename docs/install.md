@@ -41,7 +41,7 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 ## 开始使用
 
-告诉 Agent：
+直接说“使用 zane-workbench，帮我处理……”，从当前问题开始。需要保存接续时，告诉 Agent：
 
 ```text
 请使用 zane-workbench，把当前项目文件夹设为我的人生工作台。

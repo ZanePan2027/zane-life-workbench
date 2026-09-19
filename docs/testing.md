@@ -31,9 +31,23 @@ Psychological support was evaluated through internal synthetic conversations. Mo
 
 本次针对表达负担与条件排名，再完成两组独立会话，各包含三个合成任务及一次后续反馈。首组暴露多余现金测算和无足够依据的半年阶段排序；修订后的组别保留补偿、保障和他方同意等关键条件，不把员工或顾问身份直接排优劣。新增条款改变后，推荐从远程留任改为有限顾问，并用三句话解释；简单翻译直接完成。初答、追加信息和修订答复分别保存。
 
-最终版本116项工程测试通过，实际交付包与源码一致。复杂四方案回答仍有进一步压缩空间；模型有时会加入解释为何不排概率的句子。此次观察支持条件比较和反馈修订，尚未验证长期预测准确率或真实生活改善。
+该轮版本116项工程测试通过，实际交付包与源码一致。复杂四方案回答仍有进一步压缩空间；模型有时会加入解释为何不排概率的句子。此次观察支持条件比较和反馈修订，尚未验证长期预测准确率或真实生活改善。
 
 Foresight and decision clarity received synthetic scenario and feedback checks. The final focused run changed its recommendation when contract terms changed and kept material conditions visible. All 116 engineering tests passed. Complex comparisons can still be shorter; real-world forecast calibration and long-term outcomes remain untested.
+
+## 完整流程与生活目标复核
+
+本轮以有限理性、系统反馈和能力方法三个视角审视原设想。核心架构保留；修复部分完成和未达成结果缺少反馈仍可写入的问题，统一首次先帮助、按需保存的入口，并把当期现实信息核查接入普通选择。新增三项回归先失败后通过，当前共119项工程测试通过。
+
+原版和候选版分别使用虚构城市的本机HTTP资料站执行完整照护任务：实际读取现行与旧版页面，识别不适用的补贴，找到用户原选项之外的自费服务，计算预算并制作可直接使用的咨询文案。两版都能完成这些步骤，因此不将已有能力记作本轮新增。目录开放时间没有被写成具体排班或预约，未执行外发和付费。
+
+两版初答后都收到机构拒绝、母亲意愿改变和妹妹同意接手的新反馈，均撤下原推荐、修改同一成果与事项，保留“尚未真正休息”，没有把一次安排变成每周任务。
+
+两个独立接续分别仅读取原版和候选版保存的工作区，都恢复了最新安排与当前一步，没有重推已撤下方案。另三个场景覆盖无资料、无人生目标的纯聊天起步，以稳定工作、陶艺和伴侣为目标的不同使用者，以及直接翻译；未强制建目录、创业或增加休息打卡。中英文示意图均实际渲染检查。
+
+这些是同系列模型执行的内部合成任务，每条路径仅一次。真实用户维护负担、其他宿主和长期人生效果仍需实际使用反馈；此次没有测量预测准确率。
+
+The full-workflow review retained the architecture and fixed outcome validation. All 119 engineering tests passed. Both the original and candidate used a local synthetic HTTP fixture to check current conditions, find an alternative and produce usable consultation text. Separate checks covered continuation, help without setup, differing life goals and direct translation. These internal single-run checks do not measure long-term outcomes or forecast accuracy.
 
 ## 反馈问题
 

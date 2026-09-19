@@ -1,3 +1,10 @@
+# 1.0.0 · 2026-09-19 完整流程复核 / Full-workflow review
+
+- 首次使用先帮助眼前问题；需要保存或长期使用时再连接工作台。
+- 普通现实选择也核查会改变决定的当期信息与可得选项，并直接制作可用成果。
+- 修复事项结果校验：没有反馈时保留未知，不能记成部分完成或未达成。
+- Help with the current concern before optional workspace setup; check material current facts and available alternatives. Require feedback for every observed outcome, including partial and unmet results. Product and components remain 1.0 / 1.0.0.
+
 # 1.0.0 · 2026-09-19 未来推演与清晰决策 / Foresight and clear decisions
 
 - 从使用者自己的目标倒推，结合现实变化推演主要方向，完成提前准备并随反馈改判。

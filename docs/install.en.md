@@ -39,7 +39,7 @@ If these clients are absent from the installer's list, use the method above. The
 
 ## Start using it
 
-Open the folder you want to keep using in your Agent and ask `zane-workbench` to connect or create your life workspace there. Existing rules and material are reused; an empty folder also works. If no location is chosen, the Agent helps you choose one once. Add relevant files without sorting them first, then start your current task. One-off questions do not require setup. Follow the [walkthrough](guide.en.md).
+Start by asking `zane-workbench` to help with your current concern. When you want to save and continue, open the folder you want to keep using and ask the Agent to connect or create your life workspace there. Existing rules and material are reused; an empty folder also works. If no location is chosen, the Agent helps you choose one once. Add relevant files without sorting them first, then start your current task. One-off questions do not require setup. Follow the [walkthrough](guide.en.md).
 
 ## Update and save work
 

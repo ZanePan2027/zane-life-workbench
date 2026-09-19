@@ -15,7 +15,9 @@ An AI life workbench that starts with what is happening now. Understand your sit
 
 ![From a current question to continued progress](docs/life-flow.en.svg)
 
-**Start with `zane-workbench`: connect or create your workspace, then work on one real task.** Add the relevant material you have. The Agent organizes access, reads what the task needs, and helps you use it. You can also begin without files.
+**Start with one current concern, even without files or a clear long-term goal.** After installation, use `zane-workbench` directly. Connect or create a workspace when you want to save and continue; an existing project is reused.
+
+For example: “Work and caring for family fill my week. Help me free one evening, starting with a workable step.” In an ordinary chat, try the [simplified starting prompt](docs/chat-start.en.md).
 
 <a id="install"></a>
 
@@ -38,7 +40,7 @@ Then use zane-workbench to help me with this: ...
 
 The command works with Agents listed in the installer, including Codex and Claude Code, and requires Node.js and `npx`. For Doubao or WorkBuddy, use the Agent request above and follow the [host-specific instructions](docs/install.en.md).
 
-### 2. Connect or create your workspace
+### 2. Connect a workspace when you want to save
 
 Open a project folder you want to keep using in your Agent, then say:
 

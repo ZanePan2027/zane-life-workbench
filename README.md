@@ -15,7 +15,9 @@
 
 ![从当前问题到持续进展](docs/life-flow.zh-CN.svg)
 
-**第一次使用 `zane-workbench`，先连接或创建自己的工作台，再从一件事开始。** 把手头相关资料放进去即可，Agent 会整理入口、读取相关内容并帮你处理问题。没有资料也能开始。
+**从眼前一件事开始，没有资料和明确的长期目标也可以。** 已安装后，直接使用 `zane-workbench`；需要保存接续时，再连接或创建自己的工作台。已有项目直接沿用。
+
+例如：“我最近被工作和照顾家人挤满了，只想先腾出一个晚上。请先帮我理出能做的一步。”普通聊天可先用[简化起步提示](docs/chat-start.md)。
 
 <a id="安装"></a>
 
@@ -38,7 +40,7 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 命令安装适用于 Codex、Claude Code 等安装器已列出的 Agent，需要 Node.js 和 `npx`。豆包、WorkBuddy 请使用上面的 Agent 安装请求，具体步骤见[安装说明](docs/install.md)。
 
-### 2. 连接或创建工作台
+### 2. 需要保存时，连接或创建工作台
 
 在 Agent 中打开一个准备长期使用的项目文件夹，然后说：
 

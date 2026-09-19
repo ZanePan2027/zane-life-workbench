@@ -1,8 +1,16 @@
-# Set up a workspace, then compare two jobs
+# Start with one concern; save when you want to continue
 
-After installation, use `zane-workbench` to connect a workspace and start with one task. [Installation](install.en.md) · [Skill directory](skill-inventory.en.md) · [简体中文](guide.md)
+After installation, use `zane-workbench` with your current concern. You can get help before you have files, a full life goal, or a workspace. [Installation](install.en.md) · [Skill directory](skill-inventory.en.md) · [简体中文](guide.md)
 
-## Connect a folder
+## Begin with something that matters to you
+
+For example: “I want to spend a little time with my dad, without a tracking routine. Tuesday evenings are free, and he enjoys old films.” A usable opening could be: “Would you like to watch an old film together on Tuesday? We can talk or stop whenever you feel like it.” No full profile is needed.
+
+If he later prefers the weekend, revise the arrangement around both people's wishes. A plan is separate from actually meeting and enjoying it; no update does not mean failure.
+
+The job comparison below shows how to save a task you want to continue.
+
+## Connect a folder when you want to save
 
 Open the project folder you want to keep using in your Agent and say:
 

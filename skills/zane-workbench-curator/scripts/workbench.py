@@ -129,8 +129,8 @@ def validate(event, root):
         raise ValueError('Feedback phase requires feedback evidence')
     if event['status'] == 'waiting' and (event['phase'] not in {'acted', 'feedback'} or 'action' not in kinds):
         raise ValueError('Waiting requires an actual action')
-    if event['outcome'] == 'met' and (event['phase'] != 'feedback' or 'feedback' not in kinds):
-        raise ValueError('A met goal requires observed feedback')
+    if event['outcome'] != 'unknown' and (event['phase'] != 'feedback' or 'feedback' not in kinds):
+        raise ValueError('An observed goal outcome requires feedback; missing results remain unknown')
     if event['status'] in TERMINAL and (event['next_action'] or event['review_on'] is not None):
         raise ValueError('Terminal cases must not retain pending actions or review dates')
     return event

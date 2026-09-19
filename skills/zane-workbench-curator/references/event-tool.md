@@ -54,7 +54,7 @@ python3 scripts/workbench.py check --root <工作台>
 | 阶段推进到feedback | 本次新增feedback证据；correction不能替代这一类型 |
 | 纠正原先误记的阶段、退回较早阶段 | 本次新增correction证据，说明为何撤回；没有真实新进展可保留原阶段 |
 | 设为waiting | 已有action证据且阶段为acted或feedback；草稿就绪不构成等待对方回复 |
-| 目标设为met | 有观察到的feedback证据且阶段为feedback；生成材料不代表现实目标实现 |
+| 目标设为met、partial或not_met | 有观察到的feedback证据且阶段为feedback；生成材料不代表现实目标实现，到期未获消息仍为unknown |
 | completed或stopped | 清空next_action和review_on；后续新行动另建关联事项，不直接重开 |
 
 例如只更正未实施方案的报价，当前仍为ready，可按下列形态更新；旧证据必须从实际事项复制，来源必须已落盘，示意内容不能直接冒充事实：

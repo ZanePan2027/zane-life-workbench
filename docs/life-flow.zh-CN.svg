@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">先有一个工作台，再从一件事开始</title>
-<desc id="desc">首次连接工作台，接入并读取相关材料，处理当前问题，保存成果与反馈；同一项目直接继续，新资料在任务中收录。</desc>
+<title id="title">从眼前一件事开始，随生活继续</title>
+<desc id="desc">从当前问题获得帮助，读取必要背景和现实资料，完成可用结果；需要接续时保存，并按反馈调整。</desc>
 <defs>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
 .brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
@@ -19,16 +19,16 @@
 <g class="stage">
 <rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
 <text x="92" y="245" class="index" >01</text>
-<text x="92" y="298" class="label" >连接工作台</text>
-<text x="92" y="350" class="body" >沿用已有项目文件夹</text>
-<text x="92" y="377" class="body" >没有位置时引导创建</text>
+<text x="92" y="298" class="label" >说出眼前问题</text>
+<text x="92" y="350" class="body" >没有资料也能开始</text>
+<text x="92" y="377" class="body" >先帮你找到可行一步</text>
 </g>
 <g class="strong">
 <rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
 <text x="364" y="245" class="index" >02</text>
-<text x="364" y="298" class="label" >接入手头资料</text>
-<text x="364" y="350" class="body" >整理入口与来源引用</text>
-<text x="364" y="377" class="body" >读取本次相关正文</text>
+<text x="364" y="298" class="label" >了解必要处境</text>
+<text x="364" y="350" class="body" >结合你的目标与条件</text>
+<text x="364" y="377" class="body" >核查影响选择的事实</text>
 </g>
 <g class="stage">
 <rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
@@ -41,7 +41,7 @@
 <rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
 <text x="908" y="245" class="index" >04</text>
 <text x="908" y="298" class="label" >保存并继续</text>
-<text x="908" y="350" class="body" >保存相关成果与进展</text>
+<text x="908" y="350" class="body" >需要接续时再保存</text>
 <text x="908" y="377" class="body" >带回反馈，更新原记录</text>
 </g>
 <rect x="596" y="451" width="280" height="30" rx="10" fill="#f8fafc"/>
@@ -56,6 +56,6 @@
 <text x="72" y="57" class="brand" >ZANE · 过好你的人生</text>
 <rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
 <text x="959" y="57" class="entry" text-anchor="middle">zane-workbench</text>
-<text x="72" y="121" class="title" >先有一个工作台，再从一件事开始</text>
-<text x="72" y="164" class="subtitle" >连接文件夹，带上相关材料，在同一项目里持续使用</text>
+<text x="72" y="121" class="title" >从眼前一件事开始，随生活继续</text>
+<text x="72" y="164" class="subtitle" >结合自己的目标与现实条件，得到帮助，再按反馈调整</text>
 </svg>

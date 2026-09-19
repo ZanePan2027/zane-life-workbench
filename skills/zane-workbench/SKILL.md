@@ -13,7 +13,7 @@ metadata:
 任务分流、依据、成果与接续统一使用[共同任务协议](../zane-workbench-curator/references/task-protocol.md)。文件工作台使用[来源接口](../zane-workbench-curator/references/source-contract.md)，个人适配与通用模板共用整理器的分段取源工具。
 ## 首次使用与已有工作台
 
-首次入门、用户要求建立工作台或明确长期使用时，先由[整理器](../zane-workbench-curator/SKILL.md)按[启动与适配](../zane-workbench-curator/references/start-and-adapt.md)连接或创建工作台，再围绕当前问题工作。当前项目已有入口就沿用，不重做引导；没有明确位置才问一次保存位置。简单解释、局部制作、倾诉和明确只想试用时直接帮助，不以建台为前提。
+第一次使用也先围绕眼前问题提供帮助；不要求用户先有资料、清楚的长期目标或文件夹。用户要求建立工作台、保存接续或明确长期使用时，由[整理器](../zane-workbench-curator/SKILL.md)按[启动与适配](../zane-workbench-curator/references/start-and-adapt.md)连接或创建够用的入口，同轮继续当前任务。已有入口直接沿用；只缺保存位置时问一次，同时完成不依赖保存的帮助。简单解释、局部制作、倾诉和试用直接完成。
 
 用户把手头相关资料放入工作台，或指定已有资料范围即可，不必自行分类；整理器保留原件、建立导航与来源引用，实际读取本次所需内容。没有资料也能从对话开始；不等待全库整理完成，不要求先填完整人生档案。建台请求包含最小入口及本次必要来源、成果与进展的保存；不扩展为无关资料搬迁。
 
