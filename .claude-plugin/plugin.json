@@ -1,0 +1,11 @@
+{
+  "name": "zane-life",
+  "version": "1.0.0",
+  "description": "A life adviser for direction, people, foresight, action, and lasting context.",
+  "author": {
+    "name": "Zane"
+  },
+  "homepage": "https://github.com/ZanePan2027/zane-life-workbench",
+  "repository": "https://github.com/ZanePan2027/zane-life-workbench",
+  "license": "MIT"
+}

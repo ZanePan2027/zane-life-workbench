@@ -1,3 +1,13 @@
+# 2026-09-19 · 长期人生参谋与完整工作台
+
+- 从本人目标贯通阶段、人事资源、未来路线、时间空间、行动与反馈。
+- 完整建台与重构支持方向、个人底图、局势、路线、事项、资料和协作；新信息持续更新当前认识。
+- 事项可直接连接可用草稿和成果，新会话从实际暂停点继续。
+- 重写中英文首页、多轮教程、目录与两张流程图；新增Claude Code插件安装。
+- 使用“更新过好你的人生工作台”继续更新方法。
+
+Life direction, circumstances, people, future routes, practical action, and learning now form one workflow. Complete workspace templates, output links, bilingual guides, diagrams, and Claude Code plugin installation are included.
+
 # 1.0.0 · 2026-09-19 完整流程复核 / Full-workflow review
 
 - 首次使用先帮助眼前问题；需要保存或长期使用时再连接工作台。

@@ -39,6 +39,17 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 若安装器的列表没有这两个名字，直接采用上述方式。安装后的入口应为 `<技能目录>/zane-workbench/SKILL.md`，不要在技能目录中再套一层仓库文件夹。新建对话后说“使用 zane-workbench，帮我……”，开始第一件事。
 
+## Claude Code 插件安装
+
+在Claude Code中执行：
+
+```bash
+claude plugin marketplace add ZanePan2027/zane-life-workbench
+claude plugin install zane-life@zane-life-workbench
+```
+
+安装后使用 `/zane-life:zane-workbench` 开始任务。
+
 ## 开始使用
 
 直接说“使用 zane-workbench，帮我处理……”，从当前问题开始。需要保存接续时，告诉 Agent：
@@ -53,6 +64,8 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 以后打开同一个工作台项目，直接说“接着上次”。只有换了项目、原目录不可访问或位置有歧义时才重新定位。临时任务可以直接问；完整步骤见[使用教程](guide.md)。
 
 ## 更新
+
+可以直接说：“更新过好你的人生工作台。”Agent会按当前安装方式更新。使用插件时在Claude Code插件管理中更新zane-life。
 
 先保留自己修改过的 Skill 文件，再执行同一条快速安装指令，按安装界面更新。产品目前保持1.0，文件内容仍会继续修订；不要仅凭版本号相同跳过更新，以仓库修订日期和提交识别内容。
 

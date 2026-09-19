@@ -1,61 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">从眼前一件事开始，随生活继续</title>
-<desc id="desc">从当前问题获得帮助，读取必要背景和现实资料，完成可用结果；需要接续时保存，并按反馈调整。</desc>
-<defs>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
-.brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
-.title{font-size:38px;font-weight:700;fill:#0f172a}.subtitle{font-size:21px;fill:#64748b}
-.index{font-size:15px;font-weight:600;fill:#94a3b8}.label{font-size:23px;font-weight:700;fill:#0f172a}.body{font-size:18px;fill:#526176}
-.strong .index{fill:#bfdbfe}.strong .label{fill:#fff}.strong .body{fill:#dbeafe}
-.loop{font-size:18px;font-weight:600;fill:#2563eb}.section{font-size:17px;fill:#64748b}.bottom-label{font-size:22px;font-weight:700;fill:#183153}.bottom-body{font-size:18px;fill:#526176}
-</style>
-<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 8 4 0 8Z" fill="#2563eb"/></marker>
-</defs>
-<rect width="1200" height="720" rx="20" fill="#f8fafc"/>
-<path d="M316 310H339" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M588 310H611" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M860 310H883" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M1008 408V448Q1008 466 990 466H482Q464 466 464 448V414" fill="none" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrow)"/>
-<g class="stage">
-<rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
-<text x="92" y="245" class="index" >01</text>
-<text x="92" y="298" class="label" >说出眼前问题</text>
-<text x="92" y="350" class="body" >没有资料也能开始</text>
-<text x="92" y="377" class="body" >先帮你找到可行一步</text>
-</g>
-<g class="strong">
-<rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
-<text x="364" y="245" class="index" >02</text>
-<text x="364" y="298" class="label" >了解必要处境</text>
-<text x="364" y="350" class="body" >结合你的目标与条件</text>
-<text x="364" y="377" class="body" >核查影响选择的事实</text>
-</g>
-<g class="stage">
-<rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
-<text x="636" y="245" class="index" >03</text>
-<text x="636" y="298" class="label" >处理当前问题</text>
-<text x="636" y="350" class="body" >结合事实与本人取舍</text>
-<text x="636" y="377" class="body" >完成判断、安排或成果</text>
-</g>
-<g class="stage">
-<rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
-<text x="908" y="245" class="index" >04</text>
-<text x="908" y="298" class="label" >保存并继续</text>
-<text x="908" y="350" class="body" >需要接续时再保存</text>
-<text x="908" y="377" class="body" >带回反馈，更新原记录</text>
-</g>
-<rect x="596" y="451" width="280" height="30" rx="10" fill="#f8fafc"/>
-<text x="736" y="473" class="loop" text-anchor="middle">材料变化，重新判断</text>
-<text x="72" y="520" class="section" >以后这样使用</text>
-<rect x="72" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
-<text x="96" y="584" class="bottom-label" >在同一个项目继续</text>
-<text x="96" y="621" class="bottom-body" >直接说“接着上次”，读取当前记录</text>
-<rect x="616" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
-<text x="640" y="584" class="bottom-label" >随时加入新资料</text>
-<text x="640" y="621" class="bottom-body" >告诉 Agent 收录，或直接提出相关问题</text>
-<text x="72" y="57" class="brand" >ZANE · 过好你的人生</text>
-<rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
-<text x="959" y="57" class="entry" text-anchor="middle">zane-workbench</text>
-<text x="72" y="121" class="title" >从眼前一件事开始，随生活继续</text>
-<text x="72" y="164" class="subtitle" >结合自己的目标与现实条件，得到帮助，再按反馈调整</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">懂你的方向，也帮你走好眼前这一步</title><desc id="desc">以终为始，看清局势，把计策变成生活中的进展</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#3970ba" stroke-width="1.7"/></marker></defs>
+<rect width="1200" height="760" rx="24" fill="#f4f7fc"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Arial,sans-serif">
+<text x="56" y="67" font-size="32" font-weight="700" fill="#172b4d">懂你的方向，也帮你走好眼前这一步</text>
+<text x="56" y="109" font-size="18" fill="#52647e">以终为始，看清局势，把计策变成生活中的进展</text>
+<rect x="56" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="80" y="205" font-size="15" font-weight="700" fill="#3970ba">01</text>
+<text x="80" y="246" font-size="24" font-weight="650" fill="#172b4d">想过怎样的生活</text>
+<text x="80" y="284" font-size="17" fill="#52647e">本人目标、取舍和在意的事</text>
+<text x="80" y="312" font-size="17" fill="#52647e">判断眼前事情值不值得投入</text>
+<rect x="436" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="460" y="205" font-size="15" font-weight="700" fill="#3970ba">02</text>
+<text x="460" y="246" font-size="24" font-weight="650" fill="#172b4d">现在处于什么阶段</text>
+<text x="460" y="284" font-size="17" fill="#52647e">找到关键障碍与正在出现的机会</text>
+<text x="460" y="312" font-size="17" fill="#52647e">明确这一步在整个人生里的作用</text>
+<rect x="816" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="840" y="205" font-size="15" font-weight="700" fill="#3970ba">03</text>
+<text x="840" y="246" font-size="24" font-weight="650" fill="#172b4d">看清人和局势</text>
+<text x="840" y="284" font-size="17" fill="#52647e">利益、情绪、行为、资源与环境</text>
+<text x="840" y="312" font-size="17" fill="#52647e">推演不同选择可能引出的变化</text>
+<rect x="56" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="80" y="459" font-size="15" font-weight="700" fill="#3970ba">06</text>
+<text x="80" y="500" font-size="24" font-weight="650" fill="#172b4d">随经历修正认识</text>
+<text x="80" y="538" font-size="17" fill="#52647e">带回实际发生的事和自己的感受</text>
+<text x="80" y="566" font-size="17" fill="#52647e">更新对本人、他人和路线的理解</text>
+<rect x="436" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="460" y="459" font-size="15" font-weight="700" fill="#3970ba">05</text>
+<text x="460" y="500" font-size="24" font-weight="650" fill="#172b4d">把事情做出来</text>
+<text x="460" y="538" font-size="17" fill="#52647e">完成草稿、比较、测算和安排</text>
+<text x="460" y="566" font-size="17" fill="#52647e">推进实际行动，保存真实进展</text>
+<rect x="816" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="840" y="459" font-size="15" font-weight="700" fill="#3970ba">04</text>
+<text x="840" y="500" font-size="24" font-weight="650" fill="#172b4d">选路并安排时空</text>
+<text x="840" y="538" font-size="17" fill="#52647e">主路、备路、时机和转向信号</text>
+<text x="840" y="566" font-size="17" fill="#52647e">投入多久、在哪里做、等谁回应</text>
+<path d="M388 258H426" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M768 258H806" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M980 352V411" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M810 512H773" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M430 512H393" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M40 512H24V258H45" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<text x="56" y="682" font-size="18" fill="#334a68">你的目标决定方向；真实行动和反馈，让下一次判断更懂你。</text>
+</g></svg>

@@ -1,44 +1,24 @@
-# 更多起步示例
+# 可以直接这样问
 
-## 第一次建立工作台
+[首页](../README.md) · [完整教程](guide.md)
 
-```text
-请使用 zane-workbench，把当前文件夹设为我的人生工作台。
-先沿用已有规则与资料，建立可查找的入口，再帮我处理眼前这件事：……
-```
+| 想推进什么 | 可复制的请求 |
+|---|---|
+| 整体取舍 | 使用zane-workbench，把这几个选择放回我想过的生活，推荐当前最适合的一条路。 |
+| 人际与合作 | 对方说愿意支持，实际每次都让我先投入。结合这些互动，看看他可能怎样想，我怎样回应更合适。 |
+| 提前布局 | 结合目前变化，推演未来三种主要走向，告诉我现在准备什么，何时看什么信号。 |
+| 时间与空间 | 我希望留在本地，同时保留收入和两个完整晚上。请比较可行安排并做一份沟通稿。 |
+| 获得支持 | 先听我说说这件事，帮我理解难受的地方。 |
+| 更新认识 | 我最近对成功的想法变了，请更新原来的理解，再看正在投入的几件事。 |
+| 完成成果 | 把刚才的方案整理成我明天能直接使用的材料。 |
+| 接着上次 | 上次那段话已经发了，对方还没回复，帮我更新进度并看看现在做什么。 |
+| 重构工作台 | 结合我的目标和已有资料，重构目录、信息沉淀、路线与协作，让下次能够直接接着做。 |
 
-## 加入新资料
+## English examples
 
-```text
-我把新的条件说明放进了工作台，请读一下，更新资料入口，并检查是否影响上次的比较。
-```
-
-## 协调一周的安排
-
-```text
-请使用 zane-workbench。这是本周的工作截止时间、家庭安排和我想保留的休息时间。
-请把它们排在一起，找出需要调整或协商的地方，并给我一个可执行的版本。
-```
-
-## 完成一个个人项目
-
-```text
-请使用 zane-workbench。我准备搬家，这是候选地点、预算和时间。
-请比较选择，再把选定方案展开成下一步的安排。
-```
-
-## 理解自己的选择
-
-```text
-请使用 zane-self-insight。我想聊聊这几次决定：……
-结合这些具体经历，看看我当时追求什么、顾虑什么，以及接下来可以尝试什么。
-```
-
-## 接着上次继续
-
-```text
-请使用 zane-workbench，接着这个工作台里上次处理的事，读取当前记录与成果。
-上次之后发生了这个变化：…… 请调整相关判断，接着完成下一步。
-```
-
-[返回首页](../README.md)
+- Use zane-workbench to compare these choices against the life I want.
+- They keep asking me to invest first. Use these interactions to assess likely motives and prepare a response.
+- Explore the main ways this could develop, what to prepare now, and when to change course.
+- I want to remain local and keep two evenings free. Compare practical arrangements and draft a message.
+- My priorities changed. Update the current plan and reconsider my commitments.
+- I sent the message but haven't received a reply. Resume from that point.

@@ -13,9 +13,9 @@ The collection began with question clarification, AI partner design, and self-re
 
 ## 心理支持的依据 / Psychological support sources
 
-心理支持方法由本项目独立撰写。专业指南、心理学教材与研究、哲学原典与学术解释用于不同判断；具体阅读范围、设计用途和 AI 适配的限制见[来源与证据](../skills/zane-psychological-support/references/evidence.md)。未复制外部提示词、量表或受版权保护的练习表。专业疗法的证据不直接证明本工具的疗效。
+心理支持方法由本项目独立撰写。专业指南、心理学教材与研究、哲学原典与学术解释用于不同判断；具体阅读范围与设计用途见[来源与证据](../skills/zane-psychological-support/references/evidence.md)。
 
-The psychological support method is independently written. Its source ledger distinguishes professional guidelines, psychological research, philosophical interpretation, and this tool's unvalidated adaptations. External prompts, questionnaires, and copyrighted worksheets are not reproduced.
+The psychological support method is independently written. Its source ledger distinguishes professional guidelines, psychological research, philosophical interpretation, and the practical adaptations used in the workbench.
 
 ## 未来推演的方法 / Foresight methods
 
@@ -28,3 +28,11 @@ Foresight combines scenario planning, systems thinking, evidence updates, and de
 本仓库采用 [MIT License](../LICENSE)。上述参考项目与其材料依各自许可使用。
 
 This repository uses the [MIT License](../LICENSE). Referenced projects and materials remain subject to their respective licenses.
+
+## 战略与人的行为 / Strategy and human behavior
+
+孙子与克劳塞维茨帮助思考目的、条件、时机和现实摩擦；马基雅维利与组织治理帮助理解表态、权力、依赖及利益变化；西蒙的有限理性、戈夫曼的互动视角、动机性推理和重复博弈帮助解释省事、面子、情绪、承诺与合作。奥斯特罗姆的研究提示合作也能在适当条件下持续。
+
+Sun Tzu and Clausewitz inform purpose, timing, conditions, and friction. Political and organizational analysis informs incentives and dependence. Bounded rationality, social interaction, motivated reasoning, repeated games, and Ostrom's work inform behavior and sustained cooperation.
+
+Sources and reading scope: [方法依据](../skills/zane-workbench/references/foresight-methods.md).

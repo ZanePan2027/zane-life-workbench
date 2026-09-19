@@ -14,7 +14,7 @@ Use when: Understanding a situation, comparing choices, planning, or completing 
 Use zane-workbench. Compare both jobs against my budget and weekly schedule.
 ```
 
-Output: Tradeoffs, useful work, and next steps.
+Output: A route grounded in your goals, possible developments, timing and practical setting, useful outputs, and next steps.
 
 Use the same entry for future directions: “Given my goals and recent changes, show plausible paths, what to prepare now, and when to reconsider.” See [foresight and preparation](../skills/zane-workbench/references/future-and-options.md).
 
@@ -53,7 +53,7 @@ Use zane-psychological-support. Listen to what has been difficult lately.
 Explore it with me when I want to, without assigning an exercise every time.
 ```
 
-Output: Specific companionship, a revisable understanding, a feasible small experiment, or consultation preparation. Philosophy and meaning are discussed when relevant. This does not diagnose, promise a cure, or create psychological records by default.
+Output: Specific companionship, a revisable understanding, a feasible small experiment, or consultation preparation. Philosophy and meaning are discussed when relevant.
 
 ## [AI partner setup](../skills/zane-agent-identity-card-builder/SKILL.md)
 
@@ -77,6 +77,6 @@ Use when: Setting up a workspace, organizing sources, saving work, or resuming.
 Use zane-workbench-curator. Set up a workspace in this folder, organize access and references to existing material, and continue the current task.
 ```
 
-Output: Relevant sources, current work, task state, and a continuation entry.
+Output: Connected direction, personal context, circumstances, routes, cases, and usable outputs, with a clear way to maintain and resume them.
 
 [Back to the overview](../README.en.md)

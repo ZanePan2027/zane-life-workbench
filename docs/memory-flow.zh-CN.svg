@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">每一次新经历，都能让下一次判断更贴近你</title><desc id="desc">你照常讲情况，AI负责归拢、连接和修正</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#3970ba" stroke-width="1.7"/></marker></defs>
+<rect width="1200" height="760" rx="24" fill="#f4f7fc"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Arial,sans-serif">
+<text x="56" y="67" font-size="32" font-weight="700" fill="#172b4d">每一次新经历，都能让下一次判断更贴近你</text>
+<text x="56" y="109" font-size="18" fill="#52647e">你照常讲情况，AI负责归拢、连接和修正</text>
+<rect x="56" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="80" y="205" font-size="15" font-weight="700" fill="#3970ba">01</text>
+<text x="80" y="246" font-size="24" font-weight="650" fill="#172b4d">进入一条新信息</text>
+<text x="80" y="284" font-size="17" fill="#52647e">对话、文件、经历或现实反馈</text>
+<text x="80" y="312" font-size="17" fill="#52647e">保留本人选择与实际发生的事</text>
+<rect x="436" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="460" y="205" font-size="15" font-weight="700" fill="#3970ba">02</text>
+<text x="460" y="246" font-size="24" font-weight="650" fill="#172b4d">留下原始出处</text>
+<text x="460" y="284" font-size="17" fill="#52647e">谁说的、何时发生、来自哪里</text>
+<text x="460" y="312" font-size="17" fill="#52647e">原件可回读，细节有来处</text>
+<rect x="816" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="840" y="205" font-size="15" font-weight="700" fill="#3970ba">03</text>
+<text x="840" y="246" font-size="24" font-weight="650" fill="#172b4d">连接当前认识</text>
+<text x="840" y="284" font-size="17" fill="#52647e">方向、经历、人物、资源与环境</text>
+<text x="840" y="312" font-size="17" fill="#52647e">找到这条信息影响的路线和事项</text>
+<rect x="56" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="80" y="459" font-size="15" font-weight="700" fill="#3970ba">06</text>
+<text x="80" y="500" font-size="24" font-weight="650" fill="#172b4d">下一次直接继续</text>
+<text x="80" y="538" font-size="17" fill="#52647e">从当前理解和成果恢复上下文</text>
+<text x="80" y="566" font-size="17" fill="#52647e">接着真实暂停点往下做</text>
+<rect x="436" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="460" y="459" font-size="15" font-weight="700" fill="#3970ba">05</text>
+<text x="460" y="500" font-size="24" font-weight="650" fill="#172b4d">保留有用的变化</text>
+<text x="460" y="538" font-size="17" fill="#52647e">当前方案、实际进展和可用材料</text>
+<text x="460" y="566" font-size="17" fill="#52647e">经验留待下一次选择使用</text>
+<rect x="816" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="840" y="459" font-size="15" font-weight="700" fill="#3970ba">04</text>
+<text x="840" y="500" font-size="24" font-weight="650" fill="#172b4d">修改判断与安排</text>
+<text x="840" y="538" font-size="17" fill="#52647e">新的行为改变对人的判断</text>
+<text x="840" y="566" font-size="17" fill="#52647e">新的目标改变阶段与投入</text>
+<path d="M388 258H426" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M768 258H806" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M980 352V411" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M810 512H773" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M430 512H393" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M40 512H24V258H45" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<text x="56" y="682" font-size="18" fill="#334a68">理解会积累，也会改变；旧认识保留来路，当前方案跟随真实生活。</text>
+</g></svg>

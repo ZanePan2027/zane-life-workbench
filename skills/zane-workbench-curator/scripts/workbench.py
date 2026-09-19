@@ -90,7 +90,7 @@ def identifier(value):
 
 
 def validate(event, root):
-    if not isinstance(event, dict) or set(event) != FIELDS:
+    if not isinstance(event, dict) or set(event)-{'artifacts'} != FIELDS:
         raise ValueError('Unexpected or missing case fields')
     identifier(event['id'])
     if type(event['revision']) is not int or event['revision'] < 1:
@@ -133,6 +133,10 @@ def validate(event, root):
         raise ValueError('An observed goal outcome requires feedback; missing results remain unknown')
     if event['status'] in TERMINAL and (event['next_action'] or event['review_on'] is not None):
         raise ValueError('Terminal cases must not retain pending actions or review dates')
+    if not isinstance(event.get('artifacts', []), list):raise ValueError('Invalid artifacts')
+    for item in event.get('artifacts', []):
+        if not isinstance(item, dict) or set(item) != {'label','path'} or not isinstance(item['label'],str) or not item['label'].strip():raise ValueError('Invalid artifact')
+        if not inside(root,item['path']).is_file():raise ValueError('Missing artifact')
     return event
 
 
@@ -150,15 +154,15 @@ def all_cases(root):
 def render(root):
     cases = all_cases(root)
     rows = ['# 现在做什么', '', '点击事项查看当前进展与下一步。', '',
-            '| 事项 | 领域 | 状态 | 证据阶段 | 核实提示 |', '|---|---|---|---|---|']
+            '| 事项 | 领域 | 状态 | 证据阶段 | 核实提示 | 成果 |', '|---|---|---|---|---|---|']
     for event in cases:
         if event['status'] in TERMINAL:
             continue
         due = event['review_on'] and event['review_on'] <= date.today().isoformat()
         # No titles, next actions, quotes or costs in the default overview.
         domain = event['domain'].replace('|', '／').replace('\n', ' ')
-        rows.append('| [{0}](事项/{0}.json) | {1} | {2} | {3} | {4} |'.format(
-            event['id'], domain, event['status'], event['phase'], '日期已到，请核实' if due else ''))
+        rows.append('| [{0}](事项/{0}.json) | {1} | {2} | {3} | {4} | {5} |'.format(
+            event['id'], domain, event['status'], event['phase'], '日期已到，请核实' if due else '', ' · '.join('[成果'+str(i+1)+'](<'+item['path']+'>)' for i,item in enumerate(event.get('artifacts',[]))) if domain not in {'身体与性','身体','健康','婚恋','家庭','关系','信仰'} else '按需打开事项'))
     if len(rows) == 6:
         rows += ['', '从当前要推进的一件事开始。']
     atomic_text(inside(root, '现在做什么.md'), '\n'.join(rows) + '\n')
@@ -183,7 +187,7 @@ def initialize(root, mode="life", minimal=False):
     root.mkdir(mode=0o700)
     for folder in ['事项', '资料', '.history']:
         (root / folder).mkdir(mode=0o700)
-    selected = ['.gitignore', '资料/README.md'] if minimal else STARTER
+    selected = ['.gitignore', '资料/README.md'] if minimal or mode == 'life' else STARTER
     for relative in selected:
         path = inside(source, relative)
         atomic_text(root / relative, path.read_text(encoding='utf-8'))
@@ -216,7 +220,7 @@ def add(root, event):
 def update(root, case_id, revision, patch, reason):
     if not reason.strip() or not isinstance(patch, dict):
         raise ValueError('A reason and an object patch are required')
-    if set(patch) - (FIELDS - {'id', 'revision', 'history'}):
+    if set(patch) - ((FIELDS | {'artifacts'}) - {'id', 'revision', 'history'}):
         raise ValueError('Cannot patch identity, revision, history or unknown fields')
     with locked(root):
         path = inside(root, '事项/' + identifier(case_id) + '.json')

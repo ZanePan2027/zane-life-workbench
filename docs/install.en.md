@@ -48,3 +48,12 @@ Ask your Agent to compare the installed files with this repository and preserve 
 The Skill directory holds methods. Your workspace holds personal material and results. Continue in the same project without repeating the folder path. A location is needed again only when the project changes, access is lost, or the workspace is ambiguous. When changing tools, open or authorize access to that same folder.
 
 [Back to the overview](../README.en.md)
+
+## Claude Code plugin
+
+```bash
+claude plugin marketplace add ZanePan2027/zane-life-workbench
+claude plugin install zane-life@zane-life-workbench
+```
+
+Start with `/zane-life:zane-workbench`. Update it through Claude Code's plugin manager, or ask your Agent to update the workbench using your current installation method.

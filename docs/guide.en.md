@@ -1,65 +1,39 @@
-# Start with one concern; save when you want to continue
+# From a first question to continued support
 
-After installation, use `zane-workbench` with your current concern. You can get help before you have files, a full life goal, or a workspace. [Installation](install.en.md) · [Skill directory](skill-inventory.en.md) · [简体中文](guide.md)
+[简体中文](guide.md) · [Home](../README.en.md) · [Install](install.en.md)
 
-## Begin with something that matters to you
+## Bring one real situation
 
-For example: “I want to spend a little time with my dad, without a tracking routine. Tuesday evenings are free, and he enjoys old films.” A usable opening could be: “Would you like to watch an old film together on Tuesday? We can talk or stop whenever you feel like it.” No full profile is needed.
-
-If he later prefers the weekend, revise the arrangement around both people's wishes. A plan is separate from actually meeting and enjoying it; no update does not mean failure.
-
-The job comparison below shows how to save a task you want to continue.
-
-## Connect a folder when you want to save
-
-Open the project folder you want to keep using in your Agent and say:
+Explain what happened, what matters to you, and what you want help deciding or producing. Point to relevant files when available.
 
 ```text
-Use zane-workbench. Set up my life workspace in this folder.
-Reuse the existing rules and material, and create the entries I need.
+Use zane-workbench. I want to keep my income, take my father to weekly
+appointments, and keep two evenings for writing. My department is changing.
+Help me decide whether remote work would fit.
 ```
 
-An existing workspace is reused. A regular folder of documents or an empty folder also works. If no location is chosen, the Agent helps you choose one once. Keep using that project without repeating its path.
+## A complete example
 
-## Add the material you have
+This fictional example follows one decision as circumstances change.
 
-Put relevant files in the agreed material folder, or identify an existing location the Agent may read. New workspaces normally use `资料/`; an existing inbox can be reused. You do not need to sort everything or move your full personal archive.
+**First conversation.** You want to stay in Chengdu for family. Your boss offers remote work with constant availability and unclear travel requirements. You want two evenings of your own each week.
 
-For example, with two offers and a monthly expense sheet, say:
+The adviser might recommend negotiating fixed contact windows, a named person for daily execution, and travel expectations. It prepares a comparison and a message:
 
-```text
-These are my two job offers and monthly expenses.
-Keep the originals, make them easy to find, and read the facts needed for this comparison.
-```
+> I'd like to continue remotely. Let's agree on contact windows, the person responsible for daily execution, and travel arrangements. I can concentrate on the work during those windows and discuss urgent exceptions as they arise.
 
-The Agent organizes references and reads the material needed for the current task. Without files, start in the conversation and add facts needed for the task.
+It also gives a practical sequence: about half an hour to review the message this week, discuss it at the next meeting, then observe actual requests and evening time over one or two weeks. Communication is online; local alternatives remain available.
 
-## Describe the choice
+**After verbal agreement.** Your boss agrees, but assigns nobody and keeps forwarding old work. The assessment changes: the proposed arrangement has not yet freed time. The Agent produces a handover list and reply, while keeping the alternative route available.
 
-```text
-Job A pays more but has a long commute. Job B pays less and offers more flexibility.
-I want stable finances and time with my family.
-Use the offers and expenses in this workspace to help me compare them.
-```
+**After meaningful action.** A responsible colleague is assigned, payment arrives, and your boss redirects an evening request. These actions support greater trust. The next observation is whether two evenings actually remain free.
 
-The Agent reads the relevant text, considers income, spending, time, and family arrangements, and identifies conditions that matter or remain unconfirmed.
+**When your goal changes.** Family circumstances change and you choose six months focused on care. The saved direction, stage, and route change with you; the old writing plan becomes history.
 
-## Put each option into a real week
+## Save and resume
 
-Ask: “Show me a workable weekly schedule and budget for each option.” Adjust your priorities: “I would accept less income for two free evenings each week.”
+Open a folder in your Agent and ask it to make that folder your workspace. Add relevant files or point to their location. The Agent connects goals, personal context, circumstances, routes, and progress using the material you provide.
 
-Relevant sources, results, and the stopping point are saved within the workspace setup authorization.
+Next time, open the same project and say “Continue the remote-work decision.” It reads the current goal, plan, feedback, and next dependency. Tell it what actually happened: “Sent, no reply,” “Payment arrived but evening work grew,” or “I chose to keep the current arrangement.”
 
-## Bring back new information
-
-If Job A adds two remote days per week, share that update. The Agent revises the existing comparison and current record. For a new file, ask it to take in the material, read it, and update the relevant references.
-
-## Continue next time
-
-Open the same workspace project and say “Continue the job comparison.” The Agent locates the current task, results, and relevant sources. If several tasks are plausible, it asks only which one you mean.
-
-A location is needed again only when the project changes, access is lost, or the workspace is ambiguous. When switching tools, open or authorize access to the same folder.
-
-One-off questions do not require workspace setup. Without file access, use [starting in chat](chat-start.en.md), save a continuation note, and paste it back next time.
-
-[Back to the overview](../README.en.md)
+[Workspace and memory](architecture.en.md) · [Capabilities](skill-inventory.en.md) · [Updates](install.en.md)

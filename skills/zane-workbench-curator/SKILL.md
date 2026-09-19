@@ -9,6 +9,8 @@ metadata:
 
 首次建台先连接明确的工作区，建立够用入口后继续当前任务；已有工作台直接读取相关来源并完成成果。主控负责判断与成果，整理器负责适配、落盘、导航和一致性；共同接口见[任务协议](references/task-protocol.md)。模式life/work/career只选择空白目录模板，不改变用户已有结构、授权或价值取舍。
 
+完整建立或重构时，先读[工作台结构](references/workspace-architecture.md)；信息沉淀用[记忆与成长](references/memory-and-learning.md)，跨角色配合用[协作](references/collaboration.md)。
+
 ## 连接工作台与接入材料
 
 读[启动与适配](references/start-and-adapt.md)，按[来源接口](references/source-contract.md)核对指定范围是否已有规则、来源和事项源。沿用现有系统；新目录才使用本包工具。首次入门可先建立最小入口并接入手头材料，方向与背景随实际任务逐步补充；不要求用户先分类或等全库整理完才提问。

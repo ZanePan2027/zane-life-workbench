@@ -1,64 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">Start with one concern. Continue as life changes.</title>
-<desc id="desc">Begin with a current concern, read necessary context, create a useful result, and save when needed. Revise with feedback.</desc>
-<defs>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
-.brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
-.title{font-size:38px;font-weight:700;fill:#0f172a}.subtitle{font-size:21px;fill:#64748b}
-.index{font-size:15px;font-weight:600;fill:#94a3b8}.label{font-size:23px;font-weight:700;fill:#0f172a}.body{font-size:18px;fill:#526176}
-.strong .index{fill:#bfdbfe}.strong .label{fill:#fff}.strong .body{fill:#dbeafe}
-.loop{font-size:18px;font-weight:600;fill:#2563eb}.section{font-size:17px;fill:#64748b}.bottom-label{font-size:22px;font-weight:700;fill:#183153}.bottom-body{font-size:18px;fill:#526176}
-</style>
-<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 8 4 0 8Z" fill="#2563eb"/></marker>
-</defs>
-<rect width="1200" height="720" rx="20" fill="#f8fafc"/>
-<path d="M316 310H339" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M588 310H611" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M860 310H883" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M1008 408V448Q1008 466 990 466H482Q464 466 464 448V414" fill="none" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrow)"/>
-<g class="stage">
-<rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
-<text x="92" y="245" class="index" >01</text>
-<text x="92" y="298" class="label" >Your concern</text>
-<text x="92" y="350" class="body" >Start even without files</text>
-<text x="92" y="377" class="body" >Get one workable step</text>
-</g>
-<g class="strong">
-<rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
-<text x="364" y="245" class="index" >02</text>
-<text x="364" y="284" class="label" >Understand your</text>
-<text x="364" y="314" class="label" >situation</text>
-<text x="364" y="350" class="body" >Use goals and context</text>
-<text x="364" y="377" class="body" >Check facts that matter</text>
-</g>
-<g class="stage">
-<rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
-<text x="636" y="245" class="index" >03</text>
-<text x="636" y="284" class="label" >Work on</text>
-<text x="636" y="314" class="label" >your question</text>
-<text x="636" y="350" class="body" >Use facts and priorities</text>
-<text x="636" y="377" class="body" >Create a useful result</text>
-</g>
-<g class="stage">
-<rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
-<text x="908" y="245" class="index" >04</text>
-<text x="908" y="284" class="label" >Save and</text>
-<text x="908" y="314" class="label" >continue</text>
-<text x="908" y="350" class="body" >Save when you need it</text>
-<text x="908" y="377" class="body" >Revise after feedback</text>
-</g>
-<rect x="506" y="451" width="460" height="30" rx="10" fill="#f8fafc"/>
-<text x="736" y="473" class="loop" text-anchor="middle">New material? Revisit the judgment.</text>
-<text x="72" y="520" class="section" >Everyday use</text>
-<rect x="72" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
-<text x="96" y="584" class="bottom-label" >Continue in the same project</text>
-<text x="96" y="621" class="bottom-body" >Say “continue”; the Agent reads current records.</text>
-<rect x="616" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
-<text x="640" y="584" class="bottom-label" >Add material as you go</text>
-<text x="640" y="621" class="bottom-body" >Ask the Agent to take it in, or use it in a question.</text>
-<text x="72" y="57" class="brand" >ZANE · LIVE YOUR LIFE WELL</text>
-<rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
-<text x="959" y="57" class="entry" text-anchor="middle">zane-workbench</text>
-<text x="72" y="121" class="title" >Start with one concern. Continue as life changes.</text>
-<text x="72" y="164" class="subtitle" >Use your goals and conditions. Get help and adjust with feedback.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">A life adviser, one real step at a time</title><desc id="desc">Goals → circumstances → routes → action → learning</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#3970ba" stroke-width="1.7"/></marker></defs>
+<rect width="1200" height="760" rx="24" fill="#f4f7fc"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Arial,sans-serif">
+<text x="56" y="67" font-size="32" font-weight="700" fill="#172b4d">A life adviser, one real step at a time</text>
+<text x="56" y="109" font-size="18" fill="#52647e">Goals → circumstances → routes → action → learning</text>
+<rect x="56" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="80" y="205" font-size="15" font-weight="700" fill="#3970ba">01</text>
+<text x="80" y="246" font-size="21" font-weight="650" fill="#172b4d">The life you want</text>
+<text x="80" y="284" font-size="15" fill="#52647e">What matters to you</text>
+<text x="80" y="312" font-size="15" fill="#52647e">What makes the tradeoff worthwhile</text>
+<rect x="436" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="460" y="205" font-size="15" font-weight="700" fill="#3970ba">02</text>
+<text x="460" y="246" font-size="21" font-weight="650" fill="#172b4d">Your current stage</text>
+<text x="460" y="284" font-size="15" fill="#52647e">The key obstacle and opportunity</text>
+<text x="460" y="312" font-size="15" fill="#52647e">What this situation means for you</text>
+<rect x="816" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="840" y="205" font-size="15" font-weight="700" fill="#3970ba">03</text>
+<text x="840" y="246" font-size="21" font-weight="650" fill="#172b4d">People and circumstances</text>
+<text x="840" y="284" font-size="15" fill="#52647e">Incentives, behavior, and resources</text>
+<text x="840" y="312" font-size="15" fill="#52647e">What could happen next</text>
+<rect x="56" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="80" y="459" font-size="15" font-weight="700" fill="#3970ba">06</text>
+<text x="80" y="500" font-size="21" font-weight="650" fill="#172b4d">Learn and revise</text>
+<text x="80" y="538" font-size="15" fill="#52647e">Bring back what actually happened</text>
+<text x="80" y="566" font-size="15" fill="#52647e">Update goals and understanding</text>
+<rect x="436" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="460" y="459" font-size="15" font-weight="700" fill="#3970ba">05</text>
+<text x="460" y="500" font-size="21" font-weight="650" fill="#172b4d">Make it usable</text>
+<text x="460" y="538" font-size="15" fill="#52647e">Drafts, comparisons, and arrangements</text>
+<text x="460" y="566" font-size="15" fill="#52647e">Act and resume from real progress</text>
+<rect x="816" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="840" y="459" font-size="15" font-weight="700" fill="#3970ba">04</text>
+<text x="840" y="500" font-size="21" font-weight="650" fill="#172b4d">Choose a route</text>
+<text x="840" y="538" font-size="15" fill="#52647e">Main plan, alternatives, and signals</text>
+<text x="840" y="566" font-size="15" fill="#52647e">Time, place, effort, and room to move</text>
+<path d="M388 258H426" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M768 258H806" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M980 352V411" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M810 512H773" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M430 512H393" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<path d="M40 512H24V258H45" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
+<text x="56" y="682" font-size="18" fill="#334a68">Your choices lead. Useful work and real feedback keep the adviser learning.</text>
+</g></svg>
