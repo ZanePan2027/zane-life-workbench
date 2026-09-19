@@ -16,6 +16,8 @@
 
 产出：条件与代价的比较、当前成果和下一步。
 
+未来方向也从此入口开始：“结合我的目标和最近变化，推演几个可能方向，告诉我现在准备什么、看到什么再改选。”方法见[未来推演与提前布局](../skills/zane-workbench/references/future-and-options.md)。
+
 ## [问题澄清](../skills/zane-question-intent-translator/SKILL.md)
 
 `zane-question-intent-translator`

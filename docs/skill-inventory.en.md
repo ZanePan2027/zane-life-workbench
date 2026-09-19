@@ -16,6 +16,8 @@ Use zane-workbench. Compare both jobs against my budget and weekly schedule.
 
 Output: Tradeoffs, useful work, and next steps.
 
+Use the same entry for future directions: “Given my goals and recent changes, show plausible paths, what to prepare now, and when to reconsider.” See [foresight and preparation](../skills/zane-workbench/references/future-and-options.md).
+
 ## [Question clarification](../skills/zane-question-intent-translator/SKILL.md)
 
 `zane-question-intent-translator`

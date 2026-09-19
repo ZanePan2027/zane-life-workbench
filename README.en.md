@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/badge/version-v1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
-An AI life workbench that starts with what is happening now. Understand your situation, weigh choices, coordinate time and responsibilities, complete useful work, and adjust as life changes. You decide what living well means.
+An AI life workbench that starts with what is happening now. Understand your situation, explore plausible futures, weigh choices, coordinate time and responsibilities, complete useful work, and adjust as life changes. You decide what living well means.
 
 **Supports Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Free and open source.**
 
@@ -79,11 +79,14 @@ For a one-off question, edit, or conversation, you can start directly without se
 | What you can say | What you can get |
 | --- | --- |
 | Both jobs have advantages. Which fits my life now? | A comparison using your priorities, finances, time, and responsibilities |
+| Given my goals and recent changes, what may happen next and how should I prepare? | Plausible directions, conditional choices, useful preparation, and signals to reconsider |
 | Can work, family time, and study fit into this week? | A weekly plan, conflicts, and arrangements to change or discuss |
 | I want to move. Where do I start? | Preparation and next steps based on your conditions |
 | I keep returning to the same choices. What matters to me? | Tentative insights grounded in experience, with practical things to try |
 | I feel upset. Please listen before offering advice. | Specific listening and shared understanding; exploration or a small change when wanted |
 | The conditions changed. How do I continue? | Revised judgments, work, and a saved stopping point |
+
+For decisions, start with the recommendation and its conditions, then the key tradeoff, next action, and signals to reconsider. Ask for a short comparison or a fuller analysis as needed.
 
 Psychological support can start without workspace setup or questionnaires. It supports conversation, self-understanding, and preparation for professional care; it does not diagnose or replace treatment. Sensitive notes require explicit authorization. Platform chat retention depends on the service and its settings.
 
@@ -103,7 +106,7 @@ Continue using `zane-workbench` for everyday tasks. Once familiar, you can direc
 
 ## Version and feedback
 
-Current release: **1.0**, revised **2026-09-18**. [Changes](CHANGELOG.md) · [Version checks](docs/testing.md).
+Current release: **1.0**, revised **2026-09-19**. [Changes](CHANGELOG.md) · [Version checks](docs/testing.md).
 
 Share your experience through Issues, with personal and company details removed.
 

@@ -1,3 +1,10 @@
+# 1.0.0 · 2026-09-19 未来推演与清晰决策 / Foresight and clear decisions
+
+- 从使用者自己的目标倒推，结合现实变化推演主要方向，完成提前准备并随反馈改判。
+- 推荐与成立条件一起呈现，说明关键取舍、下一动作和切换信号；缩短回复时保留影响选择的事实。
+- 加入情景规划、证据更新、因果传导与选择权的方法说明和未来简报；不把计划写成必然预测。
+- Work back from the user's goals, explore evidence-based directions, prepare useful options, and revise with feedback. Keep recommendations conditional and concise without dropping material facts. Components remain 1.0.0.
+
 # 1.0.0 · 2026-09-18 心理支持整合 / Psychological support
 
 - 新增心理支持与治疗辅助，接入统一入口：支持倾诉、共同理解、可选择的练习与咨询准备。

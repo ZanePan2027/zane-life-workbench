@@ -17,6 +17,12 @@ The collection began with question clarification, AI partner design, and self-re
 
 The psychological support method is independently written. Its source ledger distinguishes professional guidelines, psychological research, philosophical interpretation, and this tool's unvalidated adaptations. External prompts, questionnaires, and copyrighted worksheets are not reproduced.
 
+## 未来推演的方法 / Foresight methods
+
+采用战略前瞻、情景规划、系统思考、贝叶斯更新与决策理论，围绕使用者目标比较可能方向和准备。来源包括英国政府 Futures Toolkit、系统思考工具及 Stanford Encyclopedia of Philosophy 的相关条目；实际阅读范围与轻量适配见[学科与方法](../skills/zane-workbench/references/foresight-methods.md)。
+
+Foresight combines scenario planning, systems thinking, evidence updates, and decision theory with the user's own goals. The linked method ledger records source coverage and practical adaptations.
+
 ## 许可 / License
 
 本仓库采用 [MIT License](../LICENSE)。上述参考项目与其材料依各自许可使用。

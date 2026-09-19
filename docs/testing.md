@@ -1,6 +1,6 @@
 # 版本检查记录 / Version checks
 
-产品版本：1.0。修订日期：2026-09-18。
+产品版本：1.0。修订日期：2026-09-19。
 
 ## 已完成的检查
 
@@ -24,6 +24,16 @@
 评阅来自同系列模型和维护者，不是临床审查；每题仅一次，无真实用户症状或长期生活改善证据。工程检查、合成对话与真实使用效果分别判断。完整来源层次及未读材料见[证据说明](../skills/zane-psychological-support/references/evidence.md)。
 
 Psychological support was evaluated through internal synthetic conversations. Most results in a three-revision comparison were tied. The current integration received six focused scenarios: four met the criteria, while two still over-inferred emotional details. These are model and maintainer reviews, not clinical trials or evidence of long-term benefit.
+
+## 未来推演与决策表达
+
+未来推演此前完成五类合成任务及反向反馈测试，覆盖岗位变化、需求机会、稀疏信息、重复证据和局部机会与人生目标冲突。基线和新方法在多项任务上均可完成，没有据此认定整体预测能力提升。
+
+本次针对表达负担与条件排名，再完成两组独立会话，各包含三个合成任务及一次后续反馈。首组暴露多余现金测算和无足够依据的半年阶段排序；修订后的组别保留补偿、保障和他方同意等关键条件，不把员工或顾问身份直接排优劣。新增条款改变后，推荐从远程留任改为有限顾问，并用三句话解释；简单翻译直接完成。初答、追加信息和修订答复分别保存。
+
+最终版本116项工程测试通过，实际交付包与源码一致。复杂四方案回答仍有进一步压缩空间；模型有时会加入解释为何不排概率的句子。此次观察支持条件比较和反馈修订，尚未验证长期预测准确率或真实生活改善。
+
+Foresight and decision clarity received synthetic scenario and feedback checks. The final focused run changed its recommendation when contract terms changed and kept material conditions visible. All 116 engineering tests passed. Complex comparisons can still be shorter; real-world forecast calibration and long-term outcomes remain untested.
 
 ## 反馈问题
 

@@ -2,7 +2,7 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current method and documentation revision: **2026-09-18 psychological support integration**
+Current method and documentation revision: **2026-09-19 foresight and decision clarity**
 
 Install or update the current version with the command below.
 
