@@ -1,5 +1,17 @@
 # 开发检查记录 / Development checks
 
+2026-09-23 PDT · 定向修订（公开修订）
+
+- 140项自动测试通过，含4项Markdown章节链接回归；三个工作台包构建通过。
+- 新的合作问题没有提示旧事，旧版与修改后版本均自行找到失败/成功原例、识别重复转述，并将条件差异用于方案；这次没有观察到新增检索收益。
+- 首答后才给新版三周履行反馈；它修订当前事项并区分已采用条款与草案。最终方法在独立新会话恢复原约余三周、续期尚待决定，未把旧缺口重新带回。
+- 收束重复正文、缩短模板并修正三个章节链接。首答版本与后续结构整理分别留存，最终接续快照与交付方法一致。
+- 版本保持1.0.0。没有真实长期效果、跨宿主或插件缓存更新实测。
+
+140 automated tests passed, including four heading-link regressions. Both baseline and revised first responses retrieved relevant history without a reminder and used changed conditions; no incremental retrieval benefit was established. Feedback was supplied only after the revised first response. A fresh context using the final methods recovered the remaining term and the unaccepted extension. Package compatibility passed for all three editions. These are internal synthetic checks, not evidence of long-term outcomes or plugin update behavior.
+
+## Previous revision / 上次修订
+
 2026-09-24 · 共同经历与持续学习（共同经历方法修订）
 
 - 136项自动测试通过；Skill同步、发现入口、来源与路由检查通过。

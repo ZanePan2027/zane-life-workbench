@@ -25,7 +25,7 @@
 
 ## 反馈改变当前结果
 
-有重要分歧、事前假设或既有模式需要回验时，先读取[从共同经历中学习](learning-from-experience.md#4-回来一条反馈，先改当前帮助)，核执行、条件变化及双方依据，再修当前成果。普通改字不展开复盘。
+有重要分歧、事前假设或既有模式需要回验时，按[从共同经历中学习](learning-from-experience.md#4-回来一条反馈先改当前帮助)修当前成果。普通改字不展开复盘。
 
 按[共同任务协议](../../zane-workbench-curator/references/task-protocol.md#一次纠正怎样完成)处理纠正。先定位改变的前提，实际修订受影响成果，再更新原事项的当前判断与下一依赖。需要查引用时使用[来源接口](../../zane-workbench-curator/references/source-contract.md#反馈依赖)的impact；没有登记的依赖仍由主控判断。
 

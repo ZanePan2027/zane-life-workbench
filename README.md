@@ -101,7 +101,7 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 直接对 Agent 说：`更新过好你的人生工作台。`
 
-产品版本保持 **1.0**，本次修订：**2026-09-24 · 共同经历与持续学习**。[更新记录](CHANGELOG.md) · [使用示例](docs/examples.md)。
+产品版本保持 **1.0**，本次公开修订：**2026-09-23 PDT · 主动旧例检索与定向修订**。[更新记录](CHANGELOG.md) · [使用示例](docs/examples.md)。
 
 欢迎在 [Issues](https://github.com/ZanePan2027/zane-life-workbench/issues) 分享你想完成的事、实际过程和希望改善的地方。[参与改进](CONTRIBUTING.md)。
 

@@ -98,7 +98,7 @@ See the [capability guide](docs/skill-inventory.en.md) for examples and outputs.
 
 Tell your Agent: `Update the Live Your Life Well workbench.`
 
-Product version: **1.0**. Current revision: **2026-09-24 · Learning from shared experience**. [Updates](CHANGELOG.md) · [Examples](docs/examples.md).
+Product version: **1.0**. Public revision: **2026-09-23 PDT · Active case retrieval and targeted fixes**. [Updates](CHANGELOG.md) · [Examples](docs/examples.md).
 
 Share your task, experience, and suggested improvements in [Issues](https://github.com/ZanePan2027/zane-life-workbench/issues). [Contributing](CONTRIBUTING.md).
 

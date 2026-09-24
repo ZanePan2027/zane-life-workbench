@@ -1,3 +1,11 @@
+# 2026-09-23 PDT · 定向修订 / Targeted revision
+
+- 重要新选择主动找相关旧例，并比较变化条件；不等待用户提示旧事。
+- 学习规则收束到共同经历方法，其他入口保留职责与引用；原则模板合并为六项。
+- 修复三处中文标点锚点，打包时检查正文链接的章节目标。
+- Actively retrieve relevant past cases for important choices, keep learning rules in one method, shorten the principle template, and validate Markdown heading links during packaging.
+- 版本保持1.0.0；本次修订已公开发布。本次日期显式采用PDT，历史记录保留原有日期。
+
 # 2026-09-24 · 共同经历与持续学习 / Learning from shared experience
 
 - 重要决定按实际表达分别保留本人和AI的判断、信息截止与改判条件。

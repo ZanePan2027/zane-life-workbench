@@ -2,9 +2,9 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current method and documentation revision: **2026-09-24 learning from shared experience**
+Published method and documentation revision: **2026-09-23 PDT — active case retrieval and targeted fixes**
 
-Install or update the current version with the command below.
+The command below installs this published revision.
 
 Revision dates and commits identify updates within version 1.0.
 
