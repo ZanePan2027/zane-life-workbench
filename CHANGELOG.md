@@ -1,3 +1,11 @@
+# 2026-09-24 · 共同经历与持续学习 / Learning from shared experience
+
+- 重要决定按实际表达分别保留本人和AI的判断、信息截止与改判条件。
+- 历史对照纳入相同机制、变化条件、反例、成功做法与新能力。
+- 结果回验同时检验AI建议，修订当前成果并保留事前版本；历史重建与事前预测分开。
+- 更新方法入口、模板、接续和中英文教程，继续使用同一事项状态。版本保持1.0.0。
+- Preserve each person's stated view and the Agent's advice, compare relevant past cases with changed conditions, and review both against actual results. Update the current work while retaining original judgments. Templates and bilingual guides use the existing case record; version remains 1.0.0.
+
 # 2026-09-19 · 长期人生参谋与完整工作台
 
 - 从本人目标贯通阶段、人事资源、未来路线、时间空间、行动与反馈。

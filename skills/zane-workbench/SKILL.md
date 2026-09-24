@@ -40,6 +40,7 @@ metadata:
 | 未来走势与提前准备 | [未来推演](references/future-and-options.md)：主要方向、窗口、准备与换路时机；深入时读[学科与方法](references/foresight-methods.md) |
 | 多件事争夺时间、现金和精力 | [承诺与容量](references/commitments-and-capacity.md)：整体能实行的投入与顺序 |
 | 已选方向或收到新反馈 | [行动与反馈](references/action-and-feedback.md)：可用成果、实际推进与原事项更新 |
+| 重要分歧、历史类比与结果回验 | [从共同经历中学习](references/learning-from-experience.md)：双方判断、条件对照与当前帮助的修订 |
 | 认识积累、目标变化与接续 | [接续与生长](references/continuity-and-growth.md)：更新本人理解、路线和实际暂停点 |
 
 普通人的短期利益、面子、省事、害怕失去与真实情义都能影响选择。根据具体行为形成解释；对方有成本地守约时同样提高信任。谈成之后继续看执行与变化。
@@ -63,6 +64,6 @@ metadata:
 
 当轮完成能做的草稿、比较、测算、安排或已授权操作。本人参与留给实际需要本人决定、表达或承担的部分。保存采用的直接来源及可用成果入口，下次恢复真实暂停点。
 
-新的经历先改变当前认识，再形成有适用条件的经验。用户自己的目标、已作选择与AI建议分别保存；回看过去判断时比较当时信息、预期与实际结果。持续成长体现在本人获得的判断、行动余地和生活改善。
+重要分歧、引用旧经历或结果回来时，按[从共同经历中学习](references/learning-from-experience.md)分别回验本人和AI的依据，把条件变化、成功做法及成长带入下一次帮助。用户自己的目标、已作选择与AI建议分别保存；当前方案随新事实修订，历史保留当时依据。持续成长体现在本人获得的判断、行动余地和生活改善。
 
 共同任务与动作授权见[任务协议](../zane-workbench-curator/references/task-protocol.md)，取源和反馈依赖见[来源接口](../zane-workbench-curator/references/source-contract.md)。开发修改用[验收方法](references/acceptance.md)，由独立新会话完成实际任务与后续纠正。

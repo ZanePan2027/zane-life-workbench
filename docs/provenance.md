@@ -36,3 +36,9 @@ This repository uses the [MIT License](../LICENSE). Referenced projects and mate
 Sun Tzu and Clausewitz inform purpose, timing, conditions, and friction. Political and organizational analysis informs incentives and dependence. Bounded rationality, social interaction, motivated reasoning, repeated games, and Ostrom's work inform behavior and sustained cooperation.
 
 Sources and reading scope: [方法依据](../skills/zane-workbench/references/foresight-methods.md).
+
+## 决策经历与持续学习 / Decision records and continued learning
+
+2026-09-24重构参考了《如何用 AI 实现个人重大决策辅助系统 AI Agent》视频中“原始信息、决策事实、双方假设、结果回填”的组织思路，并结合工作台既有的事前记录、来源分层、反例与目标变化方法独立改写。未确认视频发布账号与公开链接；本地研究不随通用包分发视频或私人记录。视频中的31个决策和效果表述属于作者自述，未作为验证结果。
+
+The September 24 revision draws on the decision-record structure described in the video “如何用 AI 实现个人重大决策辅助系统 AI Agent”, combined with the workbench's existing source distinctions, prior judgments, counterexamples, and changing goals. The publisher and public URL have not been verified. The distributable contains independently written methods and synthetic examples, not the video or private records; the speaker's reported case count and effectiveness are not validation evidence.

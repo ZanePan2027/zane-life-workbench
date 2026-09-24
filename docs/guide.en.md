@@ -30,6 +30,14 @@ It also gives a practical sequence: about half an hour to review the message thi
 
 **When your goal changes.** Family circumstances change and you choose six months focused on care. The saved direction, stage, and route change with you; the old writing plan becomes history.
 
+## When you and the Agent disagree
+
+In another fictional example, you say: “Last time nobody took over execution. This time a person is named, and I want to try.” The Agent worries the organization will repeat its behavior and advises waiting. The workspace preserves both views, the information available at each date, and your actual choice.
+
+If the colleague then takes over and several weeks of evenings remain free, the Agent revises its concern and distinguishes previously agreed conditions from newly observed fulfillment; fulfillment is not a newly added resource. It preserves the earlier answer instead of rewriting opposition as support. A verbal promise alone leaves the outcome unresolved.
+
+For the next similar situation, ask what is the same and what has changed. The comparison includes successful conditions and new capabilities, as well as earlier failures. Outcomes that have not been observed stay unknown.
+
 ## Save and resume
 
 Open a folder in your Agent and ask it to make that folder your workspace. Add relevant files or point to their location. The Agent connects goals, personal context, circumstances, routes, and progress using the material you provide.

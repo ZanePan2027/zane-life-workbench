@@ -2,7 +2,7 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Current method and documentation revision: **2026-09-19 long-term life adviser and complete workspace**
+Current method and documentation revision: **2026-09-24 learning from shared experience**
 
 Install or update the current version with the command below.
 

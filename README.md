@@ -76,6 +76,12 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 [看完整目录与保存方式](docs/architecture.md) · [看一次多轮使用](docs/guide.md) · [普通聊天起步](docs/chat-start.md)
 
+## 让共同经历改善下一次帮助
+
+重要决定可以分别留下你的看法与AI的建议，以及各自依据和会改变判断的反馈。结果回来后，AI先核实际发生与条件变化，再修正同一份方案；它自己的误判也会进入修正。
+
+遇到相似选择时，工作台会对照旧经历与现在的不同，查看反例、成功条件和已经发生的成长。你继续自然地讲情况，AI负责归拢。倾诉、休息和体验仍可直接成为本次帮助的全部。
+
 ## 能力一览
 
 日常使用 `zane-workbench` 即可，方法由当前任务决定。
@@ -95,7 +101,7 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 直接对 Agent 说：`更新过好你的人生工作台。`
 
-当前为 **1.0 正式版**，本次修订：**2026-09-19 · 长期人生参谋与完整工作台**。[更新记录](CHANGELOG.md) · [使用示例](docs/examples.md)。
+产品版本保持 **1.0**，本次修订：**2026-09-24 · 共同经历与持续学习**。[更新记录](CHANGELOG.md) · [使用示例](docs/examples.md)。
 
 欢迎在 [Issues](https://github.com/ZanePan2027/zane-life-workbench/issues) 分享你想完成的事、实际过程和希望改善的地方。[参与改进](CONTRIBUTING.md)。
 

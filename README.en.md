@@ -73,6 +73,12 @@ Add relevant material or point to its existing location. The Agent organizes sou
 
 [Workspace and memory](docs/architecture.en.md) · [A full conversation](docs/guide.en.md) · [Start in chat](docs/chat-start.en.md)
 
+## Let shared experience improve the next decision
+
+For a decision worth revisiting, preserve your view and the Agent's advice, the evidence available to each, and what would change either judgment. When results arrive, the Agent checks what happened and which conditions changed, then revises the same plan. Its own mistakes are part of that review.
+
+When an earlier experience seems relevant, compare the mechanism and the differences, including counterexamples, successful conditions, and skills you have gained. Keep talking naturally; the Agent handles the records. Listening, rest, and everyday experience can still be the whole purpose of a conversation.
+
 ## Capabilities
 
 Use `zane-workbench` for everyday tasks. It selects methods as needed.
@@ -92,7 +98,7 @@ See the [capability guide](docs/skill-inventory.en.md) for examples and outputs.
 
 Tell your Agent: `Update the Live Your Life Well workbench.`
 
-Current release: **1.0**. Revision: **2026-09-19 · Long-term life adviser and complete workspace**. [Updates](CHANGELOG.md) · [Examples](docs/examples.md).
+Product version: **1.0**. Current revision: **2026-09-24 · Learning from shared experience**. [Updates](CHANGELOG.md) · [Examples](docs/examples.md).
 
 Share your task, experience, and suggested improvements in [Issues](https://github.com/ZanePan2027/zane-life-workbench/issues). [Contributing](CONTRIBUTING.md).
 

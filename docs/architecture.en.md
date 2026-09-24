@@ -35,6 +35,12 @@ A first workspace can start small. A full workspace provides these areas; existi
 
 Current understanding links back to your words and original material. History preserves the reasoning at the time. A new conversation reads the current record and resumes the actual next step.
 
+## Let shared experience improve the next decision
+
+For a decision worth revisiting, preserve your view and the Agent's advice, the evidence available to each, and what would change either judgment. When results arrive, the Agent checks what happened and which conditions changed, then revises the same plan. Its own mistakes are part of that review.
+
+When an earlier experience seems relevant, compare the mechanism and the differences, including counterexamples, successful conditions, and skills you have gained. Keep talking naturally; the Agent handles the records. Listening, rest, and everyday experience can still be the whole purpose of a conversation.
+
 ## Working together
 
 One lead Agent carries the task through. Research, production, and organization can provide focused help when useful. The result returns to the same plan and record. You can give a long-term partner a preferred voice and emphasis.
