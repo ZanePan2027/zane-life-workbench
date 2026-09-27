@@ -1,3 +1,13 @@
+# 2026-09-26 PDT · 任务与受众修订 / Task and audience revision
+
+- 按最终使用者的判断与动作组织成果，把背景转成取材、顺序和表达依据。
+- 纠正区分事实、方法和任务理解，检查同类迁移及应保留的反例。
+- 保留真实责任、必要解释和动作授权；用整体使用路径检验交付。
+- Organize deliverables around the recipient’s task; scope corrections to their cause and preserve useful counterexamples.
+- Product versions remain unchanged; revision dates and source bytes identify this update.
+- 本次为方法补强；同宿主的新旧版本及不加载专项Skill对照均能完成核心任务，尚未观察到新版稳定独有收益。检查范围见[版本检查](docs/testing.md)。
+- This is a method revision. Baseline, revised, and same-host runs without the task Skills all completed the core tasks; no consistent unique benefit of the revision was established. See the version checks for scope and limitations.
+
 # 2026-09-23 PDT · 定向修订 / Targeted revision
 
 - 重要新选择主动找相关旧例，并比较变化条件；不等待用户提示旧事。

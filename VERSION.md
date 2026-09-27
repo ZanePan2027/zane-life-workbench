@@ -2,9 +2,9 @@
 
 Product version: **1.0** · Components: **1.0.0**
 
-Published method and documentation revision: **2026-09-23 PDT — active case retrieval and targeted fixes**
+Method and documentation revision: **2026-09-26 PDT — tasks, audiences, and feedback**
 
-The command below installs this published revision.
+The command below installs the currently published repository revision.
 
 Revision dates and commits identify updates within version 1.0.
 
