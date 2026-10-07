@@ -4,7 +4,7 @@
 
 > Start with one real situation. Build a life adviser that learns what matters to you.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-2.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 Work backward from the life you want. Understand your current stage, the people involved, and the resources available. Explore likely developments, choose a workable route, and produce what you need to act. Bring back what happened so the next decision can use a better understanding of you and your circumstances.
@@ -73,6 +73,8 @@ Add relevant material or point to its existing location. The Agent organizes sou
 
 [Workspace and memory](docs/architecture.en.md) · [A full conversation](docs/guide.en.md) · [Start in chat](docs/chat-start.en.md)
 
+For a light daily rhythm, you can say: “What do I want to protect today, and what capacity do I have?” or “What actually happened today, and what changed my view?” The Agent can connect it to a current case or simply keep the lived experience in the conversation. No streaks or tasks are required for companionship.
+
 ## Let shared experience improve the next decision
 
 For a decision worth revisiting, preserve your view and the Agent's advice, the evidence available to each, and what would change either judgment. When results arrive, the Agent checks what happened and which conditions changed, then revises the same plan. Its own mistakes are part of that review.
@@ -98,7 +100,7 @@ See the [capability guide](docs/skill-inventory.en.md) for examples and outputs.
 
 Tell your Agent: `Update the Live Your Life Well workbench.`
 
-Product version: **1.0**. Method revision: **2026-09-26 PDT · Tasks, audiences, and feedback**. [Updates](CHANGELOG.md) · [Examples](docs/examples.md).
+Product version: **2.0**. Method revision: **2026-10-07 PDT · System-level two-in-one redesign**. The High Value Life Guide is an optional external reference; the workbench's own methods and feedback remain local assets. [Updates](CHANGELOG.md) · [Examples](docs/examples.md).
 
 Share your task, experience, and suggested improvements in [Issues](https://github.com/ZanePan2027/zane-life-workbench/issues). [Contributing](CONTRIBUTING.md).
 

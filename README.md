@@ -4,10 +4,10 @@
 
 > 从眼前一件事开始，成为越来越懂你的长期人生参谋。
 
-[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-2.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
-以你想过的生活为方向，看清当下的阶段、人和局势，推演接下来可能发生什么，选一条能走的路，并帮你把事情做出来。随着经历和反馈积累，工作台会修正对你的理解，让下一次判断更贴近你的生活。
+以你想过的生活为方向，看清当下的阶段、人和局势，调用已经沉淀的方法和必要外部证据，推演接下来可能发生什么，选一条能走的路，并帮你把事情做出来。随着经历和反馈积累，工作台会修正对你的理解，让下一次判断更贴近你的生活。
 
 **免费开源。支持豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**
 
@@ -76,6 +76,8 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 [看完整目录与保存方式](docs/architecture.md) · [看一次多轮使用](docs/guide.md) · [普通聊天起步](docs/chat-start.md)
 
+如果想让一天有一个轻量的起点和收尾，可以直接说：“今天我想保护什么、容量怎样？”或“今天实际发生了什么，什么改变了判断？”AI会帮你接回当前事项或保留生活体验；不需要连续打卡，也不用为了陪伴制造任务。
+
 ## 让共同经历改善下一次帮助
 
 重要决定可以分别留下你的看法与AI的建议，以及各自依据和会改变判断的反馈。结果回来后，AI先核实际发生与条件变化，再修正同一份方案；它自己的误判也会进入修正。
@@ -101,7 +103,9 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 直接对 Agent 说：`更新过好你的人生工作台。`
 
-产品版本保持 **1.0**，本次方法修订：**2026-09-26 PDT · 任务、受众与反馈**。[更新记录](CHANGELOG.md) · [使用示例](docs/examples.md)。
+产品版本为 **2.0**，本次系统重构：**2026-10-07 · 自有知识层与外部指南边界**。[更新记录](CHANGELOG.md) · [使用示例](docs/examples.md)。
+
+《高性价比人生指南》是可选外部参考，不是本仓库正文资产。工作台自己的方法、适用条件和反馈逐步沉淀在本地知识层；没有网络时，主链仍可继续运行。外部来源、固定提交和许可证见[来源说明](docs/provenance.md)。
 
 欢迎在 [Issues](https://github.com/ZanePan2027/zane-life-workbench/issues) 分享你想完成的事、实际过程和希望改善的地方。[参与改进](CONTRIBUTING.md)。
 
