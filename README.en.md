@@ -58,7 +58,7 @@ See [installation and updates](docs/install.en.md) for Doubao, WorkBuddy, and Cl
 
 ## Build your workspace
 
-Open a folder you want to keep using in your Agent and say:
+If you already have a local workbench, open the project root that contains `工作台/`. For a new empty folder, open the folder you want to keep using in your Agent and say:
 
 ```text
 Make this folder my life workspace.
@@ -67,7 +67,7 @@ people and circumstances, possible routes, and current actions.
 Then help me with: …
 ```
 
-Add relevant material or point to its existing location. The Agent organizes sources and saves useful results. Open the same project next time and say “Continue from last time.”
+Add relevant material to `工作台/09_收件箱/`, or point to its existing location. The Agent organizes sources and saves useful results. Open the same project next time and say “Continue from last time.”
 
 ![How information becomes useful understanding](docs/memory-flow.en.svg)
 

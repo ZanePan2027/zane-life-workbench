@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "过好你的人生 · 长期人生参谋",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "zane-life",
       "source": "./",
       "description": "Direction, personal context, people, future routes, action and learning.",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "strict": true
     }
   ]

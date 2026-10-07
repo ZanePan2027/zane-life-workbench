@@ -9,7 +9,9 @@ metadata:
 
 首次建台先连接明确的工作区，建立够用入口后继续当前任务；已有工作台直接读取相关来源并完成成果。主控负责判断与成果，整理器负责适配、落盘、导航和一致性；共同接口见[任务协议](references/task-protocol.md)。模式life/work/career只选择空白目录模板，不改变用户已有结构、授权或价值取舍。
 
-完整建立或重构时，先读[工作台结构](references/workspace-architecture.md)和项目的 `协作与运行/规则/工作台系统架构.md`；信息沉淀用[记忆与成长](references/memory-and-learning.md)，跨角色配合用[协作](references/collaboration.md)。人生工作台还要连接 `资料与资产/06_知识与学习库/01_自有人生知识层/`，把自有方法、外部来源和现实事件分开。
+已有本地工作台以 `工作台/` 为规范根目录。维护时先读 `工作台/00_入口/README.md` 和 `工作台/目录契约.md`；旧中文目录只是已有项目的兼容入口，不在其中新建第二份内容。
+
+完整建立或重构时，先读[工作台结构](references/workspace-architecture.md)和项目的 `工作台/08_系统/规则/工作台系统架构.md`；信息沉淀用[记忆与成长](references/memory-and-learning.md)，跨角色配合用[协作](references/collaboration.md)。人生工作台还要连接 `工作台/04_知识/自有人生知识层/`，把自有方法、外部来源和现实事件分开。
 
 ## 连接工作台与接入材料
 

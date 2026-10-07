@@ -37,7 +37,11 @@ def inside(root, relative):
     for part in rel.parts:
         path /= part
         if path.is_symlink():
-            raise ValueError('Source symlink is not supported: ' + str(rel))
+            # The new workbench keeps internal compatibility links for old
+            # paths. They are valid sources when they resolve inside this
+            # workspace; external links remain rejected.
+            if not path.resolve().is_relative_to(root.resolve()):
+                raise ValueError('Source symlink escapes workspace: ' + str(rel))
     if not path.resolve().is_relative_to(root.resolve()):
         raise ValueError('Source escapes workspace: ' + str(rel))
     return path

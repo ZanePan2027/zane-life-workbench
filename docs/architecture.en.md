@@ -16,18 +16,21 @@ flowchart TD
  H --> A
 ```
 
+The complete local workbench uses `工作台/` as its canonical root. `00_入口` is navigation; the nine layers below each have one responsibility.
+
 | Workspace area | What it holds |
 |---|---|
-| Direction | Desired life, current stage, and tradeoffs |
-| Personal context | Your words, experiences, preferences, and relevant life areas |
-| Circumstances and strategy | People, resources, environment, possible futures, routes, and lessons |
-| Owned life knowledge | Locally rewritten methods, conditions, counterexamples, and feedback |
-| Cases | Progress, actions, feedback, next steps, and output links |
-| Material | Original sources and ready-to-use outputs |
-| Collaboration | Partner roles, memory, and continuity |
-| Inbox | Incoming material |
+| `01_方向` | Desired life, current stage, and tradeoffs |
+| `02_本人` | Your words, experiences, preferences, and relevant life areas |
+| `03_处境` | People, resources, environment, possible futures, and lessons |
+| `04_知识` | Owned methods, source registry, conditions, and counterexamples |
+| `05_决策` | Current route, alternatives, and switching signals |
+| `06_行动` | The unique event state, actions, feedback, and output links |
+| `07_资产` | Original material, content, products, and usable outputs |
+| `08_系统` | Rules, roles, tools, collaboration, and continuity |
+| `09_收件箱` | Incoming and unclassified material |
 
-A first workspace can start small. A full workspace provides these areas; existing projects are connected using their actual structure. An explicit restructuring request includes migration and updated links. The external guide is not required to create a workspace and is never copied in full.
+`00_入口` only navigates; it does not become a second state store. Event JSON files hold the unique reality state, while routes, views, and notes link back to them. Existing projects are connected using their actual structure; an explicit restructuring request includes migration and updated links. The external guide is not required to create a workspace and is never copied in full.
 
 ## From feedback to a better decision
 
