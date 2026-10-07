@@ -1,5 +1,19 @@
 # 开发检查记录 / Development checks
 
+## 2026-10-07 PDT · 系统级二合一重构
+
+- `check-workbench.sh` 149 项自动测试全部通过；Skill 同步、路由、桥接、知识层、来源读取、事件状态和三套候选包构建均通过。
+- 人生候选为 2.0.0（7 个 Skill、97 个文件），职业候选为 0.3.3（5 个 Skill、87 个文件），商业候选为 0.4.3（5 个 Skill、94 个文件）。公开人生候选的 `source-review.json` 已按当前源码重新生成。
+- 本轮把《高性价比人生指南》降为可选外部证据连接器，新增自有人生知识层；固定提交、正文不镜像、断网主链和来源许可边界均已检查。
+- 这些是工程与来源边界检查，不证明 AI 判断准确、长期生活结果、跨模型行为或真实用户的维护负担。用户仍可只聊天、倾诉、休息或直接做成一件小事；陪伴行为尚需真实使用反馈继续验证。
+
+## 2026-10-07 PDT · System-level two-in-one redesign
+
+- All 149 automated checks in `check-workbench.sh` passed, including Skill synchronization, routing, bridges, the owned knowledge layer, source reading, event state, and all three package builds.
+- The life candidate is 2.0.0 (7 Skills, 97 files), career is 0.3.3 (5 Skills, 87 files), and business is 0.4.3 (5 Skills, 94 files). The public life candidate's `source-review.json` was regenerated from the current sources.
+- The High Value Life Guide is now an optional external evidence connector; the owned life knowledge layer, pinned source, no-mirror boundary, offline main path, and license boundary were checked.
+- These checks establish engineering and provenance consistency, not decision accuracy, long-term outcomes, cross-model behavior, or real-user maintenance burden. Users may still chat, vent, rest, or complete one small thing without turning the interaction into a task; companion behavior needs continued real-use feedback.
+
 ## 2026-09-26 PDT · 任务、受众与反馈修订
 
 - 修订共同方法：按最终使用者及用途组织成果，把背景用于信息取舍；反馈按事实、方法或任务理解的影响范围修改，并检查同类与反例。

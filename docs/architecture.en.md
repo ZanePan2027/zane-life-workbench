@@ -2,17 +2,18 @@
 
 [简体中文](architecture.md) · [Home](../README.en.md)
 
-Start with the current situation and connect useful information into a map for future decisions.
+Start with the current situation and connect useful information into a map for future decisions. Your goals and real feedback are the main system; the owned knowledge layer keeps reusable methods, and the external guide is only an evidence entry when needed.
 
 ```mermaid
 flowchart TD
  A[The life you want] --> B[Current stage and key obstacle]
  B --> C[People, resources, and circumstances]
- C --> D[Possible futures and routes]
- D --> E[Timing, practical setting, and usable outputs]
- E --> F[Action and feedback]
- F --> G[Update understanding and plans]
- G --> A
+ C --> D[Owned methods and needed external evidence]
+ D --> E[Possible futures and routes]
+ E --> F[Timing, practical setting, and usable outputs]
+ F --> G[Action and feedback]
+ G --> H[Update understanding and plans]
+ H --> A
 ```
 
 | Workspace area | What it holds |
@@ -20,12 +21,13 @@ flowchart TD
 | Direction | Desired life, current stage, and tradeoffs |
 | Personal context | Your words, experiences, preferences, and relevant life areas |
 | Circumstances and strategy | People, resources, environment, possible futures, routes, and lessons |
+| Owned life knowledge | Locally rewritten methods, conditions, counterexamples, and feedback |
 | Cases | Progress, actions, feedback, next steps, and output links |
 | Material | Original sources and ready-to-use outputs |
 | Collaboration | Partner roles, memory, and continuity |
 | Inbox | Incoming material |
 
-A first workspace can start small. A full workspace provides these areas; existing projects are connected using their actual structure. An explicit restructuring request includes migration and updated links.
+A first workspace can start small. A full workspace provides these areas; existing projects are connected using their actual structure. An explicit restructuring request includes migration and updated links. The external guide is not required to create a workspace and is never copied in full.
 
 ## From feedback to a better decision
 

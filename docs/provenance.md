@@ -1,5 +1,11 @@
 # 来源与许可证 / Provenance and license
 
+## 外部指南边界 / External guide boundary
+
+《高性价比人生指南》是可选外部参考，不是本仓库正文资产。工作台按需读取上游固定提交 `20718eeab32cb8506971fb71b03e66a91077be07`；正文采用 CC BY 4.0，代码另见 MIT 的 `LICENSE-CODE`。当前公开包只发布本项目独立编写的方法、模板和合成示例，不镜像上游章节。若未来直接复制或改编上游正文，必须保留署名、许可链接、改动说明且不得暗示作者背书；商业使用不自动产生付费义务。
+
+The High Value Life Guide is an optional external reference, not content owned by this repository. The workbench reads the pinned upstream commit when needed; its text is CC BY 4.0 and its code is covered separately by MIT in `LICENSE-CODE`. The public package contains independently written methods, templates, and synthetic examples, without mirroring upstream chapters. Direct copying or adaptation requires attribution, license and source links, and a change notice; commercial use does not automatically create a payment obligation.
+
 ZANE 的方法从问题澄清、AI 伙伴设定和自我认识发展而来，后续加入处境判断、承诺与资源协调、行动反馈和跨会话接续。
 
 The collection began with question clarification, AI partner design, and self-reflection, then grew to cover choices, commitments, action, feedback, and continuity.
