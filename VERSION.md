@@ -9,7 +9,7 @@ The command below installs the currently published repository revision.
 Revision dates and commits identify updates within version 2.0.
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 [Version checks](docs/testing.md)

@@ -11,10 +11,10 @@ Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Cho
 For Agents listed in the installer, such as Codex and Claude Code, run in a terminal with Node.js and `npx` available:
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
-`--skill "*"` selects all Skills. Select a target Agent in the installer and reload Skills if the client requires it. Omit `-g` to install only in the current project.
+`--all` installs all Skills into every Agent the installer supports, with no prompts; reload Skills if the client requires it. To install into one Agent only, use `--skill "*" --agent <name>` instead. Omit `-g` to install only in the current project.
 
 Or ask your Agent:
 

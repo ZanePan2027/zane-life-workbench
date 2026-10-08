@@ -11,10 +11,10 @@
 Codex、Claude Code 等安装器已列出的 Agent，可在终端执行：
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
-这条指令会安装仓库中的全部 Skills。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。`--skill "*"` 选择全部 Skills；在安装器中选择目标 Agent，完成后按客户端要求重载。
+这条指令会安装仓库中的全部 Skills。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。`--all` 会安装全部 Skills，并装进安装器支持的所有 Agent，无需逐个选择；完成后按客户端要求重载。只想装到某一个 Agent 时，改用 `--skill "*" --agent <名称>`。
 
 需要先安装 Node.js，并确保终端可以使用 `npx`。
 
@@ -70,7 +70,7 @@ claude plugin install zane-life@zane-life-workbench
 先保留自己修改过的 Skill 文件，再执行同一条快速安装指令，按安装界面更新。产品目前为2.0，文件内容仍会继续修订；不要仅凭版本号相同跳过更新，以仓库修订日期和提交识别内容。外部指南不是安装前置条件，工作台自己的方法和资料可以脱机使用。
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 [返回首页](../README.md)

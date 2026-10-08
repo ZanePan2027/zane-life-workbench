@@ -50,7 +50,7 @@ You can also start with: `I am tired today. Stay with me for a while; I do not n
 ## Install
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 Or tell your Agent:

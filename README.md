@@ -55,7 +55,7 @@
 ### 快速命令
 
 ```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 ### 直接告诉 Agent
