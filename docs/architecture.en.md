@@ -2,35 +2,36 @@
 
 [简体中文](architecture.md) · [Home](../README.en.md)
 
-Start with the current situation and connect useful information into a map for future decisions. Your goals and real feedback are the main system; the owned knowledge layer keeps reusable methods, and the external guide is only an evidence entry when needed.
+Start with the current situation and connect useful information into a map for future decisions. Start from the life you want, understand your stage and the people involved, explore possible futures, and turn a route into useful work. Knowledge adds overlooked options, full costs, key evidence, and practical explanations.
 
 ```mermaid
 flowchart TD
  A[The life you want] --> B[Current stage and key obstacle]
  B --> C[People, resources, and circumstances]
- C --> D[Owned methods and needed external evidence]
- D --> E[Possible futures and routes]
+ C --> E[Possible futures and routes]
+ K[Knowledge: options, costs, evidence, practical explanations] -.-> C
+ K -.-> E
  E --> F[Timing, practical setting, and usable outputs]
  F --> G[Action and feedback]
  G --> H[Update understanding and plans]
  H --> A
 ```
 
-The complete local workbench uses `工作台/` as its canonical root. `00_入口` is navigation; the nine layers below each have one responsibility.
+Start in your chosen folder with navigation, incoming material, and the current case. Add direction, personal context, circumstances, routes, and outputs as needed; the Agent adapts to the actual structure.
 
 | Workspace area | What it holds |
 |---|---|
-| `01_方向` | Desired life, current stage, and tradeoffs |
-| `02_本人` | Your words, experiences, preferences, and relevant life areas |
-| `03_处境` | People, resources, environment, possible futures, and lessons |
-| `04_知识` | Owned methods, source registry, conditions, and counterexamples |
-| `05_决策` | Current route, alternatives, and switching signals |
-| `06_行动` | The unique event state, actions, feedback, and output links |
-| `07_资产` | Original material, content, products, and usable outputs |
-| `08_系统` | Rules, roles, tools, collaboration, and continuity |
-| `09_收件箱` | Incoming and unclassified material |
+| Direction | Desired life, current stage, and tradeoffs |
+| Personal context | Your words, experiences, and preferences |
+| Circumstances | People, resources, possible developments, and lessons |
+| Knowledge | Reusable methods, conditions, counterexamples, and sources |
+| Decisions | Current route, alternatives, and switching signals |
+| Action | Progress, feedback, next steps, and output links |
+| Assets | Original material and usable outputs |
+| System | Roles, collaboration, and continuity |
+| Inbox | Incoming material |
 
-`00_入口` only navigates; it does not become a second state store. Event JSON files hold the unique reality state, while routes, views, and notes link back to them. Existing projects are connected using their actual structure; an explicit restructuring request includes migration and updated links. The external guide is not required to create a workspace and is never copied in full.
+Start with the parts the current task needs, then grow with real use. Bring material and feedback; the Agent connects them to the same case, route, and usable outputs.
 
 ## From feedback to a better decision
 

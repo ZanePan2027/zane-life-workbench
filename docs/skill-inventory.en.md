@@ -79,16 +79,14 @@ Use zane-workbench-curator. Set up a workspace in this folder, organize access a
 
 Output: Connected direction, personal context, circumstances, routes, cases, and usable outputs, with a clear way to maintain and resume them.
 
-## [Owned life knowledge]
+## Owned life knowledge
 
-This is a local knowledge asset, not another automatic execution Skill. It keeps methods, adaptations, conditions, counterexamples, and feedback that have been used in real situations. The external guide is called only when a specific entry needs checking; its full text is not copied into the workbench.
+Keep methods, conditions, counterexamples, and feedback used in real situations. When a similar question returns, the Agent compares those lessons with current conditions to help choose a workable route.
 
-When setting up your own workspace, you may create a matching knowledge layer. The public package provides methods and synthetic examples, not private facts or live cases.
-
-## [External guide evidence connector]
+## [External guide evidence connector](../skills/life-decision-guide/SKILL.md)
 
 `life-decision-guide`
 
-Use when you need to check a specific entry, cost, evidence level, or risk in *The High Value Life Guide*. It reads a pinned revision and returns the result to `zane-workbench`; it does not decide for you or maintain case state.
+Use when you request *The High Value Life Guide*, or a concrete everyday question needs options it can supply. It reads complete relevant entries and returns candidate actions, costs, benefits, and sources to `zane-workbench` for a plan grounded in your circumstances.
 
 [Back to the overview](../README.en.md)

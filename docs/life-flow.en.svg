@@ -1,45 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-<title id="title">A life adviser, one real step at a time</title><desc id="desc">Goals → circumstances → routes → action → learning</desc>
-<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#3970ba" stroke-width="1.7"/></marker></defs>
-<rect width="1200" height="760" rx="24" fill="#f4f7fc"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">A lasting adviser, guided by your life</title><desc id="desc">The life you want → Your current stage → People and situation → Possible futures → Routes, time and place → Do the useful work → Adjust with feedback</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#3970ba" stroke-width="1.5"/></marker></defs>
+<rect width="1200" height="720" rx="24" fill="#f4f7fc"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Arial,sans-serif">
-<text x="56" y="67" font-size="32" font-weight="700" fill="#172b4d">A life adviser, one real step at a time</text>
-<text x="56" y="109" font-size="18" fill="#52647e">Goals → circumstances → routes → action → learning</text>
-<rect x="56" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="80" y="205" font-size="15" font-weight="700" fill="#3970ba">01</text>
-<text x="80" y="246" font-size="21" font-weight="650" fill="#172b4d">The life you want</text>
-<text x="80" y="284" font-size="15" fill="#52647e">What matters to you</text>
-<text x="80" y="312" font-size="15" fill="#52647e">What makes the tradeoff worthwhile</text>
-<rect x="436" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="460" y="205" font-size="15" font-weight="700" fill="#3970ba">02</text>
-<text x="460" y="246" font-size="21" font-weight="650" fill="#172b4d">Your current stage</text>
-<text x="460" y="284" font-size="15" fill="#52647e">The key obstacle and opportunity</text>
-<text x="460" y="312" font-size="15" fill="#52647e">What this situation means for you</text>
-<rect x="816" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="840" y="205" font-size="15" font-weight="700" fill="#3970ba">03</text>
-<text x="840" y="246" font-size="21" font-weight="650" fill="#172b4d">People and circumstances</text>
-<text x="840" y="284" font-size="15" fill="#52647e">Incentives, behavior, and resources</text>
-<text x="840" y="312" font-size="15" fill="#52647e">What could happen next</text>
-<rect x="56" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="80" y="459" font-size="15" font-weight="700" fill="#3970ba">06</text>
-<text x="80" y="500" font-size="21" font-weight="650" fill="#172b4d">Learn and revise</text>
-<text x="80" y="538" font-size="15" fill="#52647e">Bring back what actually happened</text>
-<text x="80" y="566" font-size="15" fill="#52647e">Update goals and understanding</text>
-<rect x="436" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="460" y="459" font-size="15" font-weight="700" fill="#3970ba">05</text>
-<text x="460" y="500" font-size="21" font-weight="650" fill="#172b4d">Make it usable</text>
-<text x="460" y="538" font-size="15" fill="#52647e">Drafts, comparisons, and arrangements</text>
-<text x="460" y="566" font-size="15" fill="#52647e">Act and resume from real progress</text>
-<rect x="816" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="840" y="459" font-size="15" font-weight="700" fill="#3970ba">04</text>
-<text x="840" y="500" font-size="21" font-weight="650" fill="#172b4d">Choose a route</text>
-<text x="840" y="538" font-size="15" fill="#52647e">Main plan, alternatives, and signals</text>
-<text x="840" y="566" font-size="15" fill="#52647e">Time, place, effort, and room to move</text>
-<path d="M388 258H426" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M768 258H806" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M980 352V411" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M810 512H773" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M430 512H393" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M40 512H24V258H45" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<text x="56" y="682" font-size="18" fill="#334a68">Your choices lead. Useful work and real feedback keep the adviser learning.</text>
+<text x="40" y="65" font-size="30" font-weight="700" fill="#172b4d">A lasting adviser, guided by your life</text>
+<text x="40" y="110" font-size="18" fill="#52647e">Bring your situation, choices, and feedback. Your adviser connects strategy and useful work.</text>
+<rect x="40" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="60" y="202" font-size="15" font-weight="700" fill="#3970ba">01</text>
+<text x="60" y="248" font-size="19" font-weight="650" fill="#172b4d">The life you want</text>
+<text x="60" y="289" font-size="13" fill="#52647e">Your goals and tradeoffs</text>
+<rect x="330" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="350" y="202" font-size="15" font-weight="700" fill="#3970ba">02</text>
+<text x="350" y="248" font-size="19" font-weight="650" fill="#172b4d">Your current stage</text>
+<text x="350" y="289" font-size="13" fill="#52647e">Real progress and opportunities</text>
+<rect x="620" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="640" y="202" font-size="15" font-weight="700" fill="#3970ba">03</text>
+<text x="640" y="248" font-size="19" font-weight="650" fill="#172b4d">People and situation</text>
+<text x="640" y="289" font-size="13" fill="#52647e">Incentives, behavior and resources</text>
+<rect x="910" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="930" y="202" font-size="15" font-weight="700" fill="#3970ba">04</text>
+<text x="930" y="248" font-size="19" font-weight="650" fill="#172b4d">Possible futures</text>
+<text x="930" y="289" font-size="13" fill="#52647e">What changes after each choice</text>
+<rect x="910" y="420" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="930" y="452" font-size="15" font-weight="700" fill="#3970ba">05</text>
+<text x="930" y="498" font-size="19" font-weight="650" fill="#172b4d">Routes, time and place</text>
+<text x="930" y="539" font-size="13" fill="#52647e">Costs, sequence and alternatives</text>
+<rect x="620" y="420" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="640" y="452" font-size="15" font-weight="700" fill="#3970ba">06</text>
+<text x="640" y="498" font-size="19" font-weight="650" fill="#172b4d">Do the useful work</text>
+<text x="640" y="539" font-size="13" fill="#52647e">Usable outputs and actions</text>
+<rect x="330" y="420" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
+<text x="350" y="452" font-size="15" font-weight="700" fill="#3970ba">07</text>
+<text x="350" y="498" font-size="19" font-weight="650" fill="#172b4d">Adjust with feedback</text>
+<text x="350" y="539" font-size="13" fill="#52647e">Learn, revise, and continue</text>
+<path d="M290 247H325" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M580 247H615" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M870 247H905" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1035 325V414" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M910 497H875" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M620 497H585" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M455 575V635H20V247H34" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="40" y="420" width="250" height="155" rx="18" fill="#e6eefb"/>
+<text x="60" y="457" font-size="14" fill="#172b4d">Knowledge improves the route</text>
+<text x="60" y="497" font-size="14" fill="#172b4d">Add options and account for costs</text>
+<text x="60" y="537" font-size="14" fill="#172b4d">Check evidence; make it practical</text>
+<text x="40" y="685" font-size="17" fill="#52647e">Shared experience improves understanding; each decision starts from the life you want now.</text>
 </g></svg>

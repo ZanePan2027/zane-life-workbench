@@ -2,7 +2,7 @@
 
 Product version: **2.0** · Components: **2.0.0**
 
-Method and documentation revision: **2026-10-07 PDT — system-level two-in-one redesign**
+Method and documentation revision: **2026-10-07 PDT — integrated strategy, delivery, and feedback**
 
 The command below installs the currently published repository revision.
 
@@ -16,7 +16,7 @@ npx -y skills add ZanePan2027/zane-life-workbench -g --skill "*"
 
 | Skill | Version |
 |---|---|
-| zane-workbench | 3.0.0 |
+| zane-workbench | 2.0.0 |
 | zane-workbench-curator | 1.1.0 |
 | zane-question-intent-translator | 1.0.0 |
 | zane-agent-identity-card-builder | 1.0.0 |
