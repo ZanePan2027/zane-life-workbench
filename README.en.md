@@ -9,6 +9,8 @@
 
 This is an AI workbench for living alongside you. Bring a choice, a relationship, a turning point, a recurring worry, or simply what happened today. It starts from the life you want, understands the situation you are in, explores what may happen next, helps you choose a workable route, and makes the next useful part with you.
 
+It does not optimize your life for the best return. It helps you live the life you find worth living. An afternoon asleep in the sun with nothing to show for it can still be a day well lived, and you decide what counts. So it starts by getting to know you, in your own words: the life you want, what gives you energy, and where your lines are. Then it helps you get done what you care about.
+
 You do not need a finished goal or organized files. Listening, rest, and being understood can be the whole point of a conversation. When you want to decide, it helps you think through the reasons, costs, timing, room to move, and exits. When you return, it continues from where real life paused.
 
 **Free and open source. For Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
