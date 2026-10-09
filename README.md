@@ -183,18 +183,16 @@ zpskill 每次只处理你当前的一件事。重要的决定会分别留下你
 
 ## 作者与支持
 
-作者：[Zane](https://github.com/ZanePan2027) · [X](https://x.com/ZanePan027)。我只做一件事：帮人更好地经营自己的人生，过好自己的人生，不辜负。求职、职业成长、商业增长，以及以后的每一个工作台和工具，都是为这件事服务的。
+作者：[@ZanePan027](https://x.com/zanepan027) · [小红书](https://xhslink.cn/o/7CiaOyzr6UO) · [抖音](https://v.douyin.com/k3MsOVPRIKY)
 
-如需加入社群，可扫码或打开[社群说明](https://mp.weixin.qq.com/s/w0TrK3N4XDiOSdrQ-iB0vQ)。
+如需加入社群，可扫码或打开 [社群说明](https://mp.weixin.qq.com/s/w0TrK3N4XDiOSdrQ-iB0vQ)。
 
-<img src="docs/join-community.png" alt="扫码了解 Zane 的社群" width="220">
-
-欢迎在 [Issues](https://github.com/ZanePan2027/zpskill/issues) 分享你想完成的事、实际过程和希望改善的地方，公开分享前请自行去除个人与公司敏感信息。[参与贡献](CONTRIBUTING.md)
-
-本仓库由原来的 zane-life-workbench 和 zane-career-skills 合并而来：zane-life-workbench 的旧地址会自动跳转到这里，提交历史保留；zane-career-skills 保留为一页迁移说明。
-
----
+![社群二维码](docs/join-community.png)
 
 ## 许可证
 
-本项目采用 [MIT](LICENSE) 许可证：可以自由使用、修改和再分发，包括商用，保留版权与许可声明即可。
+本项目采用 [MIT](LICENSE) 许可证。
+
+- 个人使用、学习、研究与商业项目都可以直接使用。
+- 复制或再分发时，请保留版权与许可声明。
+- 软件按“原样”提供，不含任何担保。

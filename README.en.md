@@ -183,18 +183,16 @@ How to use it well once installed: [Live Your Life Well (main line)](docs/life/R
 
 ## Author and support
 
-By [Zane](https://github.com/ZanePan2027) · [X](https://x.com/ZanePan027). I do one thing: help people run their own lives well and live them without letting themselves down. The job search, career growth, business growth and every workspace and tool still to come all serve that one thing.
+By [@ZanePan027](https://x.com/zanepan027) · [Xiaohongshu](https://xhslink.cn/o/7CiaOyzr6UO) · [Douyin](https://v.douyin.com/k3MsOVPRIKY)
 
 To join the community, scan the code or open the [community guide (in Chinese)](https://mp.weixin.qq.com/s/w0TrK3N4XDiOSdrQ-iB0vQ).
 
-<img src="docs/join-community.png" alt="Scan to learn about Zane's community" width="220">
-
-Share your task, experience, and suggested improvements in [Issues](https://github.com/ZanePan2027/zpskill/issues). Remove personal and company details before sharing publicly. [Contributing](CONTRIBUTING.md)
-
-This repository merges the former zane-life-workbench and zane-career-skills. The old zane-life-workbench URL redirects here and the commit history is kept; zane-career-skills remains as a one-page migration note.
-
----
+![Community QR code](docs/join-community.png)
 
 ## License
 
-This project uses the [MIT](LICENSE) license: you may use, modify and redistribute it freely, including commercially, as long as you keep the copyright and license notice.
+This project uses the [MIT](LICENSE) license.
+
+- Personal, learning, research and commercial use are all allowed.
+- Keep the copyright and license notice when you copy or redistribute it.
+- The software is provided "as is", without warranty of any kind.
