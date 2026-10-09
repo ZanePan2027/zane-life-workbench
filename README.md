@@ -2,7 +2,7 @@
 
 简体中文 | [English](README.en.md)
 
-> Zane的人生经营Skills：帮你更好地经营自己的人生，过好自己的人生，不辜负。
+> **Zane的人生经营Skills**：用一段话说清你的处境，换回清楚的判断和今天就能做的下一步。
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)

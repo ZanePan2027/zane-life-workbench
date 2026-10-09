@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English
 
-> Zane's Life-Management Skills: help you run your own life well, and live it without letting yourself down.
+> **Zane's Life-Management Skills**: describe your situation in a few lines, and get back a clear judgment and a next step you can take today.
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
