@@ -1,3 +1,29 @@
+# 2026-10-09 · Skill 改名 / Skills renamed
+
+所有 Skill 改用统一前缀 `zp-` 加一个说明用途的短词，方便输入和记忆。Skill 的内容没有改变。已安装旧名字的人，请用新名字重新安装。
+All Skills now use the `zp-` prefix plus a short purpose word. Contents are unchanged; reinstall to get the new names.
+
+| 旧名 / Old | 新名 / New |
+|---|---|
+| zane-workbench | zp-life |
+| zane-workbench-curator | zp-workspace |
+| zane-question-intent-translator | zp-question |
+| zane-agent-identity-card-builder | zp-partner |
+| zane-self-insight | zp-self |
+| zane-psychological-support | zp-support |
+| life-decision-guide | zp-guide |
+| zane-career-assets | zp-career |
+| zane-career-portfolio-builder | zp-materials |
+| zane-career-resume-builder | zp-resume |
+| zane-career-application-greeting | zp-greeting |
+| zane-career-portfolio-architecture | zp-portfolio |
+| zane-career-portfolio-website-design | zp-site |
+| zane-career-case-editor-zh | zp-editor |
+| zane-evidence-weighted-case-storytelling | zp-story |
+| zane-portfolio-multi-format-qa | zp-qa |
+| zane-former-employer-data-redactor | zp-redact |
+| zane-design-reference-to-prompt | zp-design-prompt |
+
 # 2026-10-09 · 合并为 zpskill / Merged into one repository
 
 - 「过好你的人生」（原 zane-life-workbench）与「走出象牙塔」（原 zane-career-skills）合并为同一个仓库 zpskill，Skill 内容不变。
