@@ -176,9 +176,13 @@ claude plugin install zpskill@zpskill
 
 ---
 
-## 关于
+## 作者与支持
 
 作者：[Zane](https://github.com/ZanePan2027)。我只做一件事：帮人更好地经营自己的人生，过好自己的人生，不辜负。求职、职业成长、商业增长，以及以后的每一个工作台和工具，都是为这件事服务的。这套方法从具体生活问题里长出来：方向、处境、未来、路线、行动、反馈和共同经历。
+
+如需加入社群，可扫码或打开[社群说明](https://mp.weixin.qq.com/s/oEcu88XSEEzEc8WRbGTrQA)。
+
+<img src="docs/join-community.png" alt="扫码了解 Zane 的社群" width="220">
 
 本仓库由原来的 zane-life-workbench 和 zane-career-skills 合并而来：zane-life-workbench 的旧地址会自动跳转到这里，提交历史保留；zane-career-skills 保留为一页迁移说明。
 

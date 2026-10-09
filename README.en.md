@@ -175,9 +175,13 @@ With the full set, Skills appear in chat prefixed with `zpskill:`, for example `
 
 ---
 
-## About
+## Author and support
 
 By [Zane](https://github.com/ZanePan2027). I do one thing: help people run their own lives well and live them without letting themselves down. The job search, career growth, business growth and every workspace and tool still to come all serve that one thing. This method grew out of real life questions: direction, circumstances, futures, routes, action, feedback and shared experience.
+
+To join the community, scan the code or open the [community guide (in Chinese)](https://mp.weixin.qq.com/s/oEcu88XSEEzEc8WRbGTrQA).
+
+<img src="docs/join-community.png" alt="Scan to learn about Zane's community" width="220">
 
 This repository merges the former zane-life-workbench and zane-career-skills. The old zane-life-workbench URL redirects here and the commit history is kept; zane-career-skills remains as a one-page migration note.
 
