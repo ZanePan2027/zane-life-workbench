@@ -1,27 +1,8 @@
 # Version
 
-Product version: **2.0** · Components: **2.0.0**
+zpskill **1.0.0** is the umbrella release. Each product keeps its own version.
 
-Method and documentation revision: **2026-10-07 PDT — integrated strategy, delivery, and feedback**
-
-The command below installs the currently published repository revision.
-
-Revision dates and commits identify updates within version 2.0.
-
-```bash
-npx -y skills add ZanePan2027/zane-life-workbench -g --all
-```
-
-[Version checks](docs/testing.md)
-
-| Skill | Version |
-|---|---|
-| zane-workbench | 2.0.0 |
-| zane-workbench-curator | 1.1.0 |
-| zane-question-intent-translator | 1.0.0 |
-| zane-agent-identity-card-builder | 1.0.0 |
-| zane-self-insight | 1.0.0 |
-| zane-psychological-support | 1.0.0 |
-| life-decision-guide | 1.1.0 |
-
-[简体中文](README.md) · [English](README.en.md)
+| Product | Version | Details |
+|---|---|---|
+| 过好你的人生 / Live a Life Worth Living | 2.0 (components 2.0.0) | [VERSION](docs/life/VERSION.md) · [CHANGELOG](docs/life/CHANGELOG.md) |
+| 走出象牙塔 / Out of the Ivory Tower | 1.0.0 | [VERSION](docs/career/VERSION.md) · [CHANGELOG](docs/career/CHANGELOG.md) |

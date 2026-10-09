@@ -1,11 +1,11 @@
 {
-  "name": "zane-life",
-  "version": "2.0.0",
-  "description": "A life adviser for direction, people, foresight, action, and lasting context.",
+  "name": "zpskill",
+  "version": "1.0.0",
+  "description": "zpskill: a long-term life adviser and a job-search toolkit.",
   "author": {
     "name": "Zane"
   },
-  "homepage": "https://github.com/ZanePan2027/zane-life-workbench",
-  "repository": "https://github.com/ZanePan2027/zane-life-workbench",
+  "homepage": "https://github.com/ZanePan2027/zpskill",
+  "repository": "https://github.com/ZanePan2027/zpskill",
   "license": "MIT"
 }
