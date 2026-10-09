@@ -111,7 +111,7 @@ claude plugin install zpskill@zpskill
 使用 zp-life，更新 zpskill
 ```
 
-你自己的人生工作台和文件不会被改动，只替换 Skill 本身。版本变化见[更新记录](CHANGELOG.md)。
+它会先告诉你这次改了什么，再更新。你自己的人生工作台和文件不会被改动，只替换 Skill 本身。版本变化见[更新记录](CHANGELOG.md)。
 
 ---
 

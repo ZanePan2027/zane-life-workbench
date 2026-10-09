@@ -111,7 +111,7 @@ If already installed, run the install command again, or tell your Agent:
 Use zp-life to update zpskill
 ```
 
-Your own life workspace and files are untouched; only the Skills are replaced. See the [changelog](CHANGELOG.md).
+It first tells you what changed, then updates. Your own life workspace and files are untouched; only the Skills are replaced. See the [changelog](CHANGELOG.md).
 
 ---
 

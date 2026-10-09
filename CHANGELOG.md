@@ -1,3 +1,9 @@
+# 2026-10-09 · 更新前先告诉你这次改了什么 / Updates now tell you what changed
+
+- 新增 `UPDATE.json`：更新时先读它，告诉你当前版本、最新版本和这次改了什么，再更新。
+- 之后的提交说明用中文写成更新公告，直接看[提交记录](https://github.com/ZanePan2027/zpskill/commits/main)就能知道每次改了什么。
+- Updating now first reads `UPDATE.json` and tells you the installed and latest versions and what changed. Commit messages are written as plain update notes (in Chinese).
+
 # 2026-10-09 · Skill 改名 / Skills renamed
 
 所有 Skill 改用统一前缀 `zp-` 加一个说明用途的短词，方便输入和记忆。Skill 的内容没有改变。已安装旧名字的人，请用新名字重新安装。
