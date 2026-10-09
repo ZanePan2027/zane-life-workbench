@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English
 
-> **Zane's Life-Management Skills**: describe your situation in a few lines, and get back a clear judgment and a next step you can take today.
+> **Zane's Life-Management Skills**: Start from the life you want, then get the thing in front of you done, without letting that life down.
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
@@ -30,11 +30,7 @@ It does not help you live the most cost-efficient life. It helps you live the li
 | You feel stuck before starting something | The sticking point understood first, then one step you actually want to take, made doable |
 | You feel overwhelmed and want to be understood | Listening, shared understanding, and support at your pace |
 | You keep repeating the same background | Saved understanding, usable outputs, and a clear place to resume |
-| You do not know what to apply for, or how to write a résumé with no internship | Role comparisons, honest material from school and projects, small projects to try |
-| BOSS Zhipin: what to write, and why greetings get no reply | Profile opening, supporting strengths, role-specific greeting and follow-up |
-| An old résumé to rebuild, an English version, or a portfolio with few projects | Résumé and portfolio content, layout and the files you need for the role and market |
-| You do not know how to prepare for tests and interviews | Practice, answer editing and one-question-at-a-time mock interviews |
-| How to compare offers, negotiate and reply | Comparable compensation, questions to resolve and reply drafts |
+| A concrete thing in front of you needs doing, such as a job search | Starting from the life you want, broken into steps you can take; such things have dedicated tools, see “A concrete thing” below |
 
 ---
 
