@@ -13,6 +13,8 @@ zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing:
 
 [Quick start](#quick-start) · [Install](#install) · [What's inside](#whats-inside) · [How it works](#how-zpskill-works) · [Manuals](#manuals) · [Changelog](CHANGELOG.md)
 
+![How your life adviser works](docs/life/life-flow.en.svg)
+
 ---
 
 ## What zpskill solves
@@ -131,6 +133,8 @@ Day to day you only need `zp-life`; the rest are used as the question requires.
 
 ### A concrete thing: finding a job
 
+![Start with your current job-search task](docs/career/career-assets-flow.en.svg)
+
 Finding a job is one concrete thing in a life. This AI job-search toolkit walks with you through every step before you start work, mainly for interns, new graduates and people with 1–2 years of experience; experienced people changing jobs can use it too. Day to day you only need `zp-career`; it reads the methods the task needs and completes it. Call a specific tool directly once you know it.
 
 | Entry | What you get |
@@ -168,10 +172,6 @@ Adjust with what really happens
 ```
 
 zpskill handles one current thing at a time. For an important decision it keeps your view, the AI's advice, each side's basis and the signals that would change the judgment; when reality comes back, it fixes the current plan first, then asks which understanding is worth keeping.
-
-![How your life adviser works](docs/life/life-flow.en.svg)
-
-![Start with your current job-search task](docs/career/career-assets-flow.en.svg)
 
 ---
 

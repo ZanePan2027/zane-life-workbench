@@ -13,6 +13,8 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：�
 
 [快速开始](#快速开始) · [安装](#安装) · [能力一览](#能力一览) · [怎样工作](#zpskill-怎样工作) · [使用手册](#使用手册) · [更新记录](CHANGELOG.md)
 
+![人生参谋怎样与你一起推进](docs/life/life-flow.zh-CN.svg)
+
 ---
 
 ## zpskill 解决什么问题
@@ -131,6 +133,8 @@ claude plugin install zpskill@zpskill
 
 ### 具体的事：找到工作
 
+![从当前求职问题直接开始](docs/career/career-assets-flow.zh-CN.svg)
+
 找工作是人生里很具体的一件事。这套 AI 求职工具箱陪你走完入职前的每一步，重点服务实习生、应届毕业生和工作 1—2 年的新人，有经验、正在换工作的人也可以用。日常只需要 `zp-career`，它按当前任务读取方法并直接完成；熟悉后可以直接调用专项工具。
 
 | 入口 | 你会得到 |
@@ -168,10 +172,6 @@ claude plugin install zpskill@zpskill
 ```
 
 zpskill 每次只处理你当前的一件事。重要的决定会分别留下你的想法、AI 的建议、各自依据和会改变判断的信号；现实回来后，先修当前方案，再看哪些认识值得保留。
-
-![人生参谋怎样与你一起推进](docs/life/life-flow.zh-CN.svg)
-
-![从当前求职问题直接开始](docs/career/career-assets-flow.zh-CN.svg)
 
 ---
 
