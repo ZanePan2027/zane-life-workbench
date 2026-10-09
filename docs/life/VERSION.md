@@ -1,15 +1,15 @@
 # Version
 
-Product version: **2.0** · Components: **2.0.0**
+Product version: **2.1** · Skill versions: see the table
 
 Method and documentation revision: **2026-10-07 PDT — integrated strategy, delivery, and feedback**
 
 The command below installs the currently published repository revision.
 
-Revision dates and commits identify updates within version 2.0.
+Revision dates and commits identify updates within version 2.1.
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-guide
 ```
 
 [Version checks](testing.md)
@@ -18,7 +18,9 @@ npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-questio
 |---|---|
 | zp-life | 2.0.0 |
 | zp-workspace | 1.1.0 |
-| zp-question | 1.0.0 |
+| zp-question | 1.0.1 |
+| zp-judge | 0.1.0 |
+| zp-check | 0.1.0 |
 | zp-partner | 1.0.0 |
 | zp-self | 1.0.0 |
 | zp-support | 1.0.0 |

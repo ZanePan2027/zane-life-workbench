@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
-  "notice": "Skill 统一改名为 zp- 前缀（入口 zp-life、zp-career）；首页重排并加入社群二维码。已安装旧名字的，请用新名字重新安装。",
+  "version": "1.1.0",
+  "notice": "新增两个 Skill：zp-judge（判断与决策：先判断成不成立，再让反方说满，给改、不改或再观察）和 zp-check（复核：AI 说做完了怎么确认、越聊越偏怎么重开）；zp-question 补充：说不清时最多问两个问题并给模板。",
   "details_url": "https://github.com/ZanePan2027/zpskill/commits/main"
 }

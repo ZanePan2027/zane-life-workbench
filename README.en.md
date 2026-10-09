@@ -9,7 +9,7 @@
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well. It holds 18 Skills today: the main line, Live Your Life Well (7), and one concrete thing in a life, finding a job (11).
+zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well. It holds 20 Skills today: the main line, Live Your Life Well (9), and one concrete thing in a life, finding a job (11).
 
 [Quick start](#quick-start) · [Install](#install) · [What's inside](#whats-inside) · [How it works](#how-zpskill-works) · [Manuals](#manuals) · [Changelog](CHANGELOG.md)
 
@@ -52,6 +52,8 @@ When you already know what you need, call a specific Skill:
 ```text
 Use zp-career. Here are my old résumé and the role I want. I mainly apply through BOSS Zhipin. Rework my résumé, write the opening of my online profile, and draft a first message for this role.
 Use zp-resume to make an English résumé for a product internship from these experiences.
+Use zp-judge: I want to re-cut all my next videos but I only have 100+ views of data. Should I?
+Use zp-check: the AI says it published the post; help me confirm it really did.
 Use zp-self: why do I give up just when I am about to succeed?
 Use zp-workspace to set this folder up as my life workspace, then help me with: …
 ```
@@ -74,10 +76,10 @@ Then tell your Agent “Use zp-life, help me…”.
 
 To install only part:
 
-**Main line: Live Your Life Well (7)**
+**Main line: Live Your Life Well (9)**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-guide
 ```
 
 **Job search: finding a job (11)**
@@ -121,6 +123,8 @@ Day to day you only need `zp-life`; the rest are used as the question requires.
 |---|---|
 | `zp-life` | Life strategy and foresight: a route, timing and practical setting, usable outputs, next steps |
 | `zp-question` | A vague question turned into what you actually want to move forward |
+| `zp-judge` | For “should I change / do this?”: first checks it is a real question, argues against both options, then gives change / don't / observe with one smallest experiment; with thin data it never just says “wait” |
+| `zp-check` | Re-check what an AI did or said: it claims it is done, the chat drifted, or it keeps agreeing with you |
 | `zp-self` | Motives, values and recurring choices understood from real experience |
 | `zp-support` | Emotional and psychological support; not a substitute for diagnosis or treatment |
 | `zp-partner` | Responsibilities, judgment and collaboration for a long-term AI partner |

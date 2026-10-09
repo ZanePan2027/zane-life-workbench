@@ -30,6 +30,30 @@ Use zp-question. I am worried about changing jobs, income, and time. Help me ide
 
 Output: The current question, needed judgments, and a request you can continue with.
 
+## [Judgment and decisions](../../skills/zp-judge/SKILL.md)
+
+`zp-judge`
+
+Use when: you must decide whether to change or do something, with thin evidence or a conclusion you already lean toward.
+
+```text
+Use zp-judge. I want to re-cut all my next videos but I only have one video and 100+ views of data. Should I?
+```
+
+Output: first whether the question holds up; an argument against both doing and not doing; a conclusion (change / don't / observe) with flip conditions and one smallest experiment.
+
+## [Re-check](../../skills/zp-check/SKILL.md)
+
+`zp-check`
+
+Use when: an AI says it is done and you want to confirm, a long chat has drifted, or the AI keeps agreeing with you.
+
+```text
+Use zp-check. The AI says it published the article; help me confirm it really did.
+```
+
+Output: the AI's claims broken out and graded, checked in ways that do not rely on the AI; a restart brief when things drifted.
+
 ## [Self-reflection](../../skills/zp-self/SKILL.md)
 
 `zp-self`

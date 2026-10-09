@@ -1,3 +1,8 @@
+## 2.1 · 2026-10-09 · 新增判断与复核
+
+- 新增 `zp-judge`（判断与决策）与 `zp-check`（复核）；`zp-question` 补充追问规则（最多两个问题并给模板）。
+- Added `zp-judge` and `zp-check`; `zp-question` asks at most two questions and gives a template.
+
 ## 2.0.0 · 2026-10-08 · 先认识你，过你觉得值得的人生
 
 - 首页写明产品立场：不帮你过性价比最高的人生，只帮你过你自己觉得值得的人生。
@@ -42,7 +47,7 @@ The command below installs the currently published repository revision.
 Revision dates and commits identify updates within version 2.0.
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-guide
 ```
 
 [Version checks](testing.md)

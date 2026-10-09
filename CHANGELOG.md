@@ -1,3 +1,10 @@
+# 2026-10-09 · 新增判断与复核 / Judgment and re-check added
+
+- 新增 `zp-judge`：对“要不要改／做”先判断成不成立，对做与不做都让反方说满，再给改、不改或再观察，附翻转条件和一个最小实验。
+- 新增 `zp-check`：复核 AI 的进展和产出——AI 说做完了怎么确认、越聊越偏怎么重开、AI 总说好怎么办。
+- `zp-question` 补充：说不清时最多问两个问题，并同时给出可填空的问题模板。
+- Added `zp-judge` (decisions under thin evidence) and `zp-check` (re-checking AI claims and drifting chats); `zp-question` now asks at most two questions and always gives a fill-in template.
+
 # 2026-10-09 · 更新前先告诉你这次改了什么 / Updates now tell you what changed
 
 - 新增 `UPDATE.json`：更新时先读它，告诉你当前版本、最新版本和这次改了什么，再更新。

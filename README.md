@@ -9,7 +9,7 @@
 
 **支持：豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**
 
-zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：帮人更好地经营自己的人生。目前包含 18 个 Skills：主线「过好你的人生」7 个，人生里具体的一件事「找到工作」11 个。
+zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：帮人更好地经营自己的人生。目前包含 20 个 Skills：主线「过好你的人生」9 个，人生里具体的一件事「找到工作」11 个。
 
 [快速开始](#快速开始) · [安装](#安装) · [能力一览](#能力一览) · [怎样工作](#zpskill-怎样工作) · [使用手册](#使用手册) · [更新记录](CHANGELOG.md)
 
@@ -52,6 +52,8 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：�
 ```text
 使用 zp-career。这是我的旧简历和想投的岗位，我主要用 BOSS 直聘，请帮我重做简历，并写好在线简历的开头和这个岗位的打招呼语。
 使用 zp-resume，用这些经历做一份申请产品实习的英文简历。
+使用 zp-judge，我想把后面的视频都重剪，但数据只有一百多次播放，要不要改？
+使用 zp-check，AI 说它已经把事情发布了，帮我确认是不是真的。
 使用 zp-self，我为什么总在快成功的时候放弃？
 使用 zp-workspace，把当前文件夹设为我的人生工作台，然后陪我处理眼前这件事：……
 ```
@@ -74,10 +76,10 @@ npx -y skills add ZanePan2027/zpskill -g --all
 
 只想装一部分时：
 
-**主线：过好你的人生（7 个）**
+**主线：过好你的人生（9 个）**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-guide
 ```
 
 **求职：找到工作（11 个）**
@@ -121,6 +123,8 @@ claude plugin install zpskill@zpskill
 |---|---|
 | `zp-life` | 人生参谋、未来推演：推荐路线、时间空间、实际成果和下一步 |
 | `zp-question` | 把模糊的问题理清成真正要推进的事 |
+| `zp-judge` | 对“要不要改／要不要做”先判断成不成立，两边都让反方说满，再给改、不改或再观察与一个最小实验；数据少时不会只说“再等等” |
+| `zp-check` | 复核 AI 的进展和产出：AI 说做完了怎么确认、越聊越偏怎么重开、AI 总说好怎么办 |
 | `zp-self` | 从具体经历理解自己的动机、价值和反复出现的选择 |
 | `zp-support` | 情绪陪伴与心理支持，不替代诊断或治疗 |
 | `zp-partner` | 设定长期 AI 伙伴的职责、判断方式和协作约定 |
