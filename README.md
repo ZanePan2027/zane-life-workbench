@@ -1,27 +1,28 @@
-<div align="center">
-
 # zpskill
 
-**Zane的人生经营Skills**
+简体中文 | [English](README.en.md)
 
-一套陪你把人生想清楚，一套陪你把工作找到。
+> Zane的人生经营Skills：一套陪你把人生想清楚，一套陪你把工作找到。
+
+[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **支持：豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**
 
-[过好你的人生](#过好你的人生) · [走出象牙塔](#走出象牙塔) · [安装](#安装) · [English](README.en.md)
+zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互独立的 Skills：「过好你的人生」7 个，「走出象牙塔」11 个。
 
-</div>
+[快速开始](#快速开始) · [过好你的人生](#过好你的人生) · [走出象牙塔](#走出象牙塔) · [安装](#安装) · [更新记录](CHANGELOG.md)
 
 ---
 
-## 你想先解决哪件事
+## 快速开始
 
 | 我想…… | 用这一套 | 入口 |
 |---|---|---|
 | 看清自己想过什么样的人生，处理选择、关系和转折，并且有人接着陪 | [过好你的人生](#过好你的人生)（7 个 Skill） | `zane-workbench` |
 | 找实习或工作：简历、作品集、投递、面试、offer | [走出象牙塔](#走出象牙塔)（11 个 Skill） | `zane-career-assets` |
 
-两套彼此独立，可以只装其中一套。装好后在 Agent 里说“使用 入口名，帮我……”就能开始，不需要先学一套方法，也不需要先整理资料。
+先[安装](#安装)你需要的那一套，再在 Agent 里说“使用 入口名，帮我……”就能开始，不需要先学方法，也不需要先整理资料。
 
 ---
 
@@ -74,7 +75,7 @@
 | `zane-workbench-curator` | 建台、整理资料、接续上次停下的地方 |
 | `life-decision-guide` | 需要具体生活办法时，按需参考《[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)》并给出处 |
 
-完整用法：[教程](docs/life/guide.md) · [工作台结构](docs/life/architecture.md) · [示例](docs/life/examples.md)
+更多用法：[使用手册](docs/life/README.md)
 
 ---
 
@@ -110,7 +111,6 @@
 
 已有的信息直接使用，只补问影响结果的缺口。默认先做出可编辑的版本，再按你的反馈修改。
 
-围绕 BOSS 直聘等平台时，在线简历开头让对方迅速看懂相关性，完整资料和附件证明经历，打招呼语连接当前岗位。推荐列表给个人优势的空间很短，已观察到的招聘端界面约显示 22 个中文字，所以先在 20—22 字内写清一项岗位价值，再用后文展开。
 
 ### 11 个 Skill
 
@@ -130,7 +130,7 @@
 | `zane-former-employer-data-redactor` | 脱敏前公司数据与敏感信息，再放进作品集 |
 | `zane-design-reference-to-prompt` | 把设计参考图转成可复用的生成提示 |
 
-完整用法：[教程](docs/career/guide.md) · [能力目录](docs/career/skill-inventory.md)
+更多用法：[使用手册](docs/career/README.md)（含 BOSS 直聘等平台的写法）
 
 ---
 
@@ -163,7 +163,7 @@ claude plugin marketplace add ZanePan2027/zpskill
 claude plugin install zpskill@zpskill
 ```
 
-也可以只装单个，例如 `claude plugin install zane-career-assets@zpskill`。
+整套安装后，Skill 在对话里以 `zpskill:` 开头出现，例如 `zpskill:zane-workbench`；也可以只装单个，例如 `claude plugin install zane-career-assets@zpskill`，它显示为 `zane-career-assets`。直接说“使用 zane-workbench，帮我……”即可，不必输全名。
 
 **不用命令行（豆包、WorkBuddy 等）：** 直接告诉 Agent “请从 https://github.com/ZanePan2027/zpskill 安装「过好你的人生」的 7 个 Skills”（或「走出象牙塔」的 11 个），装好后新建对话，说“使用 zane-workbench，帮我……”或“使用 zane-career-assets，帮我……”。各宿主的具体步骤见[人生安装页](docs/life/install.md)和[求职安装页](docs/career/install.md)。
 

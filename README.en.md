@@ -1,27 +1,28 @@
-<div align="center">
-
 # zpskill
 
-**Zane's Life-Management Skills**
+[简体中文](README.md) | English
 
-One set helps you work out the life you want. The other helps you find the job.
+> Zane's Life-Management Skills: one set helps you work out the life you want, the other helps you find the job.
+
+[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-[Live Your Life Well](#live-your-life-well) · [Beyond the Ivory Tower](#beyond-the-ivory-tower) · [Install](#install) · [简体中文](README.md)
+zpskill is created by [Zane](https://github.com/ZanePan2027). It holds two independent sets of Skills: Live Your Life Well (7) and Beyond the Ivory Tower (11).
 
-</div>
+[Quick start](#quick-start) · [Live Your Life Well](#live-your-life-well) · [Beyond the Ivory Tower](#beyond-the-ivory-tower) · [Install](#install) · [Changelog](CHANGELOG.md)
 
 ---
 
-## Which one do you need
+## Quick start
 
 | I want to… | Use | Entry |
 |---|---|---|
 | Understand what life I want to live, handle choices, relationships and turning points, with something that keeps going over time | [Live Your Life Well](#live-your-life-well) (7 Skills) | `zane-workbench` |
 | Find an internship or job: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (11 Skills) | `zane-career-assets` |
 
-The two sets are independent; install either one or both. After installing, tell your Agent “Use <entry>, help me…” and start. You do not need to learn a method or organize files first.
+[Install](#install) the set you need, then tell your Agent “Use <entry>, help me…”. You do not need to learn a method or organize files first.
 
 ---
 
@@ -74,7 +75,7 @@ Day to day you only need `zane-workbench`; the rest are used as the question req
 | `zane-workbench-curator` | Build a workspace, organize sources, resume where you stopped |
 | `life-decision-guide` | When you need concrete everyday options, consults the [How To Live Better guide](https://github.com/eternity4719/HowToLiveBetter) with sources |
 
-Full guide: [Guide](docs/life/guide.en.md) · [Architecture](docs/life/architecture.en.md)
+More: [Manual](docs/life/README.en.md)
 
 ---
 
@@ -128,7 +129,7 @@ Day to day you only need `zane-career-assets`; it reads the methods the task nee
 | `zane-former-employer-data-redactor` | Redact former-employer data and sensitive details before they go in a portfolio |
 | `zane-design-reference-to-prompt` | Turn design references into reusable generation prompts |
 
-Full guide: [Guide](docs/career/guide.en.md) · [Skill directory](docs/career/skill-inventory.en.md)
+More: [Manual](docs/career/README.en.md) (including how to write for BOSS Zhipin and similar platforms)
 
 ---
 
@@ -161,7 +162,7 @@ claude plugin marketplace add ZanePan2027/zpskill
 claude plugin install zpskill@zpskill
 ```
 
-A single Skill also works, for example `claude plugin install zane-career-assets@zpskill`.
+With the full set, Skills appear in chat prefixed with `zpskill:`, for example `zpskill:zane-workbench`. You can also install one Skill, for example `claude plugin install zane-career-assets@zpskill`, which shows as `zane-career-assets`. Just say “Use zane-workbench, help me…”; the full name is not required.
 
 **Without the command line (Doubao, WorkBuddy, etc.):** tell your Agent “Install the Life Skills (7) from https://github.com/ZanePan2027/zpskill” (or the 11 Career Skills), then start a new chat and say “Use zane-workbench, help me…” or “Use zane-career-assets, help me…”. Host-specific steps: [Life install](docs/life/install.en.md) · [Career install](docs/career/install.en.md).
 

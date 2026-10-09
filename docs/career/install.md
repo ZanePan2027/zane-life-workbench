@@ -47,4 +47,4 @@ npx -y skills add ZanePan2027/zpskill -g --skill zane-career-application-greetin
 
 Skill 安装目录保存方法。单次任务无需建立目录；需要保存个人材料时沿用当前项目，位置已知不重复询问。个人文件不放进Skill安装目录。
 
-[返回首页](README.md)
+[返回手册目录](README.md)

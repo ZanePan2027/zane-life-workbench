@@ -1,6 +1,6 @@
 # 从当前问题开始
 
-[English](guide.en.md) · [返回首页](README.md)
+[English](guide.en.md) · [返回手册目录](README.md)
 
 安装后使用 `zane-career-assets` 即可。从手头材料和想要的结果说起。以下用虚构经历演示。
 

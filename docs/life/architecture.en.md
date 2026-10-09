@@ -1,6 +1,6 @@
 # How your workspace grows
 
-[简体中文](architecture.md) · [Home](README.en.md)
+[简体中文](architecture.md) · [Manual index](README.en.md)
 
 Start with the current situation and connect useful information into a map for future decisions. Start from the life you want, understand your stage and the people involved, explore possible futures, and turn a route into useful work. Knowledge adds overlooked options, full costs, key evidence, and practical explanations.
 

@@ -47,4 +47,4 @@ Ask your Agent to compare the installed files with this repository and preserve 
 
 The Skill directory holds methods. Keep your own material and results in a separate project folder you choose. Provide that folder when continuing a task later.
 
-[Back to the overview](README.en.md)
+[Back to the manual index](README.en.md)

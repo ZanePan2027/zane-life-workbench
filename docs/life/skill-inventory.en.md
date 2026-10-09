@@ -89,4 +89,4 @@ Keep methods, conditions, counterexamples, and feedback used in real situations.
 
 Use when you request *The High Value Life Guide*, or a concrete everyday question needs options it can supply. It reads complete relevant entries and returns candidate actions, costs, benefits, and sources to `zane-workbench` for a plan grounded in your circumstances.
 
-[Back to the overview](README.en.md)
+[Back to the manual index](README.en.md)

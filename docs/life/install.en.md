@@ -47,7 +47,7 @@ Ask your Agent to compare the installed files with this repository and preserve 
 
 The Skill directory holds methods. Your workspace holds personal material and results. Continue in the same project without repeating the folder path. A location is needed again only when the project changes, access is lost, or the workspace is ambiguous. When changing tools, open or authorize access to that same folder.
 
-[Back to the overview](README.en.md)
+[Back to the manual index](README.en.md)
 
 ## Claude Code plugin
 

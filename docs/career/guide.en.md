@@ -1,6 +1,6 @@
 # Start with the task you have
 
-[简体中文](guide.md) · [Home](README.en.md)
+[简体中文](guide.md) · [Manual index](README.en.md)
 
 Use `zane-career-assets` after installation. Start with your materials and the result you want. All examples here are synthetic.
 

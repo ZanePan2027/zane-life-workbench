@@ -1,6 +1,6 @@
 # 从第一次提问到持续陪伴
 
-[English](guide.en.md) · [首页](README.md) · [安装](install.md)
+[English](guide.en.md) · [手册目录](README.md) · [安装](install.md)
 
 ## 先交出眼前的一件事
 

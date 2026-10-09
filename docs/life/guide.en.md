@@ -1,6 +1,6 @@
 # From a first question to continued support
 
-[简体中文](guide.md) · [Home](README.en.md) · [Install](install.en.md)
+[简体中文](guide.md) · [Manual index](README.en.md) · [Install](install.en.md)
 
 ## Bring one real situation
 

@@ -73,4 +73,4 @@ claude plugin install zane-workbench@zpskill
 npx -y skills add ZanePan2027/zpskill -g --skill zane-workbench zane-workbench-curator zane-question-intent-translator zane-agent-identity-card-builder zane-self-insight zane-psychological-support life-decision-guide
 ```
 
-[返回首页](README.md)
+[返回手册目录](README.md)

@@ -136,4 +136,4 @@ Use zane-design-reference-to-prompt. Translate this reference page into design r
 
 Output: An explanation of visual relationships and actionable design requirements.
 
-[Back to the overview](README.en.md)
+[Back to the manual index](README.en.md)
