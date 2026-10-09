@@ -8,7 +8,7 @@ One set helps you work out the life you want. The other helps you find the job.
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-[Live a Life Worth Living](#live-a-life-worth-living) · [Out of the Ivory Tower](#out-of-the-ivory-tower) · [Install](#install) · [简体中文](README.md)
+[Live Your Life Well](#live-your-life-well) · [Beyond the Ivory Tower](#beyond-the-ivory-tower) · [Install](#install) · [简体中文](README.md)
 
 </div>
 
@@ -18,14 +18,14 @@ One set helps you work out the life you want. The other helps you find the job.
 
 | I want to… | Use | Entry |
 |---|---|---|
-| Understand what life I want to live, handle choices, relationships and turning points, with something that keeps going over time | [Live a Life Worth Living](#live-a-life-worth-living) (7 Skills) | `zane-workbench` |
-| Find an internship or job: résumé, portfolio, applications, interviews, offers | [Out of the Ivory Tower](#out-of-the-ivory-tower) (11 Skills) | `zane-career-assets` |
+| Understand what life I want to live, handle choices, relationships and turning points, with something that keeps going over time | [Live Your Life Well](#live-your-life-well) (7 Skills) | `zane-workbench` |
+| Find an internship or job: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (11 Skills) | `zane-career-assets` |
 
 The two sets are independent; install either one or both. After installing, tell your Agent “Use <entry>, help me…” and start. You do not need to learn a method or organize files first.
 
 ---
 
-## Live a Life Worth Living
+## Live Your Life Well
 
 > Get to know you first, then help you live a life you find worth living.
 
@@ -78,7 +78,7 @@ Full guide: [Guide](docs/life/guide.en.md) · [Architecture](docs/life/architect
 
 ---
 
-## Out of the Ivory Tower
+## Beyond the Ivory Tower
 
 > From not knowing what to apply for, to writing the materials, getting to the interview, and judging the offer. Solve the job-search problem in front of you.
 
