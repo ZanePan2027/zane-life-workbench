@@ -26,7 +26,7 @@
 
 # 2.0.0 · 2026-10-07 · 陪伴式主入口重构
 
-- 以长期人生参谋和共同经历为主线重写 `zane-workbench`：从想过的生活进入当前处境，推演未来，给出少量路线，直接完成眼前成果，并随反馈继续。
+- 以长期人生参谋和共同经历为主线重写 `zp-life`：从想过的生活进入当前处境，推演未来，给出少量路线，直接完成眼前成果，并随反馈继续。
 - 去掉对外 Skill 中的本地目录、私人适配和工程审计说明；个人工作台只作为可选的长期接续方式。
 - 《高性价比人生指南》回到可选的外部参考，帮助核对做法与证据，不替本人定义人生，也不成为主入口。
 - 重写首页，让首次使用从一句真实情况开始，允许倾诉、休息、一次性问题和长期陪伴自然共存。
@@ -42,19 +42,19 @@ The command below installs the currently published repository revision.
 Revision dates and commits identify updates within version 2.0.
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zane-workbench zane-workbench-curator zane-question-intent-translator zane-agent-identity-card-builder zane-self-insight zane-psychological-support life-decision-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
 ```
 
 [Version checks](testing.md)
 
 | Skill | Version |
 |---|---|
-| zane-workbench | 2.0.0 |
-| zane-workbench-curator | 1.1.0 |
-| zane-question-intent-translator | 1.0.0 |
-| zane-agent-identity-card-builder | 1.0.0 |
-| zane-self-insight | 1.0.0 |
-| zane-psychological-support | 1.0.0 |
-| life-decision-guide | 1.1.0 |
+| zp-life | 2.0.0 |
+| zp-workspace | 1.1.0 |
+| zp-question | 1.0.0 |
+| zp-partner | 1.0.0 |
+| zp-self | 1.0.0 |
+| zp-support | 1.0.0 |
+| zp-guide | 1.1.0 |
 
 [简体中文](README.md) · [English](README.en.md)

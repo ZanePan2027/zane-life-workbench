@@ -19,8 +19,8 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 
 | 我想…… | 用这一套 | 入口 |
 |---|---|---|
-| 看清自己想过什么样的人生，处理选择、关系和转折，并且有人接着陪 | [过好你的人生](#过好你的人生)（7 个 Skill） | `zane-workbench` |
-| 找实习或工作：简历、作品集、投递、面试、offer | [走出象牙塔](#走出象牙塔)（11 个 Skill） | `zane-career-assets` |
+| 看清自己想过什么样的人生，处理选择、关系和转折，并且有人接着陪 | [过好你的人生](#过好你的人生)（7 个 Skill） | `zp-life` |
+| 找实习或工作：简历、作品集、投递、面试、offer | [走出象牙塔](#走出象牙塔)（11 个 Skill） | `zp-career` |
 
 先[安装](#安装)你需要的那一套，再在 Agent 里说“使用 入口名，帮我……”就能开始，不需要先学方法，也不需要先整理资料。
 
@@ -51,7 +51,7 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 ### 一句话就能开始
 
 ```text
-使用 zane-workbench，做我的长期人生参谋。
+使用 zp-life，做我的长期人生参谋。
 我现在的工作收入还可以，但每天被临时任务占满。
 我希望半年后能腾出时间照顾家人，也保留自己的创作。
 请从我想过的生活出发，看看接下来可能怎样发展，现在怎么走。
@@ -63,17 +63,17 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 
 ### 7 个 Skill
 
-日常只需要 `zane-workbench`，其余按当前问题自动调用。
+日常只需要 `zp-life`，其余按当前问题自动调用。
 
 | Skill | 你会得到 |
 |---|---|
-| `zane-workbench` | 人生参谋、未来推演：推荐路线、时间空间、实际成果和下一步 |
-| `zane-question-intent-translator` | 把模糊的问题理清成真正要推进的事 |
-| `zane-self-insight` | 从具体经历理解自己的动机、价值和反复出现的选择 |
-| `zane-psychological-support` | 情绪陪伴与心理支持，不替代诊断或治疗 |
-| `zane-agent-identity-card-builder` | 设定长期 AI 伙伴的职责、判断方式和协作约定 |
-| `zane-workbench-curator` | 建台、整理资料、接续上次停下的地方 |
-| `life-decision-guide` | 需要具体生活办法时，按需参考《[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)》并给出处 |
+| `zp-life` | 人生参谋、未来推演：推荐路线、时间空间、实际成果和下一步 |
+| `zp-question` | 把模糊的问题理清成真正要推进的事 |
+| `zp-self` | 从具体经历理解自己的动机、价值和反复出现的选择 |
+| `zp-support` | 情绪陪伴与心理支持，不替代诊断或治疗 |
+| `zp-partner` | 设定长期 AI 伙伴的职责、判断方式和协作约定 |
+| `zp-workspace` | 建台、整理资料、接续上次停下的地方 |
+| `zp-guide` | 需要具体生活办法时，按需参考《[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)》并给出处 |
 
 更多用法：[使用手册](docs/life/README.md)
 
@@ -103,7 +103,7 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 ### 一句话就能开始
 
 ```text
-请使用 zane-career-assets。这是我的旧简历和想投的岗位。
+请使用 zp-career。这是我的旧简历和想投的岗位。
 我主要用 BOSS 直聘，请帮我重做一份简历，
 同时写好在线简历的个人优势开头和这个岗位的打招呼语。
 先直接做出可编辑版本，我看完再提修改。
@@ -114,21 +114,21 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 
 ### 11 个 Skill
 
-日常只需要 `zane-career-assets`，它按当前任务读取方法并直接完成；熟悉后可以直接调用专项工具。
+日常只需要 `zp-career`，它按当前任务读取方法并直接完成；熟悉后可以直接调用专项工具。
 
 | Skill | 你会得到 |
 |---|---|
-| `zane-career-assets` | 统一入口：方向、找岗位、平台沟通、材料、笔面试、offer、谈薪和入职前准备 |
-| `zane-career-portfolio-builder` | 一起完成简历、作品集和投递入口，并安排各自分工 |
-| `zane-career-resume-builder` | 从零做简历，或按招聘市场和语言重写 |
-| `zane-career-application-greeting` | BOSS 直聘等平台的首条招呼语与后续沟通 |
-| `zane-career-portfolio-architecture` | 设计作品集的分层结构与双语投递入口 |
-| `zane-career-portfolio-website-design` | 个性化作品集网站：阅读路径、视觉与响应式页面 |
-| `zane-career-case-editor-zh` | 把中文案例和求职长文改得像真人写的，保留判断与取舍 |
-| `zane-evidence-weighted-case-storytelling` | 按证据强度讲项目故事，不夸大 |
-| `zane-portfolio-multi-format-qa` | 发布前检查网页、Word/PDF、链接和数据口径是否一致 |
-| `zane-former-employer-data-redactor` | 脱敏前公司数据与敏感信息，再放进作品集 |
-| `zane-design-reference-to-prompt` | 把设计参考图转成可复用的生成提示 |
+| `zp-career` | 统一入口：方向、找岗位、平台沟通、材料、笔面试、offer、谈薪和入职前准备 |
+| `zp-materials` | 一起完成简历、作品集和投递入口，并安排各自分工 |
+| `zp-resume` | 从零做简历，或按招聘市场和语言重写 |
+| `zp-greeting` | BOSS 直聘等平台的首条招呼语与后续沟通 |
+| `zp-portfolio` | 设计作品集的分层结构与双语投递入口 |
+| `zp-site` | 个性化作品集网站：阅读路径、视觉与响应式页面 |
+| `zp-editor` | 把中文案例和求职长文改得像真人写的，保留判断与取舍 |
+| `zp-story` | 按证据强度讲项目故事，不夸大 |
+| `zp-qa` | 发布前检查网页、Word/PDF、链接和数据口径是否一致 |
+| `zp-redact` | 脱敏前公司数据与敏感信息，再放进作品集 |
+| `zp-design-prompt` | 把设计参考图转成可复用的生成提示 |
 
 更多用法：[使用手册](docs/career/README.md)（含 BOSS 直聘等平台的写法）
 
@@ -141,13 +141,13 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 **只装「过好你的人生」：**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zane-workbench zane-workbench-curator zane-question-intent-translator zane-agent-identity-card-builder zane-self-insight zane-psychological-support life-decision-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
 ```
 
 **只装「走出象牙塔」：**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zane-career-application-greeting zane-career-assets zane-career-case-editor-zh zane-career-portfolio-architecture zane-career-portfolio-builder zane-career-portfolio-website-design zane-career-resume-builder zane-design-reference-to-prompt zane-evidence-weighted-case-storytelling zane-former-employer-data-redactor zane-portfolio-multi-format-qa
+npx -y skills add ZanePan2027/zpskill -g --skill zp-greeting zp-career zp-editor zp-portfolio zp-materials zp-site zp-resume zp-design-prompt zp-story zp-redact zp-qa
 ```
 
 **两套都装：**
@@ -163,9 +163,9 @@ claude plugin marketplace add ZanePan2027/zpskill
 claude plugin install zpskill@zpskill
 ```
 
-整套安装后，Skill 在对话里以 `zpskill:` 开头出现，例如 `zpskill:zane-workbench`；也可以只装单个，例如 `claude plugin install zane-career-assets@zpskill`，它显示为 `zane-career-assets`。直接说“使用 zane-workbench，帮我……”即可，不必输全名。
+整套安装后，Skill 在对话里以 `zpskill:` 开头出现，例如 `zpskill:zp-life`；也可以只装单个，例如 `claude plugin install zp-career@zpskill`，它显示为 `zp-career`。直接说“使用 zp-life，帮我……”即可，不必输全名。
 
-**不用命令行（豆包、WorkBuddy 等）：** 直接告诉 Agent “请从 https://github.com/ZanePan2027/zpskill 安装「过好你的人生」的 7 个 Skills”（或「走出象牙塔」的 11 个），装好后新建对话，说“使用 zane-workbench，帮我……”或“使用 zane-career-assets，帮我……”。各宿主的具体步骤见[人生安装页](docs/life/install.md)和[求职安装页](docs/career/install.md)。
+**不用命令行（豆包、WorkBuddy 等）：** 直接告诉 Agent “请从 https://github.com/ZanePan2027/zpskill 安装「过好你的人生」的 7 个 Skills”（或「走出象牙塔」的 11 个），装好后新建对话，说“使用 zp-life，帮我……”或“使用 zp-career，帮我……”。各宿主的具体步骤见[人生安装页](docs/life/install.md)和[求职安装页](docs/career/install.md)。
 
 ---
 

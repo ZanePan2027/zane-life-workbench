@@ -2,7 +2,7 @@
 
 [简体中文](guide.md) · [Manual index](README.en.md)
 
-Use `zane-career-assets` after installation. Start with your materials and the result you want. All examples here are synthetic.
+Use `zp-career` after installation. Start with your materials and the result you want. All examples here are synthetic.
 
 ## Rebuild an old résumé
 

@@ -22,145 +22,145 @@
       ]
     },
     {
-      "name": "life-decision-guide",
+      "name": "zp-guide",
       "description": "按需检索《高性价比人生指南》的完整相关条目，为人生参谋补充具体生活办法、成本收益及证据来源。用于用户点名该指南，或当前判断已明确缺少它能补充的场景知识。",
-      "source": "./skills/life-decision-guide",
+      "source": "./skills/zp-guide",
       "strict": true,
       "version": "1.0.0",
       "category": "life"
     },
     {
-      "name": "zane-agent-identity-card-builder",
+      "name": "zp-partner",
       "description": "帮用户为一次性、专业或长期 AI 建立可运行的身份卡，定义人格、判断方式、行动主通道、记忆、纠错和条件保护机制。适用于创建或重构 AI 伙伴、工作 Agent 与跨会话协作协议。",
-      "source": "./skills/zane-agent-identity-card-builder",
+      "source": "./skills/zp-partner",
       "strict": true,
       "version": "1.0.0",
       "category": "life"
     },
     {
-      "name": "zane-career-application-greeting",
-      "description": "为BOSS直聘等招聘平台、猎头、邮件和主动投递撰写岗位相关的首条招呼语与后续沟通，衔接在线简历、附件和作品集。适用于不知道第一句写什么、发通用招呼无回应、需要按JD改写或精简到给定字数的任务；在线简历完整重做由zane-career-resume-builder承接。",
-      "source": "./skills/zane-career-application-greeting",
+      "name": "zp-greeting",
+      "description": "为BOSS直聘等招聘平台、猎头、邮件和主动投递撰写岗位相关的首条招呼语与后续沟通，衔接在线简历、附件和作品集。适用于不知道第一句写什么、发通用招呼无回应、需要按JD改写或精简到给定字数的任务；在线简历完整重做由zp-resume承接。",
+      "source": "./skills/zp-greeting",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-career-assets",
+      "name": "zp-career",
       "description": "「走出象牙塔」求职工具箱的统一入口，帮助需要找工作的人处理入职前的方向选择、找岗位、BOSS直聘等平台在线简历与沟通、简历和作品集制作、投递、笔试面试、offer比较、谈薪及入职前准备。重点服务实习生、应届生和工作1—2年的新人，也支持有经验的求职者。收到旧简历、岗位截图、面试问题、招聘反馈或offer即可开始，按当前任务选择必要方法并直接交付，不要求先建工作台。",
-      "source": "./skills/zane-career-assets",
+      "source": "./skills/zp-career",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-career-case-editor-zh",
+      "name": "zp-editor",
       "description": "编辑中文职业案例与求职长文，删除AI式均匀、解释过满、每段收束、反复升华和作者侧审计语言，同时保留判断、取舍、代价、职责边界与真实工作现场。Use when revising Chinese portfolio cases, resume narratives, interview stories, knowledge-base articles, executive bios, or text that sounds like consulting copy or AI-generated prose.",
-      "source": "./skills/zane-career-case-editor-zh",
+      "source": "./skills/zp-editor",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-career-portfolio-architecture",
+      "name": "zp-portfolio",
       "description": "设计面向招聘的分层职业作品集与双语投递入口：用网站完成30秒定位与深读引导，用知识库或长文证明判断、取舍、代价和工作现场，用可下载文档支持投递。Use when creating, restructuring or reviewing a career portfolio, personal site, bilingual portfolio, Feishu/Notion case library, case-study navigation, or deciding what belongs on the homepage versus deep-reading pages.",
-      "source": "./skills/zane-career-portfolio-architecture",
+      "source": "./skills/zp-portfolio",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-career-portfolio-builder",
+      "name": "zp-materials",
       "description": "从零构建一套面向招聘的个人职业资产系统，根据用户目标选择并统筹简历、作品集网站、案例深读、作品索引与离线投递文件。覆盖资料盘点、事实台账、招聘定位、案例选择、跨载体分工、个性化设计、生成源、响应式实现、多格式 QA 和部署交付；适用于只有零散经历、旧简历和项目文件的用户，也适用于希望获得可独立工作的完整简历与作品集，而不是复刻某位候选人模板的任务。",
-      "source": "./skills/zane-career-portfolio-builder",
+      "source": "./skills/zp-materials",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-career-portfolio-website-design",
+      "name": "zp-site",
       "description": "从零设计、构建或重构面向招聘的个性化职业作品集网站。根据目标岗位、证据类型、职业阶段、人物气质、真实资产和审美偏好生成阅读路径、页面分工、视觉人格、响应式页面与交互；在真实复盘中加入源文档、证据图、双语对应和全站回归闸门，防止 AI 式改写、段落复述图、双语漂移与局部验收冒充完成。适用于首页、案例深页、关于我、作品画廊、联系入口及完整本地交付包。",
-      "source": "./skills/zane-career-portfolio-website-design",
+      "source": "./skills/zp-site",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-career-resume-builder",
+      "name": "zp-resume",
       "description": "从零创建、重构并交付面向不同招聘市场的职业简历，支持中文、英文及其他目标语言的本地化重写。根据目标岗位、招聘渠道、读者语言、证据强度、职业阶段和审美偏好，自主决定信息结构、页数、视觉人格与交付格式；覆盖资料盘点、事实归因、招聘定位、扫读层级、文案收敛、黑白结构、个性化视觉、PDF验收、多语言链接路径与作品集承接。用于用户只有零散经历、旧简历效果差、招聘者看不懂、需要跨语言重写或内容反复修改、版面失衡，或希望得到不套固定模板的完整简历时。",
-      "source": "./skills/zane-career-resume-builder",
+      "source": "./skills/zp-resume",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-design-reference-to-prompt",
+      "name": "zp-design-prompt",
       "description": "把网页、截图、组件图、录屏或用户描述中的视觉参考，拆解成可交给 Codex、Claude Code、Cursor、v0、Lovable、Bolt 等工具执行的原创前端 Master Prompt，并可继续据此实现或验收页面。用户说“照这个网站做”“参考这个视觉”“提取设计提示词”“把截图变成提示词”“复刻这个组件的感觉”“生成 vibe coding prompt”或提到 Jiro Build 工作流时使用。不要绕过登录或付费墙提取第三方专有提示词、源码或受限资产，也不要声称输出是第三方官方 Prompt。",
-      "source": "./skills/zane-design-reference-to-prompt",
+      "source": "./skills/zp-design-prompt",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-evidence-weighted-case-storytelling",
+      "name": "zp-story",
       "description": "将求职经历写成职责准确、证据可靠且有说服力的案例，用于简历、作品集和面试故事。分别判断候选人承担什么责任、结果依据是否可靠；认可负责人承担的团队业绩，处理协作、测算、同期趋势和时序冲突，避免虚构与防御性审计表达。",
-      "source": "./skills/zane-evidence-weighted-case-storytelling",
+      "source": "./skills/zp-story",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-former-employer-data-redactor",
+      "name": "zp-redact",
       "description": "审查职业作品集、简历、知识库与面试材料中的前雇主数据，按公开性、敏感性、必要性和可替代表达判断保留、模糊化、移至面试口述或删除。Use before publishing employer metrics, profit, margin, cost, customer, campaign, conversion, salary, internal screenshots, operational dashboards, or any non-public business information.",
-      "source": "./skills/zane-former-employer-data-redactor",
+      "source": "./skills/zp-redact",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-portfolio-multi-format-qa",
+      "name": "zp-qa",
       "description": "对职业作品集做多格式发布前验收，实际检查桌面与390px网页、Word/PDF逐页渲染、二维码和链接、跨载体数据口径、时间因果、图片资源、生成源与线上副本。Use before publishing or delivering a portfolio website, Feishu/Notion knowledge base, Word/PDF case pack, infographic set, or synchronized copies.",
-      "source": "./skills/zane-portfolio-multi-format-qa",
+      "source": "./skills/zp-qa",
       "strict": true,
       "version": "1.0.0",
       "category": "career"
     },
     {
-      "name": "zane-psychological-support",
+      "name": "zp-support",
       "description": "心理支持与治疗辅助：以共同理解和可修正的问题模型整合心理学方法，按需讨论哲学与生活意义。用于倾诉、心理疗愈、自责焦虑、难控习惯、关系与自我价值困扰、咨询辅助，或研究和完善心理支持方法；不把方法研究自动转成个体干预，不替代诊断或治疗安排。",
-      "source": "./skills/zane-psychological-support",
+      "source": "./skills/zp-support",
       "strict": true,
       "version": "1.0.0",
       "category": "life"
     },
     {
-      "name": "zane-question-intent-translator",
+      "name": "zp-question",
       "description": "把用户的自然语言转成真正要推进的进展、当前决定和可直接交给 AI 的问题。适用于问题模糊、多个意图混在一起、带有预设答案，或用户想先把问题问对再继续。",
-      "source": "./skills/zane-question-intent-translator",
+      "source": "./skills/zp-question",
       "strict": true,
       "version": "1.0.0",
       "category": "life"
     },
     {
-      "name": "zane-self-insight",
+      "name": "zp-self",
       "description": "基于真实经历帮助用户理解自己的欲望、能力、价值、身份或行为模式，给出暂定判断并转成现实观察或行动。用于“我为什么会这样”“我真正想要什么”“这真的是我吗”“帮我分析自己”等问题。",
-      "source": "./skills/zane-self-insight",
+      "source": "./skills/zp-self",
       "strict": true,
       "version": "1.0.0",
       "category": "life"
     },
     {
-      "name": "zane-workbench",
+      "name": "zp-life",
       "description": "过好你的人生：做长期人生参谋，从本人想过的生活研判当前阶段、人事物与资源，推演可能未来，给出时间空间清楚的路线，完成实际成果，并随现实反馈积累理解。用于人生选择、人际合作、转折布局、日常推进、建立或重构个人工作台，以及持续接续。",
-      "source": "./skills/zane-workbench",
+      "source": "./skills/zp-life",
       "strict": true,
       "version": "2.0.0",
       "category": "life"
     },
     {
-      "name": "zane-workbench-curator",
+      "name": "zp-workspace",
       "description": "为人生、商业和职业工作台维护最小目录、来源、唯一事项状态及跨会话接续；适配既有系统、保存反馈并检查变更，不抢占实际任务。",
-      "source": "./skills/zane-workbench-curator",
+      "source": "./skills/zp-workspace",
       "strict": true,
       "version": "1.0.0",
       "category": "life"

@@ -19,13 +19,13 @@ The collection began with question clarification, AI partner design, and self-re
 
 ## 心理支持的依据 / Psychological support sources
 
-心理支持方法由本项目独立撰写。专业指南、心理学教材与研究、哲学原典与学术解释用于不同判断；具体阅读范围与设计用途见[来源与证据](../../skills/zane-psychological-support/references/evidence.md)。
+心理支持方法由本项目独立撰写。专业指南、心理学教材与研究、哲学原典与学术解释用于不同判断；具体阅读范围与设计用途见[来源与证据](../../skills/zp-support/references/evidence.md)。
 
 The psychological support method is independently written. Its source ledger distinguishes professional guidelines, psychological research, philosophical interpretation, and the practical adaptations used in the workbench.
 
 ## 未来推演的方法 / Foresight methods
 
-采用战略前瞻、情景规划、系统思考、贝叶斯更新与决策理论，围绕使用者目标比较可能方向和准备。来源包括英国政府 Futures Toolkit、系统思考工具及 Stanford Encyclopedia of Philosophy 的相关条目；实际阅读范围与轻量适配见[学科与方法](../../skills/zane-workbench/references/foresight-methods.md)。
+采用战略前瞻、情景规划、系统思考、贝叶斯更新与决策理论，围绕使用者目标比较可能方向和准备。来源包括英国政府 Futures Toolkit、系统思考工具及 Stanford Encyclopedia of Philosophy 的相关条目；实际阅读范围与轻量适配见[学科与方法](../../skills/zp-life/references/foresight-methods.md)。
 
 Foresight combines scenario planning, systems thinking, evidence updates, and decision theory with the user's own goals. The linked method ledger records source coverage and practical adaptations.
 
@@ -41,7 +41,7 @@ This repository uses the [MIT License](../../LICENSE). Referenced projects and m
 
 Sun Tzu and Clausewitz inform purpose, timing, conditions, and friction. Political and organizational analysis informs incentives and dependence. Bounded rationality, social interaction, motivated reasoning, repeated games, and Ostrom's work inform behavior and sustained cooperation.
 
-Sources and reading scope: [方法依据](../../skills/zane-workbench/references/foresight-methods.md).
+Sources and reading scope: [方法依据](../../skills/zp-life/references/foresight-methods.md).
 
 ## 决策经历与持续学习 / Decision records and continued learning
 

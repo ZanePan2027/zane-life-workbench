@@ -6,6 +6,6 @@
 
 也吸收了人生、商业增长与职业成长工具中的成果优先、材料复用和变更同步方法，用于关联简历、作品集与面试表达。
 
-[招聘平台界面与写法](../../skills/zane-career-assets/references/platform-evidence.md) · [版本检查记录](testing.md)
+[招聘平台界面与写法](../../skills/zp-career/references/platform-evidence.md) · [版本检查记录](testing.md)
 
 The toolkit grew from practical résumé and portfolio production. Task selection and continuation were informed by the linked DBS design; shared material and revision handling also draw on the life, business and career toolkits.

@@ -19,7 +19,7 @@ The development workspace passed 146 automated checks, and all three workbench e
 - 使用虚构材料完成8次Agent试用，涉及简历、BOSS资料与消息、负责人业绩、offer比较、岗位搜索、模拟面试与续接、小型作品集及英文从零制作。
 - 检查HTML简历、作品集、手机显示、可编辑保存和链接；英文从零制作完成了黑白线稿渲染。
 - 检查中英文首页示意图、两种安装方式和文档链接。
-- 复核三张招聘端截图，补齐推荐列表、普通搜索及AI推荐理由的展示差异。[界面测算](../../skills/zane-career-assets/references/platform-evidence.md)。
+- 复核三张招聘端截图，补齐推荐列表、普通搜索及AI推荐理由的展示差异。[界面测算](../../skills/zp-career/references/platform-evidence.md)。
 
 本轮主要验证HTML交付与任务流程。Word/PDF、复杂双语网站和各宿主兼容性未做完整复测；真实回复率与录用结果待用户反馈。
 

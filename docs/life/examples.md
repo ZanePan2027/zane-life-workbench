@@ -4,7 +4,7 @@
 
 | 想推进什么 | 可复制的请求 |
 |---|---|
-| 整体取舍 | 使用zane-workbench，把这几个选择放回我想过的生活，推荐当前最适合的一条路。 |
+| 整体取舍 | 使用zp-life，把这几个选择放回我想过的生活，推荐当前最适合的一条路。 |
 | 人际与合作 | 对方说愿意支持，实际每次都让我先投入。结合这些互动，看看他可能怎样想，我怎样回应更合适。 |
 | 提前布局 | 结合目前变化，推演未来三种主要走向，告诉我现在准备什么，何时看什么信号。 |
 | 时间与空间 | 我希望留在本地，同时保留收入和两个完整晚上。请比较可行安排并做一份沟通稿。 |
@@ -16,7 +16,7 @@
 
 ## English examples
 
-- Use zane-workbench to compare these choices against the life I want.
+- Use zp-life to compare these choices against the life I want.
 - They keep asking me to invest first. Use these interactions to assess likely motives and prepare a response.
 - Explore the main ways this could develop, what to prepare now, and when to change course.
 - I want to remain local and keep two evenings free. Compare practical arrangements and draft a message.

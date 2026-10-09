@@ -1,9 +1,9 @@
 {
-  "zane-workbench": "2.0.0",
-  "zane-workbench-curator": "1.1.0",
-  "zane-question-intent-translator": "1.0.0",
-  "zane-agent-identity-card-builder": "1.0.0",
-  "zane-self-insight": "1.0.0",
-  "zane-psychological-support": "1.0.0",
-  "life-decision-guide": "1.1.0"
+  "zp-life": "2.0.0",
+  "zp-workspace": "1.1.0",
+  "zp-question": "1.0.0",
+  "zp-partner": "1.0.0",
+  "zp-self": "1.0.0",
+  "zp-support": "1.0.0",
+  "zp-guide": "1.1.0"
 }

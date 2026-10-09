@@ -19,8 +19,8 @@ zpskill is created by [Zane](https://github.com/ZanePan2027). It holds two indep
 
 | I want to… | Use | Entry |
 |---|---|---|
-| Understand what life I want to live, handle choices, relationships and turning points, with something that keeps going over time | [Live Your Life Well](#live-your-life-well) (7 Skills) | `zane-workbench` |
-| Find an internship or job: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (11 Skills) | `zane-career-assets` |
+| Understand what life I want to live, handle choices, relationships and turning points, with something that keeps going over time | [Live Your Life Well](#live-your-life-well) (7 Skills) | `zp-life` |
+| Find an internship or job: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (11 Skills) | `zp-career` |
 
 [Install](#install) the set you need, then tell your Agent “Use <entry>, help me…”. You do not need to learn a method or organize files first.
 
@@ -51,7 +51,7 @@ It follows one line: **the life you want → current stage → people and circum
 ### Start with one message
 
 ```text
-Use zane-workbench.
+Use zp-life.
 My job pays steadily, but last-minute requests fill every day.
 Over the next six months I want more time for family and my own writing.
 Help me understand how this could develop and what to do now.
@@ -63,17 +63,17 @@ To have it remember you over time, open a folder you plan to keep using and say 
 
 ### 7 Skills
 
-Day to day you only need `zane-workbench`; the rest are used as the question requires.
+Day to day you only need `zp-life`; the rest are used as the question requires.
 
 | Skill | What you get |
 |---|---|
-| `zane-workbench` | Life strategy and foresight: a route, timing and practical setting, usable outputs, next steps |
-| `zane-question-intent-translator` | A vague question turned into what you actually want to move forward |
-| `zane-self-insight` | Motives, values and recurring choices understood from real experience |
-| `zane-psychological-support` | Emotional and psychological support; not a substitute for diagnosis or treatment |
-| `zane-agent-identity-card-builder` | Responsibilities, judgment and collaboration for a long-term AI partner |
-| `zane-workbench-curator` | Build a workspace, organize sources, resume where you stopped |
-| `life-decision-guide` | When you need concrete everyday options, consults the [How To Live Better guide](https://github.com/eternity4719/HowToLiveBetter) with sources |
+| `zp-life` | Life strategy and foresight: a route, timing and practical setting, usable outputs, next steps |
+| `zp-question` | A vague question turned into what you actually want to move forward |
+| `zp-self` | Motives, values and recurring choices understood from real experience |
+| `zp-support` | Emotional and psychological support; not a substitute for diagnosis or treatment |
+| `zp-partner` | Responsibilities, judgment and collaboration for a long-term AI partner |
+| `zp-workspace` | Build a workspace, organize sources, resume where you stopped |
+| `zp-guide` | When you need concrete everyday options, consults the [How To Live Better guide](https://github.com/eternity4719/HowToLiveBetter) with sources |
 
 More: [Manual](docs/life/README.en.md)
 
@@ -103,7 +103,7 @@ An AI job-search toolkit for every step before you start work, mainly for intern
 ### Start with one message
 
 ```text
-Use zane-career-assets. Here are my old résumé and the role I want.
+Use zp-career. Here are my old résumé and the role I want.
 I mainly apply through BOSS Zhipin. Rework my résumé, write the opening
 of my online profile, and draft a first message for this role.
 Make an editable version first; I'll give feedback on it.
@@ -113,21 +113,21 @@ The Agent uses what you have provided and asks only about gaps that affect the r
 
 ### 11 Skills
 
-Day to day you only need `zane-career-assets`; it reads the methods the task needs and completes it. Call a specific tool directly once you know it.
+Day to day you only need `zp-career`; it reads the methods the task needs and completes it. Call a specific tool directly once you know it.
 
 | Skill | What you get |
 |---|---|
-| `zane-career-assets` | Single entry: direction, openings, platform messages, materials, interviews, offers, negotiation, pre-start prep |
-| `zane-career-portfolio-builder` | Résumé, portfolio and application entry points planned and made together |
-| `zane-career-resume-builder` | A résumé from scratch, or rewritten for a hiring market and language |
-| `zane-career-application-greeting` | First message and follow-ups on BOSS Zhipin and similar platforms |
-| `zane-career-portfolio-architecture` | Layered portfolio structure and bilingual application entry |
-| `zane-career-portfolio-website-design` | A personal portfolio site: reading path, visual design, responsive pages |
-| `zane-career-case-editor-zh` | Chinese case studies and long-form job-search writing edited to read like a person, keeping judgment and trade-offs |
-| `zane-evidence-weighted-case-storytelling` | Project stories told in proportion to the evidence, without overstating |
-| `zane-portfolio-multi-format-qa` | Pre-publish checks across web, Word/PDF, links and numbers |
-| `zane-former-employer-data-redactor` | Redact former-employer data and sensitive details before they go in a portfolio |
-| `zane-design-reference-to-prompt` | Turn design references into reusable generation prompts |
+| `zp-career` | Single entry: direction, openings, platform messages, materials, interviews, offers, negotiation, pre-start prep |
+| `zp-materials` | Résumé, portfolio and application entry points planned and made together |
+| `zp-resume` | A résumé from scratch, or rewritten for a hiring market and language |
+| `zp-greeting` | First message and follow-ups on BOSS Zhipin and similar platforms |
+| `zp-portfolio` | Layered portfolio structure and bilingual application entry |
+| `zp-site` | A personal portfolio site: reading path, visual design, responsive pages |
+| `zp-editor` | Chinese case studies and long-form job-search writing edited to read like a person, keeping judgment and trade-offs |
+| `zp-story` | Project stories told in proportion to the evidence, without overstating |
+| `zp-qa` | Pre-publish checks across web, Word/PDF, links and numbers |
+| `zp-redact` | Redact former-employer data and sensitive details before they go in a portfolio |
+| `zp-design-prompt` | Turn design references into reusable generation prompts |
 
 More: [Manual](docs/career/README.en.md) (including how to write for BOSS Zhipin and similar platforms)
 
@@ -140,13 +140,13 @@ Run in a terminal; Node.js and `npx` required.
 **Life only:**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zane-workbench zane-workbench-curator zane-question-intent-translator zane-agent-identity-card-builder zane-self-insight zane-psychological-support life-decision-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
 ```
 
 **Career only:**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zane-career-application-greeting zane-career-assets zane-career-case-editor-zh zane-career-portfolio-architecture zane-career-portfolio-builder zane-career-portfolio-website-design zane-career-resume-builder zane-design-reference-to-prompt zane-evidence-weighted-case-storytelling zane-former-employer-data-redactor zane-portfolio-multi-format-qa
+npx -y skills add ZanePan2027/zpskill -g --skill zp-greeting zp-career zp-editor zp-portfolio zp-materials zp-site zp-resume zp-design-prompt zp-story zp-redact zp-qa
 ```
 
 **Both:**
@@ -162,9 +162,9 @@ claude plugin marketplace add ZanePan2027/zpskill
 claude plugin install zpskill@zpskill
 ```
 
-With the full set, Skills appear in chat prefixed with `zpskill:`, for example `zpskill:zane-workbench`. You can also install one Skill, for example `claude plugin install zane-career-assets@zpskill`, which shows as `zane-career-assets`. Just say “Use zane-workbench, help me…”; the full name is not required.
+With the full set, Skills appear in chat prefixed with `zpskill:`, for example `zpskill:zp-life`. You can also install one Skill, for example `claude plugin install zp-career@zpskill`, which shows as `zp-career`. Just say “Use zp-life, help me…”; the full name is not required.
 
-**Without the command line (Doubao, WorkBuddy, etc.):** tell your Agent “Install the Life Skills (7) from https://github.com/ZanePan2027/zpskill” (or the 11 Career Skills), then start a new chat and say “Use zane-workbench, help me…” or “Use zane-career-assets, help me…”. Host-specific steps: [Life install](docs/life/install.en.md) · [Career install](docs/career/install.en.md).
+**Without the command line (Doubao, WorkBuddy, etc.):** tell your Agent “Install the Life Skills (7) from https://github.com/ZanePan2027/zpskill” (or the 11 Career Skills), then start a new chat and say “Use zp-life, help me…” or “Use zp-career, help me…”. Host-specific steps: [Life install](docs/life/install.en.md) · [Career install](docs/career/install.en.md).
 
 ---
 

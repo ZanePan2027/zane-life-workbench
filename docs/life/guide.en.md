@@ -7,7 +7,7 @@
 Explain what happened, what matters to you, and what you want help deciding or producing. Point to relevant files when available.
 
 ```text
-Use zane-workbench. I want to keep my income, take my father to weekly
+Use zp-life. I want to keep my income, take my father to weekly
 appointments, and keep two evenings for writing. My department is changing.
 Help me decide whether remote work would fit.
 ```
