@@ -9,32 +9,34 @@
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well.
+zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well. It starts from the life you want, helps you see where you are, work out the next step and get it done, then adjusts with what really happens. Finding a job, growing in a career and building a business are concrete things in a life, each with its own tools on this one line.
 
-Live Your Life Well is the main line: it starts from the life you want and helps you think it through, get it done and keep adjusting. Finding a job, growing in a career and building a business are specific parts of running a life, each with its own tools; the part open today is the job search: Beyond the Ivory Tower.
-
-[Quick start](#quick-start) · [Live Your Life Well](#live-your-life-well) · [Beyond the Ivory Tower](#beyond-the-ivory-tower) · [Install](#install) · [Changelog](CHANGELOG.md)
+[Quick start](#quick-start) · [Live Your Life Well](#live-your-life-well) · [Concrete things in a life](#concrete-things-in-a-life) · [Install](#install) · [Changelog](CHANGELOG.md)
 
 ---
 
 ## Quick start
 
-| You are… | Start here | Entry |
-|---|---|---|
-| Working out what life you want, or facing a choice, a relationship or a turning point, and want something that keeps going with you | [Live Your Life Well](#live-your-life-well) (main line, 7 Skills) | `zp-life` |
-| Facing an internship or job search: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (the job-search part of running a life, 11 Skills) | `zp-career` |
+Start from one entry: `zp-life`. After installing, tell your Agent:
 
-Not sure where to start? Start with `zp-life`. [Install](#install), then tell your Agent “Use <entry>, help me…”. You do not need to learn a method or organize files first.
+```text
+Use zp-life.
+My job pays steadily, but last-minute requests fill every day.
+Over the next six months I want more time for family and my own writing.
+Help me understand how this could develop and what to do now.
+```
+
+If what you face is the job search, say “Use zp-career, help me…”. You do not need to learn a method or organize files first.
 
 ---
 
 ## Live Your Life Well
 
-> Get to know you first, then help you live a life you find worth living.
+> Main line: get to know you first, then help you live a life you find worth living.
 
 It does not help you live the most cost-efficient life. It helps you live the life you find worth living. An afternoon asleep in the sun with nothing to show for it can be a day worth having. So it first learns, in your own words, what life you want, what energizes you, and where your limits are, then helps you get the things you want done.
 
-It follows one line: **the life you want → current stage → people and circumstances → possible futures → routes, timing and practical setting → useful work now → adjust with feedback.**
+It follows this line: **the life you want → current stage → people and circumstances → possible futures → routes, timing and practical setting → useful work now → adjust with feedback.**
 
 ![How your life adviser works](docs/life/life-flow.en.svg)
 
@@ -50,16 +52,9 @@ It follows one line: **the life you want → current stage → people and circum
 | You feel overwhelmed and want to be understood | Listening, shared understanding, and support at your pace |
 | You keep repeating the same background | Saved understanding, usable outputs, and a clear place to resume |
 
-### Start with one message
+### After you start
 
-```text
-Use zp-life.
-My job pays steadily, but last-minute requests fill every day.
-Over the next six months I want more time for family and my own writing.
-Help me understand how this could develop and what to do now.
-```
-
-You get a recommendation and the reasoning that matters, followed by the comparisons, arrangements, or message drafts you need. Continue with new facts, such as “They agreed, but haven't assigned a replacement yet,” and it revises the same plan. You can also start with: `I am tired today. Stay with me for a while; I do not need advice yet.`
+After the message in [Quick start](#quick-start), you get a recommendation and the reasoning that matters, followed by the comparisons, arrangements, or message drafts you need. Continue with new facts, such as “They agreed, but haven't assigned a replacement yet,” and it revises the same plan. You can also start with: `I am tired today. Stay with me for a while; I do not need advice yet.`
 
 To have it remember you over time, open a folder you plan to keep using and say “Set this folder up as my life workspace”. Next time say “Continue from last time”. It works without a workspace too.
 
@@ -81,15 +76,25 @@ More: [Manual](docs/life/README.en.md)
 
 ---
 
-## Beyond the Ivory Tower
+## Concrete things in a life
 
-> From not knowing what to apply for, to writing the materials, getting to the interview, and judging the offer. Solve the job-search problem in front of you.
+> Running a life always comes down to concrete things. Each has its own tools, all connected to the main line above.
 
-Finding a job is one concrete part of running a life. This AI job-search toolkit walks with you through every step before you start work, mainly for interns, new graduates and people with 1–2 years of experience; experienced people changing jobs can use it too. Bring an old résumé, a job description, project material, an interview question or an offer, say what you need, and start with the most urgent task.
+| The thing | Tools | Entry | Status |
+|---|---|---|---|
+| Find an internship or job: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower-finding-a-job) (11 Skills) | `zp-career` | Open |
+
+Later workspaces and tools will live here too, not in separate projects.
+
+### Beyond the Ivory Tower: finding a job
+
+> From not knowing what to apply for, to writing the materials, getting to the interview, and judging the offer.
+
+Finding a job is one concrete thing in a life. This AI job-search toolkit walks with you through every step before you start work, mainly for interns, new graduates and people with 1–2 years of experience; experienced people changing jobs can use it too. Bring an old résumé, a job description, project material, an interview question or an offer, say what you need, and start with the most urgent task.
 
 ![Start with your current job-search task](docs/career/career-assets-flow.en.svg)
 
-### Tasks it handles
+#### Tasks it handles
 
 | Need | Result |
 |---|---|
@@ -102,7 +107,7 @@ Finding a job is one concrete part of running a life. This AI job-search toolkit
 | Compare offers and negotiate | Comparable compensation, questions to resolve and reply drafts |
 | Prepare for signing and starting | Relevant document checks, questions and timing |
 
-### Start with one message
+#### Start with one message
 
 ```text
 Use zp-career. Here are my old résumé and the role I want.
@@ -113,7 +118,7 @@ Make an editable version first; I'll give feedback on it.
 
 The Agent uses what you have provided and asks only about gaps that affect the result. It makes an editable candidate first, then revises with your feedback.
 
-### 11 Skills
+#### 11 Skills
 
 Day to day you only need `zp-career`; it reads the methods the task needs and completes it. Call a specific tool directly once you know it.
 
@@ -139,13 +144,13 @@ More: [Manual](docs/career/README.en.md) (including how to write for BOSS Zhipin
 
 Run in a terminal; Node.js and `npx` required.
 
-**Main line: Live Your Life Well (7)**
+**Start with the main line: Live Your Life Well (7)**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
 ```
 
-**Add: Beyond the Ivory Tower, the job-search part (11)**
+**Add the job search: Beyond the Ivory Tower (11)**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-greeting zp-career zp-editor zp-portfolio zp-materials zp-site zp-resume zp-design-prompt zp-story zp-redact zp-qa
@@ -166,7 +171,7 @@ claude plugin install zpskill@zpskill
 
 With the full set, Skills appear in chat prefixed with `zpskill:`, for example `zpskill:zp-life`. You can also install one Skill, for example `claude plugin install zp-career@zpskill`, which shows as `zp-career`. Just say “Use zp-life, help me…”; the full name is not required.
 
-**Without the command line (Doubao, WorkBuddy, etc.):** tell your Agent “Install the Life Skills (7) from https://github.com/ZanePan2027/zpskill” (or the 11 Career Skills), then start a new chat and say “Use zp-life, help me…” or “Use zp-career, help me…”. Host-specific steps: [Life install](docs/life/install.en.md) · [Career install](docs/career/install.en.md).
+**Without the command line (Doubao, WorkBuddy, etc.):** tell your Agent “Install the Life Skills (7) from https://github.com/ZanePan2027/zpskill”; when you need the job search, ask it to add the 11 Career Skills. Then start a new chat and say “Use zp-life, help me…”. Host-specific steps: [Life install](docs/life/install.en.md) · [Career install](docs/career/install.en.md).
 
 ---
 
@@ -174,6 +179,6 @@ With the full set, Skills appear in chat prefixed with `zpskill:`, for example `
 
 By [Zane](https://github.com/ZanePan2027). I do one thing: help people run their own lives well and live them without letting themselves down. The job search, career growth, business growth and every workspace and tool still to come all serve that one thing. This method grew out of real life questions: direction, circumstances, futures, routes, action, feedback and shared experience.
 
-This repository merges the former zane-life-workbench and zane-career-skills. Old URLs redirect here and the commit history is kept.
+This repository merges the former zane-life-workbench and zane-career-skills. The old zane-life-workbench URL redirects here and the commit history is kept; zane-career-skills remains as a one-page migration note.
 
 Share your task, experience, and suggested improvements in [Issues](https://github.com/ZanePan2027/zpskill/issues). [Contributing](CONTRIBUTING.md) · [Version](VERSION.md) · [Changelog](CHANGELOG.md) · [License](LICENSE) (MIT)

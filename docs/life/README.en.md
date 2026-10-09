@@ -2,7 +2,7 @@
 
 [简体中文](README.md) · [Back to the zpskill home page](../../README.en.md)
 
-The product overview and install commands are on the [home page](../../README.en.md). This is how to use it well once installed.
+This is the main line of zpskill. The overview and install commands are on the [home page](../../README.en.md); this is how to use it well once installed.
 
 | You want to… | Read |
 |---|---|

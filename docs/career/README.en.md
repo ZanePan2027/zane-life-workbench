@@ -1,8 +1,8 @@
-# Beyond the Ivory Tower · Manual
+# Beyond the Ivory Tower · Manual (the job-search part of a life)
 
 [简体中文](README.md) · [Back to the zpskill home page](../../README.en.md)
 
-The product overview and install commands are on the [home page](../../README.en.md). This is how to use it well once installed.
+Finding a job is one concrete thing in a life; it hangs on zpskill's [main line](../life/README.en.md). The overview and install commands are on the [home page](../../README.en.md); this is how to use it well once installed.
 
 | You want to… | Read |
 |---|---|
