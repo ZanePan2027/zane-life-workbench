@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "zpskill",
-      "description": "Zane 的 Skills 全集：「过好你的人生」7 个 + 「走出象牙塔」11 个。",
+      "description": "zpskill 全集：主线「过好你的人生」7 个，求职「走出象牙塔」11 个。",
       "source": "./",
       "strict": true,
       "version": "1.0.0",

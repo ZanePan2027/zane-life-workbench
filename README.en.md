@@ -2,14 +2,16 @@
 
 [简体中文](README.md) | English
 
-> Zane's Life-Management Skills: one set helps you work out the life you want, the other helps you find the job.
+> Zane's Life-Management Skills: help you run your own life well, and live it without letting yourself down.
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-zpskill is created by [Zane](https://github.com/ZanePan2027). It holds two independent sets of Skills: Live Your Life Well (7) and Beyond the Ivory Tower (11).
+zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well.
+
+Live Your Life Well is the main line: it starts from the life you want and helps you think it through, get it done and keep adjusting. Finding a job, growing in a career and building a business are specific parts of running a life, each with its own tools; the part open today is the job search: Beyond the Ivory Tower.
 
 [Quick start](#quick-start) · [Live Your Life Well](#live-your-life-well) · [Beyond the Ivory Tower](#beyond-the-ivory-tower) · [Install](#install) · [Changelog](CHANGELOG.md)
 
@@ -17,12 +19,12 @@ zpskill is created by [Zane](https://github.com/ZanePan2027). It holds two indep
 
 ## Quick start
 
-| I want to… | Use | Entry |
+| You are… | Start here | Entry |
 |---|---|---|
-| Understand what life I want to live, handle choices, relationships and turning points, with something that keeps going over time | [Live Your Life Well](#live-your-life-well) (7 Skills) | `zp-life` |
-| Find an internship or job: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (11 Skills) | `zp-career` |
+| Working out what life you want, or facing a choice, a relationship or a turning point, and want something that keeps going with you | [Live Your Life Well](#live-your-life-well) (main line, 7 Skills) | `zp-life` |
+| Facing an internship or job search: résumé, portfolio, applications, interviews, offers | [Beyond the Ivory Tower](#beyond-the-ivory-tower) (the job-search part of running a life, 11 Skills) | `zp-career` |
 
-[Install](#install) the set you need, then tell your Agent “Use <entry>, help me…”. You do not need to learn a method or organize files first.
+Not sure where to start? Start with `zp-life`. [Install](#install), then tell your Agent “Use <entry>, help me…”. You do not need to learn a method or organize files first.
 
 ---
 
@@ -83,7 +85,7 @@ More: [Manual](docs/life/README.en.md)
 
 > From not knowing what to apply for, to writing the materials, getting to the interview, and judging the offer. Solve the job-search problem in front of you.
 
-An AI job-search toolkit for every step before you start work, mainly for interns, new graduates and people with 1–2 years of experience; experienced people changing jobs can use it too. Bring an old résumé, a job description, project material, an interview question or an offer, say what you need, and start with the most urgent task.
+Finding a job is one concrete part of running a life. This AI job-search toolkit walks with you through every step before you start work, mainly for interns, new graduates and people with 1–2 years of experience; experienced people changing jobs can use it too. Bring an old résumé, a job description, project material, an interview question or an offer, say what you need, and start with the most urgent task.
 
 ![Start with your current job-search task](docs/career/career-assets-flow.en.svg)
 
@@ -137,19 +139,19 @@ More: [Manual](docs/career/README.en.md) (including how to write for BOSS Zhipin
 
 Run in a terminal; Node.js and `npx` required.
 
-**Life only:**
+**Main line: Live Your Life Well (7)**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
 ```
 
-**Career only:**
+**Add: Beyond the Ivory Tower, the job-search part (11)**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-greeting zp-career zp-editor zp-portfolio zp-materials zp-site zp-resume zp-design-prompt zp-story zp-redact zp-qa
 ```
 
-**Both:**
+**Everything:**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --all
@@ -170,7 +172,7 @@ With the full set, Skills appear in chat prefixed with `zpskill:`, for example `
 
 ## About
 
-By [Zane](https://github.com/ZanePan2027). This method grew out of real life questions: direction, circumstances, futures, routes, action, feedback and shared experience.
+By [Zane](https://github.com/ZanePan2027). I do one thing: help people run their own lives well and live them without letting themselves down. The job search, career growth, business growth and every workspace and tool still to come all serve that one thing. This method grew out of real life questions: direction, circumstances, futures, routes, action, feedback and shared experience.
 
 This repository merges the former zane-life-workbench and zane-career-skills. Old URLs redirect here and the commit history is kept.
 

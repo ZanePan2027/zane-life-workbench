@@ -2,14 +2,16 @@
 
 简体中文 | [English](README.en.md)
 
-> Zane的人生经营Skills：一套陪你把人生想清楚，一套陪你把工作找到。
+> Zane的人生经营Skills：帮你更好地经营自己的人生，过好自己的人生，不辜负。
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **支持：豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**
 
-zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互独立的 Skills：「过好你的人生」7 个，「走出象牙塔」11 个。
+zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：帮人更好地经营自己的人生。
+
+「过好你的人生」是主线，从你想过的生活出发，陪你想清楚、做成、持续调整。找工作、职业成长、商业增长，是人生经营里一段一段具体的事，各有专门的工具；眼下已经开放的是求职这一段：「走出象牙塔」。
 
 [快速开始](#快速开始) · [过好你的人生](#过好你的人生) · [走出象牙塔](#走出象牙塔) · [安装](#安装) · [更新记录](CHANGELOG.md)
 
@@ -17,12 +19,12 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 
 ## 快速开始
 
-| 我想…… | 用这一套 | 入口 |
+| 你现在…… | 从这里开始 | 入口 |
 |---|---|---|
-| 看清自己想过什么样的人生，处理选择、关系和转折，并且有人接着陪 | [过好你的人生](#过好你的人生)（7 个 Skill） | `zp-life` |
-| 找实习或工作：简历、作品集、投递、面试、offer | [走出象牙塔](#走出象牙塔)（11 个 Skill） | `zp-career` |
+| 想看清自己要过怎样的人生，或正遇到选择、关系和转折，希望有人接着陪 | [过好你的人生](#过好你的人生)（主线，7 个 Skill） | `zp-life` |
+| 眼前要解决的是找实习或工作：简历、作品集、投递、面试、offer | [走出象牙塔](#走出象牙塔)（人生经营里的求职这一段，11 个 Skill） | `zp-career` |
 
-先[安装](#安装)你需要的那一套，再在 Agent 里说“使用 入口名，帮我……”就能开始，不需要先学方法，也不需要先整理资料。
+不确定从哪开始，就从 `zp-life` 开始。先[安装](#安装)，再在 Agent 里说“使用 入口名，帮我……”就能开始，不需要先学方法，也不需要先整理资料。
 
 ---
 
@@ -83,7 +85,7 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 
 > 从不知道投什么，到写好材料、聊到面试、判断 offer。解决你眼前的求职问题。
 
-面向入职前各环节的 AI 求职工具箱，重点服务实习生、应届毕业生和工作 1—2 年的新人，有经验、正在换工作的人也可以用。把旧简历、岗位截图、项目材料、面试问题或 offer 交给 Agent，说需要什么，从手头最急的一件事开始。
+找工作是人生经营里很具体的一段。这套 AI 求职工具箱陪你走完入职前的每一步，重点服务实习生、应届毕业生和工作 1—2 年的新人，有经验、正在换工作的人也可以用。把旧简历、岗位截图、项目材料、面试问题或 offer 交给 Agent，说需要什么，从手头最急的一件事开始。
 
 ![从当前求职问题直接开始](docs/career/career-assets-flow.zh-CN.svg)
 
@@ -138,19 +140,19 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，包含两套相互�
 
 在终端执行，需要 Node.js 和 `npx`。
 
-**只装「过好你的人生」：**
+**主线：「过好你的人生」（7 个）**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-partner zp-self zp-support zp-guide
 ```
 
-**只装「走出象牙塔」：**
+**加装：「走出象牙塔」，求职这一段（11 个）**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-greeting zp-career zp-editor zp-portfolio zp-materials zp-site zp-resume zp-design-prompt zp-story zp-redact zp-qa
 ```
 
-**两套都装：**
+**全部装上：**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --all
@@ -171,7 +173,7 @@ claude plugin install zpskill@zpskill
 
 ## 关于
 
-作者：[Zane](https://github.com/ZanePan2027)。这套方法从具体生活问题里长出来：方向、处境、未来、路线、行动、反馈和共同经历。
+作者：[Zane](https://github.com/ZanePan2027)。我只做一件事：帮人更好地经营自己的人生，过好自己的人生，不辜负。求职、职业成长、商业增长，以及以后的每一个工作台和工具，都是为这件事服务的。这套方法从具体生活问题里长出来：方向、处境、未来、路线、行动、反馈和共同经历。
 
 本仓库由原来的 zane-life-workbench 和 zane-career-skills 合并而来，旧地址会自动跳转，提交历史保留。
 
