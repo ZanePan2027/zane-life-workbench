@@ -9,7 +9,7 @@
 
 **An AI toolkit for the steps before starting a job, primarily for interns, new graduates and people with 1–2 years of experience.** Experienced applicants can use it too; their actual responsibilities and seniority are preserved.
 
-**Supports Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Free and open source.**
+**Supports Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
 [Quick start](#quick-start) · [Tasks](#tasks) · [Guide](guide.en.md) · [Skills](skill-inventory.en.md) · [Installation](install.en.md)
 

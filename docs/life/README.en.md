@@ -13,7 +13,7 @@ It does not optimize your life for the best return. It helps you live the life y
 
 You do not need a finished goal or organized files. Listening, rest, and being understood can be the whole point of a conversation. When you want to decide, it helps you think through the reasons, costs, timing, room to move, and exits. When you return, it continues from where real life paused.
 
-**Free and open source. For Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
+**For Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
 [Quick start](#quick-start) · [Install](#install) · [Capabilities](#capabilities) · [Build a long-term workspace](#build-a-long-term-workspace) · [Full guide](guide.en.md)
 

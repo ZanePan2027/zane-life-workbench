@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English
 
-> Two free, open-source sets of AI Skills: one helps you work out the life you want, the other helps you find the job.
+> Two sets of AI Skills: one helps you work out the life you want, the other helps you find the job.
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 

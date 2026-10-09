@@ -2,7 +2,7 @@
 
 简体中文 | [English](README.en.md)
 
-> Zane的人生经营Skills：一套陪你把人生想清楚，一套陪你把工作找到。免费开源。
+> Zane的人生经营Skills：一套陪你把人生想清楚，一套陪你把工作找到。
 
 **支持：豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**
 
